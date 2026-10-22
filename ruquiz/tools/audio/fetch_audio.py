@@ -20,7 +20,7 @@ MIRROR = 'https://ftpmirror.your.org/pub/wikimedia/images/wikipedia/commons/'
 UPLOAD = 'https://upload.wikimedia.org/wikipedia/commons/'
 KAIKKI = 'https://kaikki.org/dictionary/Russian/kaikki.org-dictionary-Russian.jsonl.gz'
 AUD = re.compile(r'\.(ogg|oga|wav|mp3|flac|opus)$', re.I)
-TRIM = 'silenceremove=start_periods=1:start_threshold=-48dB:start_silence=0.06,areverse,silenceremove=start_periods=1:start_threshold=-48dB:start_silence=0.12,areverse'
+TRIM = 'silenceremove=start_periods=1:start_threshold=-48dB:start_silence=0.05,areverse,silenceremove=start_periods=1:start_threshold=-48dB:start_silence=0.12,areverse,afade=t=in:st=0:d=0.015,adelay=100:all=1,apad=pad_dur=0.1'   # 앞을 잘라낸 뒤 바로 압축하면 첫소리가 [b]처럼 깨져요 → 짧게 페이드인 + 앞 0.1초 무음
 args = set(sys.argv[1:])
 state = json.load(open(STATE_P, encoding='utf-8')) if os.path.exists(STATE_P) else {'checked': {}}
 def save_state(): json.dump(state, open(STATE_P, 'w', encoding='utf-8'), ensure_ascii=False, indent=0, sort_keys=True)
