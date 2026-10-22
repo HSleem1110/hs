@@ -76,7 +76,9 @@ if __name__ == '__main__':
         for key, f in forms.items():
             base = respell(f); text, spk = base, spk0
             fx = fixes.get(key)
-            if fx and fx.get('base') == base and fx.get('model') == MODEL_ID: text, spk = fx['text'], fx['speaker']   # 발음 검사에서 맞게 나온 방식
+            if fx and fx.get('base') == base and fx.get('model') == MODEL_ID:
+                if fx.get('mode') in ('swap', 'drop'): continue      # 발음 검사가 다른 목소리로 바꿨거나 뺀 단어는 그대로 둬요
+                text, spk = fx['text'], fx['speaker']                # 발음 검사에서 맞게 나온 방식
             if key not in pack or meta.get(key) != sig(text, spk): jobs.append((key, f, text, spk))
         print(f'[{v} {spk0}] 만들 단어', len(jobs), '· 팩에 있는 단어', len(pack), flush=True)
         if '--dry' in args:

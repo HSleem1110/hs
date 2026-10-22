@@ -1,14 +1,20 @@
 #!/usr/bin/env python3
-# 발음 검사: 녹음에서 실제로 들리는 음소를 받아 적어(wav2vec2 음소 인식) 표준 발음(espeak-ng)과 자음을 비교해요.
-#   합성 음성(여성 · 남성)이 틀리면 → 다른 입력 방식 · 같은 성별 목소리로 다시 만들어 맞는 것만 남겨요.
-#   원어민 녹음이 첫소리부터 틀리면(두 합성 음성은 맞게 들리는데) → 빼요. 그 단어는 합성 음성으로 들려줘요.
+# 발음 검사: 녹음마다 실제로 들리는 소리를 인식기로 받아 적어 표준 발음과 비교해요. 판정은 두 인식기가 함께 해요.
+#   A. 음소 인식기(wav2vec2 espeak-cv-ft, 여러 언어) → 표준 발음(위키낱말사전 IPA, 없으면 espeak-ng)과 자음을 비교
+#   B. 러시아어 음성 인식기(wav2vec2-large-xlsr-53-russian) → 철자와 비교. 자음은 엄격하게(유·무성 동화만 허용),
+#      약화되는 모음은 허용, 강세 모음은 정확히.
+#   A와 B가 엇갈리면 C. Whisper(러시아어)로 한 번 더 듣고 다수결로 정해요.
+# 합성 음성이 틀리면 → 강세 표기를 지킨 다른 입력 방식 · 같은 성별의 다른 목소리로 다시 만들어 통과한 것만 남겨요.
+#   그래도 안 되면 → 통과한 다른 성별 합성 음성을 대신 넣고, 그것도 없으면 그 목소리에서 빼서 원어민 녹음으로 들려줘요.
+# 원어민 녹음이 틀리면(그 단어의 합성 음성은 통과) → 빼요. 출처 목록에서도 빼고, fetch_audio.py가 다시 받지 않게 적어 둬요.
+# 끝까지 통과하지 못한 녹음은 qa-review.md 에 남겨요(사람이 직접 들어 볼 것).
 #
 #   python3 ruquiz/tools/audio/qa_audio.py            # 새로 생긴 · 바뀐 녹음만 검사하고 고치기
 #   python3 ruquiz/tools/audio/qa_audio.py --all      # 전부 다시 검사
 #   python3 ruquiz/tools/audio/qa_audio.py --report   # 결과만 보기
 # 필요: pip install torch transformers phonemizer numpy scipy (CPU) · apt install espeak-ng · ffmpeg
-# 한계: 이 인식기는 단어 첫머리의 [кт] · [кн] 같은 자음 묶음, [в]/[б]를 가끔 잘못 들어요. 그런 단어는 고치지 못하면 원래 녹음을 그대로 둬요.
-import json, os, sys, re, base64, subprocess, hashlib
+#       위키낱말사전 IPA는 fetch_audio.py가 받아 둔 kaikki 추출본(cache/kaikki-ru.jsonl.gz)에서 읽어요.
+import json, os, sys, re, base64, subprocess, hashlib, gzip, unicodedata
 T = os.path.dirname(os.path.abspath(__file__)) + '/'
 R = os.path.dirname(os.path.dirname(T.rstrip('/'))) + '/'
 CACHE = T + 'cache/'
@@ -16,44 +22,92 @@ sys.path.insert(0, T)
 from pron import nf, respell
 import make_tts
 args = sys.argv[1:]
-HEARD_P, QA_P = CACHE + 'heard.json', T + 'qa.json'
+QA_P, REVIEW_P, STATE_P = T + 'qa.json', T + 'qa-review.md', T + 'state.json'
 load = lambda p, d: json.load(open(p, encoding='utf-8')) if os.path.exists(p) else d
 save = lambda p, o: json.dump(o, open(p, 'w', encoding='utf-8'), ensure_ascii=False, indent=0, sort_keys=True)
-heard, qa = load(HEARD_P, {}), load(QA_P, {})
+NFC = lambda s: unicodedata.normalize('NFC', s)
+qa = load(QA_P, {})
+HEARD = {j: load(CACHE + f'heard{s}.json', {}) for j, s in (('a', ''), ('b', '-ru'), ('c', '-whisper'))}
 PACKS = {'native': 'audio-native.json', 'tts': 'audio-tts.json', 'ttsm': 'audio-tts-m.json'}
 VOICE_OF = {'tts': 'f', 'ttsm': 'm'}
+OTHER = {'tts': 'ttsm', 'ttsm': 'tts'}
 BACKUP = {'f': ['kseniya'], 'm': ['aidar']}          # 같은 성별의 다른 목소리 (xenia는 г를 [б]로 읽어서 빼요)
 
-# ---------- 자음 비교 (모음 · 강세 · 연음 · 길이는 무시, 조음 위치가 다르면 틀림) ----------
-# espeak-ng는 л을 ɭ로 적어요. 인식기는 х를 ʁ · χ · ç로, ф를 θ로, в를 w로 적기도 하고,
+# ---------- A. 자음 비교 (음소 인식기) ----------
+# espeak-ng · 위키낱말사전은 л을 ɫ · ɭ로 적어요. 인식기는 х를 ʁ · χ · ç로, ф를 θ로, в를 w로 적기도 하고,
 # 연음 д/т/г를 ɟ · c(구개 파열음)나 dʒ · tɕ(파찰음)로, х/ф를 h · ħ로 듣기도 해요. 그런 소리는 두 쪽 다 맞는 걸로 봐요.
 CLS = {}
 for cls, chars in {'K': 'ɡgkxɣqχʁç', 'P': 'bp', 'M': 'm', 'F': 'vfʋθβw', 'D': 'dtð', 'N': 'nɲŋ', 'S': 'szʂʐɕʑʃʒ', 'R': 'rɾɹʀ', 'L': 'lɫʎɭ', 'J': 'j',
                    'G': 'ɟc', 'H': 'hħ', 'C': 'Ꮳ'}.items():
     for c in chars: CLS[c] = cls
-AFF = re.compile('t[sʃɕ]|d[zʒʑ]')
+AFF = re.compile('t[sʃɕʂ]|d[zʒʑʐ]')
 EITHER = {'G': 'KD', 'H': 'KF', 'C': 'SD', 'P': 'F', 'F': 'P'}   # 애매한 소리: 이 중 어느 쪽이어도 맞음 (б · в · п · ф는 인식기가 자주 헷갈려요)
 ASP = re.compile('(?<=[ptkɕʃs])h')                # 기식음 표시(tɕh)는 빼요
-VOWEL0 = re.compile(r'^[ˈˌ"]*[aɑʌɐəeɛɪiɨyɵouʊæøɔ]')
+VOWEL0 = re.compile(r'^[\[ˈˌ"(]*[aɑʌɐəeɛɪiɨyɵouʊæøɔ]')
 def skel(ipa, exp=None):
     # 자음 뼈대. й는 인식기가 자주 빼먹거나 덧붙여서 빼요. 겹자음(сс · дд)은 하나로. 모음으로 시작하는 단어 앞에 덧붙은 h · x · w는 빼요.
-    raw = ASP.sub('', ipa.replace(' ', ''))
+    raw = ASP.sub('', ipa.replace(' ', '').replace('͡', '').replace('(', '').replace(')', ''))
     if exp is not None and VOWEL0.match(exp): raw = raw.lstrip('hħxwʔç')
     s = [CLS[c] for c in AFF.sub('Ꮳ', raw) if c in CLS and CLS[c] != 'J']
     return [c for i, c in enumerate(s) if i == 0 or c != s[i - 1]]
 def same(x, y): return x == y or y in EITHER.get(x, '') or x in EITHER.get(y, '')
-def dist(a, b):
-    d = list(range(len(b) + 1))
-    for i, x in enumerate(a, 1):
-        p, d[0] = d[0], i
-        for j, y in enumerate(b, 1): p, d[j] = d[j], min(d[j] + 1, d[j - 1] + 1, p + (not same(x, y)))
+def dist(a, b, cost=lambda x, y: 0 if same(x, y) else 1, gap=lambda x: 1):
+    d = [0]
+    for y in b: d.append(d[-1] + gap(y))
+    for x in a:
+        p, d[0] = d[0], d[0] + gap(x)
+        for j, y in enumerate(b, 1): p, d[j] = d[j], min(d[j] + gap(x), d[j - 1] + gap(y), p + cost(x, y))
     return d[len(b)]
-def verdict(exp, got):
+def verdict_a(exp, got):
     e, g = skel(exp), skel(got, exp)
-    if not e: return 'ok', 0
+    if not e: return True, 0
     first = bool(g) and not same(e[0], g[0])          # 첫 자음이 다르면 (газета → [b]) 바로 틀림
     d = dist(e, g)
-    return ('bad' if first or d >= max(2, round(len(e) * 0.5)) else 'ok'), d
+    return not (first or d >= max(2, round(len(e) * 0.5))), d
+
+# ---------- B · C. 철자 비교 (러시아어 인식기 · Whisper) ----------
+VOW = 'аеёиоуыэюя'
+VCLS = {'а': 'A', 'о': 'A', 'ё': 'O', 'е': 'I', 'э': 'I', 'и': 'I', 'ы': 'I', 'я': 'I', 'у': 'U', 'ю': 'U'}   # 약화되면 같은 소리
+VFINE = {'а': 'a', 'я': 'ä', 'о': 'o', 'ё': 'o', 'е': 'e', 'э': 'e', 'и': 'i', 'ы': 'y', 'у': 'u', 'ю': 'u'}    # 강세 모음은 정확히
+SOFT = {('o', 'e'), ('ä', 'e'), ('ä', 'a'), ('a', 'ä'), ('e', 'ä')}
+VOICE_PAIR = str.maketrans('бвгдзж', 'пфктсш')    # 유·무성 동화 (хлеб → [хлеп], вчера → [фчера])
+def letters(s):
+    # 비교용 기호열: 자음 글자(유·무성 합침) + 모음 등급. й · ь · ъ · 띄어쓰기 · 문장부호는 빼고, 겹자음은 하나로
+    s = NFC(s.lower()).replace('́', '').replace('+', '')
+    out, vf = [], []
+    for ch in s:
+        if ch in VOW: out.append(VCLS[ch]); vf.append(VFINE[ch])
+        elif 'а' <= ch <= 'я' and ch not in 'йьъ':
+            c = ch.translate(VOICE_PAIR)
+            if not (out and out[-1] == c): out.append(c)
+    return out, vf
+def stressed_index(form):
+    f = NFC(form.lower())
+    vi = -1
+    for i, ch in enumerate(f):
+        if ch in VOW: vi += 1
+        if ch == '́' or (ch == 'ё' and '́' not in f): return vi
+        if ch == '+' and i + 1 < len(f) and f[i + 1] in VOW: return vi + 1
+    return None
+isv = lambda x: x in 'AIUO'
+def vcost(x, y): return 0 if x == y or (x == 'O' and y in 'AI') or (y == 'O' and x in 'AI') else (0.5 if isv(x) and isv(y) else 1)
+def verdict_txt(form, got):
+    # 기대 철자(앱 철자 · 발음대로 고쳐 쓴 철자) 중 가장 가까운 것과 비교해요.
+    g, gv = letters(got)
+    if not g: return False, 9.0
+    best = (False, 9.0)
+    for exp in (form, respell(form)):
+        e, ev = letters(exp)
+        if not e: return True, 0.0
+        d = dist(e, g, vcost, lambda x: 0.5 if isv(x) else 1)
+        first = not isv(e[0]) and g[0] != e[0]                 # 첫 자음은 반드시 같아야
+        si = stressed_index(form) if len(ev) == len(gv) else None
+        st_ok = si is None or si >= len(ev) or ev[si] == gv[si] or (ev[si], gv[si]) in SOFT   # ё를 е로, 연음 사이 я[æ]를 е로 적는 건 허용
+        n = len(e); tol = 0.5 if n <= 4 else 1.0 if n <= 9 else 1.5
+        ok = not first and st_ok and d <= tol
+        if ok or d < best[1]: best = (ok, d)
+        if ok: break
+    return best
 
 # ---------- 앱 단어 · 표준 발음 ----------
 wj = CACHE + 'words.json'
@@ -62,76 +116,173 @@ if not os.path.exists(wj) or '--all' in args:
 forms = make_tts.app_forms(json.load(open(wj, encoding='utf-8'))['words'])
 packs = {p: load(R + f, {}) for p, f in PACKS.items()}
 items = [(p, k) for p, P in packs.items() for k in P if re.search('[а-яё]', k)]
-say = {k: respell(forms[k]).replace('+', '') if k in forms else k for _, k in items}
-ks = sorted(set(say))
-ipa = subprocess.run(['espeak-ng', '-v', 'ru', '-q', '--ipa'], input='\n'.join(say[k] for k in ks), capture_output=True, text=True).stdout.strip().split('\n')
-EXP = dict(zip(ks, [x.strip() for x in ipa]))
+keys = sorted({k for _, k in items})
+say = {k: respell(forms[k]).replace('+', '') if k in forms else k for k in keys}
+ipa = subprocess.run(['espeak-ng', '-v', 'ru', '-q', '--ipa'], input='\n'.join(say[k] for k in keys), capture_output=True, text=True).stdout.strip().split('\n')
+EXP = dict(zip(keys, [x.strip() for x in ipa]))
+WIKT_P = CACHE + 'wikt-ipa.json'
+if not os.path.exists(WIKT_P) or '--all' in args:
+    want, wikt = {NFC(forms.get(k, k).lower().replace('́', '')) for k in keys}, {}
+    with gzip.open(CACHE + 'kaikki-ru.jsonl.gz', 'rt', encoding='utf-8') as fh:
+        for line in fh:
+            if '"ipa"' not in line: continue
+            o = json.loads(line); w = NFC(o.get('word', '').lower())
+            if w not in want: continue
+            head = next((f['form'] for f in o.get('forms', []) if 'canonical' in f.get('tags', [])), w)
+            for s in o.get('sounds', []):
+                if 'ipa' in s: wikt.setdefault(w, []).append([NFC(head.lower()), s['ipa']])
+    save(WIKT_P, wikt)
+wikt = load(WIKT_P, {})
+for k in keys:   # 위키낱말사전 IPA (강세가 앱 표기와 같은 항목) 가 있으면 그걸 표준으로
+    f = forms.get(k, k); ents = wikt.get(NFC(f.lower().replace('́', '')), [])
+    ent = next((i for h, i in ents if h == NFC(f.lower())), None) or (ents[0][1] if ents and stressed_index(f) is None else None)
+    if ent: EXP[k] = ent.split('|')[0].strip()
+FORM = {k: forms.get(k, k) for k in keys}
+
+# ---------- 인식기 ----------
+_m = {}
+def model(j):
+    if j not in _m:
+        import torch
+        torch.set_num_threads(os.cpu_count() or 4)
+        if j == 'c':
+            from transformers import WhisperProcessor, WhisperForConditionalGeneration
+            mid = 'openai/whisper-small'
+            _m[j] = (WhisperProcessor.from_pretrained(mid), WhisperForConditionalGeneration.from_pretrained(mid).eval())
+        else:
+            from transformers import Wav2Vec2Processor, Wav2Vec2ForCTC
+            mid = {'a': 'facebook/wav2vec2-lv-60-espeak-cv-ft', 'b': 'jonatasgrosman/wav2vec2-large-xlsr-53-russian'}[j]
+            _m[j] = (Wav2Vec2Processor.from_pretrained(mid), Wav2Vec2ForCTC.from_pretrained(mid).eval())
+    return _m[j]
+def pcm(raw):
+    import numpy as np
+    x = subprocess.run(['ffmpeg', '-loglevel', 'error', '-i', 'pipe:0', '-f', 's16le', '-ac', '1', '-ar', '16000', 'pipe:1'], input=raw, capture_output=True).stdout
+    return np.frombuffer(x, dtype=np.int16).astype(np.float32) / 32768
+def hear(j, raw):
+    h = hashlib.md5(raw).hexdigest()
+    if h not in HEARD[j]:
+        import torch
+        pr, m = model(j); x = pcm(raw)
+        with torch.no_grad():
+            if j == 'c':
+                ids = m.generate(pr(x, sampling_rate=16000, return_tensors='pt').input_features, language='ru', task='transcribe')
+                HEARD[j][h] = pr.batch_decode(ids, skip_special_tokens=True)[0].strip()
+            else:
+                lg = m(pr(x, sampling_rate=16000, return_tensors='pt').input_values).logits
+                HEARD[j][h] = pr.batch_decode(torch.argmax(lg, -1))[0]
+    return HEARD[j][h]
+def judge(k, raw):
+    # 녹음 하나 판정: A와 B가 같으면 그대로, 엇갈리면 C(Whisper)까지 들어 다수결
+    a = hear('a', raw); b = hear('b', raw)
+    av, ad = verdict_a(EXP[k], a); bv, bd = verdict_txt(FORM[k], b)
+    r = {'a': a, 'b': b, 'ad': ad, 'bd': bd, 'av': av, 'bv': bv}
+    if av != bv:
+        c = hear('c', raw); cv, cd = verdict_txt(FORM[k], c); r.update(c=c, cd=cd, cv=cv)
+        r['ok'] = cv
+    else: r['ok'] = av
+    r['score'] = ad + bd + r.get('cd', 0)
+    return r
+def save_heard():
+    for j, s in (('a', ''), ('b', '-ru'), ('c', '-whisper')): save(CACHE + f'heard{s}.json', HEARD[j])
+raw_of = lambda u: base64.b64decode(u.split(',', 1)[1])
+digest = lambda u: hashlib.md5(u.encode()).hexdigest()[:12]
+data_uri = lambda mp3: 'data:audio/mpeg;base64,' + base64.b64encode(mp3).decode()
+NAME = {'native': '원어민 녹음', 'tts': '합성 여성(baya)', 'ttsm': '합성 남성(eugene)'}
 
 if '--report' not in args:
-    digest = lambda u: hashlib.md5(u.encode()).hexdigest()[:12]
+    # ---------- 1) 전부 듣기 ----------
     todo = [(p, k) for p, k in items if '--all' in args or qa.get(f'{p}|{k}', {}).get('h') != digest(packs[p][k])]
     print('검사할 녹음', len(todo), flush=True)
-    import numpy as np, torch
-    from transformers import Wav2Vec2Processor, Wav2Vec2ForCTC
-    torch.set_num_threads(os.cpu_count() or 4)
-    MID = 'facebook/wav2vec2-lv-60-espeak-cv-ft'
-    proc = Wav2Vec2Processor.from_pretrained(MID); asr = Wav2Vec2ForCTC.from_pretrained(MID).eval()
-    def hear(raw):
-        h = hashlib.md5(raw).hexdigest()
-        if h not in heard:
-            x = subprocess.run(['ffmpeg', '-loglevel', 'error', '-i', 'pipe:0', '-f', 's16le', '-ac', '1', '-ar', '16000', 'pipe:1'], input=raw, capture_output=True).stdout
-            x = np.frombuffer(x, dtype=np.int16).astype(np.float32) / 32768
-            with torch.no_grad(): lg = asr(proc(x, sampling_rate=16000, return_tensors='pt').input_values).logits
-            heard[h] = proc.batch_decode(torch.argmax(lg, -1))[0]
-        return heard[h]
-    raw_of = lambda u: base64.b64decode(u.split(',', 1)[1])
     for i, (p, k) in enumerate(todo, 1):
-        got = hear(raw_of(packs[p][k])); v, d = verdict(EXP[k], got)
-        qa[f'{p}|{k}'] = {'v': v, 'd': d, 'heard': got, 'exp': EXP[k], 'h': digest(packs[p][k])}
-        if i % 200 == 0: save(HEARD_P, heard); save(QA_P, qa); print(f'  {i}/{len(todo)}', flush=True)
-    save(HEARD_P, heard); save(QA_P, qa)
+        r = judge(k, raw_of(packs[p][k]))
+        qa[f'{p}|{k}'] = {**r, 'v': 'ok' if r['ok'] else 'bad', 'exp': EXP[k], 'h': digest(packs[p][k])}
+        if i % 200 == 0: save_heard(); save(QA_P, qa); print(f'  {i}/{len(todo)}', flush=True)
+    save_heard(); save(QA_P, qa)
+    if '--hear-only' in args: sys.exit(0)
 
-    # ---------- 틀린 합성 음성 다시 만들기 ----------
+    # ---------- 2) 틀린 합성 음성 다시 만들기 ----------
+    # A · B 중 하나라도 틀렸다고 한 합성 음성은 다시 만들어 봐요. A · B가 모두 맞다고 하는 것을 가장 먼저 골라요.
+    # (Whisper는 비슷한 진짜 단어로 고쳐 듣는 버릇이 있어서 동점일 때만 써요.)
+    strict = lambda r: r.get('av') and r.get('bv')
     for p, vk in VOICE_OF.items():
         V = make_tts.VOICES[vk]; fixes = load(T + V['fix'], {}); meta = load(T + V['meta'], {})
-        bad = [k for k in packs[p] if qa.get(f'{p}|{k}', {}).get('v') == 'bad' and k in forms]
-        print(f'[{p} {V["speaker"]}] 틀린 합성 음성', len(bad), flush=True)
-        for k in bad:
-            base = respell(forms[k]); bare = base.replace('+', '')
-            cands = [(t, V['speaker']) for t in (bare, base[:1].upper() + base[1:], base + '.', base + '!')] + [(t, s) for s in BACKUP[vk] for t in (base, bare)]
-            best = None
+        bad = [k for k in packs[p] if k in forms and qa.get(f'{p}|{k}', {}).get('v') in ('bad', 'ok') and not strict(qa[f'{p}|{k}'])]
+        print(f'[{p} {V["speaker"]}] 다시 만들어 볼 합성 음성', len(bad), flush=True)
+        for n, k in enumerate(bad, 1):
+            was_ok = qa[f'{p}|{k}']['v'] == 'ok'
+            base = respell(forms[k]); cap = base[:1].upper() + base[1:]
+            texts = [base, cap, base + '.', base + '!', cap + '.', '— ' + base]
+            cands = [(t, V['speaker']) for t in texts] + [(t, s) for s in BACKUP[vk] for t in (base, base + '.', cap)]
+            best, major = None, None
             for text, spk in cands:
                 try: mp3 = make_tts.synth(text, spk)
                 except Exception: continue
-                got = hear(mp3); v, d = verdict(EXP[k], got)
-                if v == 'ok' and (best is None or d < best[0]): best = (d, text, spk, mp3, got)
-                if v == 'ok' and d == 0: break
-            if best:
-                d, text, spk, mp3, got = best
-                packs[p][k] = 'data:audio/mpeg;base64,' + base64.b64encode(mp3).decode()
+                r = judge(k, mp3)
+                if strict(r) and (best is None or r['score'] < best[0]): best = (r['score'], text, spk, mp3, r)
+                elif r['ok'] and (major is None or r['score'] < major[0]): major = (r['score'], text, spk, mp3, r)
+                if strict(r) and r['score'] == 0: break
+            pick = best or (None if was_ok else major)
+            if pick:
+                _, text, spk, mp3, r = pick
+                packs[p][k] = data_uri(mp3); meta[k] = make_tts.sig(text, spk)
                 fixes[k] = {'base': base, 'text': text, 'speaker': spk, 'model': make_tts.MODEL_ID}
-                meta[k] = make_tts.sig(text, spk)
-                qa[f'{p}|{k}'] = {'v': 'fixed', 'd': d, 'heard': got, 'exp': EXP[k], 'text': text, 'speaker': spk, 'h': digest(packs[p][k])}
-                print(f'  고침 {k}: [{got}] ← {text} · {spk}', flush=True)
+                qa[f'{p}|{k}'] = {**r, 'v': 'fixed', 'text': text, 'speaker': spk, 'exp': EXP[k], 'h': digest(packs[p][k])}
+                print(f'  고침 {k}: A[{r["a"]}] B[{r["b"]}] ← {text} · {spk}', flush=True)
+            elif was_ok:
+                print(f'  그대로 {k}: C[{qa[f"{p}|{k}"].get("c", "")}]가 맞다고 해서 원래 녹음 유지', flush=True)
             else:
-                print(f'  못 고침(원래 녹음 유지) {k}: 들린 소리 [{qa[f"{p}|{k}"]["heard"]}] / 표준 [{EXP[k]}]', flush=True)
+                qa[f'{p}|{k}']['v'] = 'unfixed'
+                print(f'  못 고침 {k}: A[{qa[f"{p}|{k}"]["a"]}] B[{qa[f"{p}|{k}"]["b"]}]', flush=True)
+            if n % 20 == 0: save_heard(); save(QA_P, qa)
         json.dump(packs[p], open(R + PACKS[p], 'w', encoding='utf-8'), ensure_ascii=False)
-        save(T + V['fix'], fixes); save(T + V['meta'], meta); save(QA_P, qa); save(HEARD_P, heard)
+        save(T + V['fix'], fixes); save(T + V['meta'], meta); save(QA_P, qa); save_heard()
 
-    # ---------- 첫소리부터 틀린 원어민 녹음은 빼요 (두 합성 음성은 그 첫소리가 맞게 들릴 때만 = 인식기 탓이 아닐 때) ----------
-    ok_first = lambda p, k: qa.get(f'{p}|{k}', {}).get('v') in ('ok', 'fixed')
-    first_ok = lambda exp, got: (lambda e, g: not e or not g or same(e[0], g[0]))(skel(exp), skel(got, exp))
-    badn = [k for k in packs['native'] if qa.get(f'native|{k}', {}).get('v') == 'bad' and k in EXP
-            and not first_ok(EXP[k], qa[f'native|{k}']['heard']) and ok_first('tts', k) and ok_first('ttsm', k)]
-    for k in badn: packs['native'].pop(k); qa[f'native|{k}']['v'] = 'removed'
+    # ---------- 3) 그래도 안 되면: 통과한 다른 성별 합성 음성 → 없으면 그 목소리에서 빼기(원어민 녹음으로) ----------
+    passed = lambda p, k: qa.get(f'{p}|{k}', {}).get('v') in ('ok', 'fixed')
+    for p, vk in VOICE_OF.items():
+        V = make_tts.VOICES[vk]; fixes = load(T + V['fix'], {}); meta = load(T + V['meta'], {})
+        for k in [k for k in list(packs[p]) if qa.get(f'{p}|{k}', {}).get('v') == 'unfixed']:
+            o = OTHER[p]; base = respell(forms[k])
+            if passed(o, k) and k in packs[o]:
+                packs[p][k] = packs[o][k]; meta[k] = 'swap:' + o
+                fixes[k] = {'base': base, 'mode': 'swap', 'from': o, 'model': make_tts.MODEL_ID}
+                qa[f'{p}|{k}'] = {**qa[f'{o}|{k}'], 'v': 'swapped', 'from': o, 'h': digest(packs[p][k])}
+                print(f'  [{p}] {k}: 다른 성별 목소리로 대신', flush=True)
+            elif passed('native', k):
+                packs[p].pop(k); meta.pop(k, None)
+                fixes[k] = {'base': base, 'mode': 'drop', 'model': make_tts.MODEL_ID}
+                qa[f'{p}|{k}']['v'] = 'dropped'
+                print(f'  [{p}] {k}: 합성 음성에서 빼고 원어민 녹음으로', flush=True)
+        json.dump(packs[p], open(R + PACKS[p], 'w', encoding='utf-8'), ensure_ascii=False)
+        save(T + V['fix'], fixes); save(T + V['meta'], meta); save(QA_P, qa)
+
+    # ---------- 4) 틀린 원어민 녹음은 빼요 (그 단어의 합성 음성이 통과했을 때만 = 인식기 탓이 아닐 때) ----------
+    tts_ok = lambda k: all(passed(p, k) or qa.get(f'{p}|{k}', {}).get('v') == 'swapped' for p in VOICE_OF if k in packs[p])
+    badn = [k for k in packs['native'] if qa.get(f'native|{k}', {}).get('v') == 'bad' and k in forms and tts_ok(k)]
     if badn:
-        json.dump(packs['native'], open(R + PACKS['native'], 'w', encoding='utf-8'), ensure_ascii=False); save(QA_P, qa)
+        state = load(STATE_P, {'checked': {}})
+        for k in badn:
+            packs['native'].pop(k); qa[f'native|{k}']['v'] = 'removed'; state.setdefault('checked', {})[k] = 'qa-removed'
+        json.dump(packs['native'], open(R + PACKS['native'], 'w', encoding='utf-8'), ensure_ascii=False)
+        js = open(R + 'app.js', encoding='utf-8').read()
+        m = re.search(r'const LL_CREDITS = (\[.*?\]);\n', js)
+        if m:   # 출처 목록에서도 빼요
+            gone = {NFC(k.replace('́', '')) for k in badn} | {NFC(k) for k in badn}
+            C = [c for c in json.loads(m.group(1)) if NFC(c[0]) not in gone]
+            js = js[:m.start(1)] + json.dumps(C, ensure_ascii=False) + js[m.end(1):]
+            open(R + 'app.js', 'w', encoding='utf-8').write(js)
+        save(QA_P, qa); json.dump(state, open(STATE_P, 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
     print('뺀 원어민 녹음', len(badn), ' '.join(badn), flush=True)
 
+# ---------- 결과 ----------
 from collections import Counter
+live = lambda kk: kk.split('|', 1)[1] in packs[kk.split('|', 1)[0]] or qa[kk]['v'] in ('removed', 'dropped')
 for p in PACKS:
-    c = Counter(v['v'] for kk, v in qa.items() if kk.startswith(p + '|') and kk.split('|', 1)[1] in packs[p] or (kk.startswith(p + '|') and v['v'] == 'removed'))
-    print(p, dict(c))
-for p in ('tts', 'ttsm'):
-    left = sorted(k.split('|', 1)[1] for k, v in qa.items() if k.startswith(p + '|') and v['v'] == 'bad' and k.split('|', 1)[1] in packs[p])
-    if left: print(f'{p} 검사기가 확신하지 못한 단어(원래 녹음 유지):', ' '.join(left))
+    print(p, dict(Counter(v['v'] for kk, v in qa.items() if kk.startswith(p + '|') and live(kk))))
+review = [(kk, v) for kk, v in sorted(qa.items()) if v['v'] in ('bad', 'unfixed') and live(kk)]
+lines = ['# 직접 들어 볼 녹음', '', '두 인식기가 끝까지 맞다고 하지 않은 녹음이에요. 앱에서 들어 보고 이상하면 알려 주세요.', '']
+for kk, v in review:
+    p, k = kk.split('|', 1)
+    lines.append(f'- {FORM.get(k, k)} · {NAME[p]} · 인식기 A [{v.get("a", "")}] · B [{v.get("b", "")}]' + (f' · C [{v["c"]}]' if v.get('c') else ''))
+open(REVIEW_P, 'w', encoding='utf-8').write('\n'.join(lines) + '\n')
+print('직접 들어 볼 녹음', len(review), '→', REVIEW_P)

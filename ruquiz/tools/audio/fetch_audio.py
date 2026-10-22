@@ -126,7 +126,7 @@ subprocess.run(['node', T + 'collect_words.js', R + 'russian-quiz.html', wj], ch
 W = json.load(open(wj, encoding='utf-8'))
 have = set(W['have'])
 missing = {k: v for k, v in W['words'].items() if k not in have and not any(nf(x) in have for x in v)}
-skip = {'none', 'ambiguous'} if '--retry' in args else {'none', 'ambiguous', 'failed'}
+skip = {'none', 'ambiguous', 'qa-removed'} if '--retry' in args else {'none', 'ambiguous', 'failed', 'qa-removed'}   # qa-removed: 발음 검사에서 뺀 녹음
 todo = {k: v for k, v in missing.items() if state['checked'].get(k) not in skip}
 print('녹음 없는 단어', len(missing), '· 이번에 찾을 단어', len(todo), flush=True)
 if not todo: sys.exit(0)
