@@ -290,10 +290,13 @@ from collections import Counter
 live = lambda kk: kk.split('|', 1)[1] in packs[kk.split('|', 1)[0]] or qa[kk]['v'] in ('removed', 'dropped')
 for p in PACKS:
     print(p, dict(Counter(v['v'] for kk, v in qa.items() if kk.startswith(p + '|') and live(kk))))
-review = [(kk, v) for kk, v in sorted(qa.items()) if v['v'] in ('bad', 'unfixed') and live(kk)]
-lines = ['# 직접 들어 볼 녹음', '', '두 인식기가 끝까지 맞다고 하지 않은 녹음이에요. 앱에서 들어 보고 이상하면 알려 주세요.', '']
+strict_ok = lambda v: v.get('av') and v.get('bv')
+review = [(kk, v) for kk, v in sorted(qa.items()) if live(kk) and v['v'] in ('bad', 'unfixed', 'ok', 'fixed', 'swapped') and not strict_ok(v)]
+lines = ['# 직접 들어 볼 녹음', '', '두 인식기(음소 인식기 A · 러시아어 인식기 B)가 모두 맞다고 하지는 않은 녹음이에요. 앱에서 들어 보고 이상하면 알려 주세요.',
+         '‘엇갈림’은 A와 B 중 하나만 맞다고 해서 Whisper(C)로 정한 것, ‘틀림’은 끝까지 고치지 못한 것이에요.', '']
 for kk, v in review:
     p, k = kk.split('|', 1)
-    lines.append(f'- {FORM.get(k, k)} · {NAME[p]} · 인식기 A [{v.get("a", "")}] · B [{v.get("b", "")}]' + (f' · C [{v["c"]}]' if v.get('c') else ''))
+    tag = '틀림' if v['v'] in ('bad', 'unfixed') else '엇갈림'
+    lines.append(f'- {FORM.get(k, k)} · {NAME[p]} · {tag} · A [{v.get("a", "")}] · B [{v.get("b", "")}]' + (f' · C [{v["c"]}]' if v.get('c') else ''))
 open(REVIEW_P, 'w', encoding='utf-8').write('\n'.join(lines) + '\n')
 print('직접 들어 볼 녹음', len(review), '→', REVIEW_P)
