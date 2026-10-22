@@ -1,14 +1,31 @@
-# russian-quiz.html 다시 만들기: app.js · app.css · version.json → russian-quiz.html
-# 사용: python3 ruquiz/tools/make_file.py   (app.js / app.css 를 고치고 version.json 의 ver · notes 를 올린 뒤 실행)
-import re, json, os, base64
+# russian-quiz.html 다시 만들기: app.js · app.css · audio-*.json · version.json → russian-quiz.html
+# 사용: python3 ruquiz/tools/make_file.py [--artifact <경로>]
+#   app.js / app.css / audio-*.json 을 고치고 version.json 의 ver · notes 를 올린 뒤 실행하세요.
+#   version.json 의 packs(소리 팩 지문)는 이 스크립트가 채워요. 오프라인 파일은 지문이 바뀐 팩만 새로 받아요.
+#   --artifact 를 주면 claude.ai 아티팩트에 올릴 페이지도 함께 만들어요.
+import re, json, os, sys, base64, hashlib
 R = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + '/'
 F = R + 'tools/fonts/'
 V = json.load(open(R + 'version.json', encoding='utf-8'))
 VER = V['ver']
-SRC = 'https://raw.githubusercontent.com/HSleem1110/hs/claude/video-completion-automation-wq7tsc/ruquiz/'
 css = open(R + 'app.css', encoding='utf-8').read()
 js = open(R + 'app.js', encoding='utf-8').read()
 assert '</script' not in js.lower()
+
+PACKS = {'native': 'audio-native.json', 'tts': 'audio-tts.json'}
+packs, pack_tags = {}, []
+for name, fn in PACKS.items():
+    if not os.path.exists(R + fn): continue
+    data = open(R + fn, encoding='utf-8').read()
+    assert '</script' not in data.lower()
+    h = hashlib.sha256(data.encode()).hexdigest()[:16]
+    old = (V.get('packs') or {}).get(name, {})
+    packs[name] = {'file': fn, 'hash': h, 'ver': old.get('ver', VER) if old.get('hash') == h else VER, 'mb': round(len(data.encode()) / 1e6, 2)}
+    pack_tags.append(f'<script type="application/json" id="pack-{name}" data-ver="{packs[name]["ver"]}" data-hash="{h}">{data}</script>')
+V.update({'css': 'app.css', 'js': 'app.js', 'html': 'russian-quiz.html', 'packs': packs})
+json.dump(V, open(R + 'version.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+packs_html = '\n'.join(pack_tags)
+
 faces = []
 for sub, body in re.findall(r'/\* ([a-z-]+) \*/\s*@font-face \{(.*?)\}', open(F + 'ptserif.css').read(), re.S):
     if sub not in ('cyrillic', 'latin'): continue
@@ -16,58 +33,25 @@ for sub, body in re.findall(r'/\* ([a-z-]+) \*/\s*@font-face \{(.*?)\}', open(F 
     b64 = base64.b64encode(open(fp, 'rb').read()).decode()
     faces.append('@font-face{' + re.sub(r"src: url\(.*?\) format\('woff2'\);", f"src: url(data:font/woff2;base64,{b64}) format('woff2');", body).replace('\n', '') + '}')
 fontcss = '\n'.join(faces)
+
+# 부트스트랩: 브라우저에 받아 둔 더 새 앱 코드가 있으면 그걸, 없으면 파일 안의 코드를 실행해요.
+# 업데이트 확인 · 다운로드는 앱 코드(app.js)가 해요. 그래서 업데이트 방식도 업데이트로 바꿀 수 있어요.
 boot = r'''(async function(){
-  var EMBED = "__VER__", SRC = "__SRC__";
-  try{ var o = localStorage.getItem("rq-src"); if(o) SRC = o; }catch(e){}   /* 시험용 */
+  var EMBED = "__VER__";
   function cmp(a, b){ a = String(a).split(".").map(Number); b = String(b).split(".").map(Number);
     for(var i=0; i<Math.max(a.length,b.length); i++){ var d = (a[i]||0) - (b[i]||0); if(d) return d; } return 0; }
-  function db(){ return new Promise(function(res, rej){ var r = indexedDB.open("ruquiz-app", 1);
-    r.onupgradeneeded = function(){ r.result.createObjectStore("kv"); }; r.onsuccess = function(){ res(r.result); }; r.onerror = function(){ rej(r.error); }; }); }
-  function get(k){ return db().then(function(d){ return new Promise(function(res, rej){ var t = d.transaction("kv").objectStore("kv").get(k); t.onsuccess = function(){ res(t.result); }; t.onerror = function(){ rej(t.error); }; }); }); }
-  function put(k, v){ return db().then(function(d){ return new Promise(function(res, rej){ var tx = d.transaction("kv", "readwrite"); tx.objectStore("kv").put(v, k); tx.oncomplete = function(){ res(); }; tx.onerror = function(){ rej(tx.error); }; }); }); }
-  var stored = null;
-  try{ stored = await get("app"); }catch(e){}
+  function get(k){ return new Promise(function(res){ try{ var q = indexedDB.open("ruquiz-app", 1);
+    q.onupgradeneeded = function(){ q.result.createObjectStore("kv"); };
+    q.onsuccess = function(){ try{ var t = q.result.transaction("kv").objectStore("kv").get(k); t.onsuccess = function(){ res(t.result); }; t.onerror = function(){ res(null); }; }catch(e){ res(null); } };
+    q.onerror = function(){ res(null); }; }catch(e){ res(null); } }); }
+  var stored = await get("app");
   var use = stored && cmp(stored.ver, EMBED) > 0 ? stored : null;
-  var RQ = window.RQ = { ver: use ? use.ver : EMBED, embedded: EMBED, available: null, busy: false, status: "" };
-  function changed(){ window.dispatchEvent(new Event("rq-change")); }
-  function fetchText(name){ return fetch(SRC + name + "?t=" + Date.now(), { cache: "no-store" }).then(function(r){ if(!r.ok) throw new Error(r.status); return r.text(); }); }
-  RQ.check = async function(manual){
-    if(RQ.busy) return; RQ.busy = true; if(manual){ RQ.status = "확인하는 중…"; changed(); }
-    try{
-      var v = JSON.parse(await fetchText("version.json"));
-      if(cmp(v.ver, RQ.ver) > 0){ RQ.available = v; RQ.status = "새 버전 " + v.ver + "이(가) 있어요."; }
-      else { RQ.available = null; RQ.status = "최신 버전이에요. (" + new Date().toLocaleString("ko-KR") + " 확인)"; }
-    }catch(e){ RQ.status = navigator.onLine ? "업데이트 서버에 연결하지 못했어요. 잠시 뒤 다시 확인해 주세요." : "인터넷에 연결되어 있지 않아요. 지금 버전으로 계속 풀 수 있어요."; }
-    RQ.busy = false; changed();
-  };
-  RQ.apply = async function(){
-    var v = RQ.available; if(!v || RQ.busy) return;
-    RQ.busy = true; RQ.status = "새 버전을 받는 중…"; changed();
-    try{
-      var parts = await Promise.all([fetchText(v.css), fetchText(v.js)]);
-      await put("app", { ver: v.ver, css: parts[0], js: parts[1], at: Date.now() });
-      RQ.status = "적용했어요. 다시 여는 중…"; changed(); location.reload(); return;
-    }catch(e){ RQ.status = "이 브라우저에는 새 버전을 저장할 수 없어요. ‘최신 파일로 저장’으로 새 파일을 받아 바꿔 주세요."; }
-    RQ.busy = false; changed();
-  };
-  RQ.saveFile = async function(){
-    if(RQ.busy) return; RQ.busy = true; RQ.status = "최신 파일을 받는 중…"; changed();
-    try{
-      var v = RQ.available || JSON.parse(await fetchText("version.json"));
-      var h = await fetchText(v.html);
-      var a = document.createElement("a"); a.href = URL.createObjectURL(new Blob([h], { type: "text/html" })); a.download = "russian-quiz.html";
-      document.body.appendChild(a); a.click(); a.remove();
-      RQ.status = "최신 파일(" + v.ver + ")을 저장했어요. 그 파일로 바꿔 쓰세요.";
-    }catch(e){ RQ.status = "파일을 받지 못했어요. 인터넷 연결을 확인해 주세요."; }
-    RQ.busy = false; changed();
-  };
+  window.RQ = { ver: use ? use.ver : EMBED, embedded: EMBED };
   if(use) document.getElementById("app-css").textContent = use.css;
   var s = document.createElement("script");
   s.textContent = use ? use.js : document.getElementById("app-js").textContent;
   document.body.appendChild(s);
-  if(navigator.onLine) setTimeout(function(){ RQ.check(false); }, 1200);
-  window.addEventListener("online", function(){ RQ.check(false); });
-})();'''.replace('__VER__', VER).replace('__SRC__', SRC)
+})();'''.replace('__VER__', VER)
 
 html = f'''<!doctype html>
 <html lang="ko">
@@ -88,6 +72,7 @@ html = f'''<!doctype html>
 </head>
 <body>
 <div id="app"></div>
+{packs_html}
 <script type="text/plain" id="app-js">
 {js}</script>
 <script>
@@ -97,14 +82,13 @@ html = f'''<!doctype html>
 </html>
 '''
 open(R + 'russian-quiz.html', 'w', encoding='utf-8').write(html)
-# --artifact <경로>: claude.ai 아티팩트용 페이지(부트스트랩 없이, 앱 코드 그대로)도 만들기
-import sys
+print('built', VER, round(len(html.encode()) / 1e6, 2), 'MB', {k: v['mb'] for k, v in packs.items()})
+
 if '--artifact' in sys.argv:
     out = sys.argv[sys.argv.index('--artifact') + 1]
     art = ('<title>러시아어 문법 퀴즈</title>\n<meta name="claude:viewport-fit-sides" content="cover">\n'
            '<link rel="preconnect" href="https://fonts.googleapis.com">\n<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n'
            '<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=PT+Sans:wght@400;700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">\n'
-           '<style>' + css + '</style>\n<div id="app"></div>\n<script>' + js + '</script>\n')
+           '<style>' + css + '</style>\n<div id="app"></div>\n' + packs_html + '\n<script>' + js + '</script>\n')
     open(out, 'w', encoding='utf-8').write(art)
-    print('artifact page', out)
-print('built', VER, round(len(html.encode()) / 1e6, 2), 'MB')
+    print('artifact page', out, round(len(art.encode()) / 1e6, 2), 'MB')

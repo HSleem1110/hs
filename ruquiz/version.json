@@ -1,11 +1,25 @@
 {
- "ver": "2026.10.22.1",
+ "ver": "2026.10.22.2",
  "notes": [
-  "첫 오프라인 버전",
-  "원어민 녹음 677개",
-  "정답 아래 격·성 표시"
+  "발음 설정: 원어민 녹음 / 음성 합성 고르기",
+  "모든 단어에 음성 합성(Silero) 추가",
+  "자동 업데이트: 바뀐 부분만 받아요"
  ],
  "css": "app.css",
  "js": "app.js",
- "html": "russian-quiz.html"
+ "html": "russian-quiz.html",
+ "packs": {
+  "native": {
+   "file": "audio-native.json",
+   "hash": "9a07172011f6a76e",
+   "ver": "2026.10.22.2",
+   "mb": 3.99
+  },
+  "tts": {
+   "file": "audio-tts.json",
+   "hash": "afd640348ba0b3c1",
+   "ver": "2026.10.22.2",
+   "mb": 6.43
+  }
+ }
 }

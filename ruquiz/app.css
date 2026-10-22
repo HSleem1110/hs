@@ -175,6 +175,14 @@ details.rules .ptab{ margin:8px 0; }
 .speak{ width:40px; height:40px; flex:none; border-radius:50%; border:1.5px solid var(--line); background:var(--surface); color:var(--muted); display:inline-grid; place-items:center; padding:0; vertical-align:middle; }
 .speak.native{ border-color:var(--accent); background:var(--accent-soft); color:var(--accent); }
 .speak .ic{ width:19px; height:19px; }
+.speak.synth{ border-color:var(--ok); background:var(--ok-soft); color:var(--ok); }
+.speak.sm{ width:28px; height:28px; border-width:1.5px; }
+.speak.sm .ic{ width:14px; height:14px; }
+.legend{ list-style:none; margin:0; padding:0; display:grid; gap:8px; font-size:.88rem; color:var(--muted); }
+.legend li{ display:flex; align-items:center; gap:10px; }
+.legend b{ color:var(--ink); }
+.field h3.fh{ margin:0; font-size:.86rem; font-weight:700; }
+.updbar.busy{ background:var(--accent-soft); color:var(--accent); }
 .hint{ text-align:center; color:var(--muted); margin:0 0 6px; }
 .hint b{ color:var(--ink); }
 .sent{ font-family:var(--ru); font-size:clamp(1.3rem,5.6vw,1.7rem); text-align:center; line-height:1.35; margin:14px 0 8px; }

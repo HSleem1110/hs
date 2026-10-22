@@ -67,13 +67,13 @@ def word_of(fn):
     m = re.match(r'LL-Q7737 \(rus\)-[^-]+-(.+)$', n) or re.match(r'(?i)ru-(.+)$', n)
     return re.sub(r'\s*\(\d+\)$|[-_ ]?\d+$', '', plain(m.group(1))) if m else None
 
-def read_app():
+def read_app():   # 원어민 녹음은 audio-native.json 팩, 출처 목록은 app.js 의 LL_CREDITS
     js = open(R + 'app.js', encoding='utf-8').read()
-    m1 = re.search(r'const LL_AUDIO = (\{.*?\});\n', js); m2 = re.search(r'const LL_CREDITS = (\[.*?\]);\n', js)
-    return js, json.loads(m1.group(1)), json.loads(m2.group(1))
+    m2 = re.search(r'const LL_CREDITS = (\[.*?\]);\n', js)
+    return js, json.load(open(R + 'audio-native.json', encoding='utf-8')), json.loads(m2.group(1))
 
 def write_app(js, A, C):
-    js = re.sub(r'const LL_AUDIO = \{.*?\};\n', lambda m: 'const LL_AUDIO = ' + json.dumps(A, ensure_ascii=False) + ';\n', js, count=1)
+    json.dump(A, open(R + 'audio-native.json', 'w', encoding='utf-8'), ensure_ascii=False)
     js = re.sub(r'const LL_CREDITS = \[.*?\];\n', lambda m: 'const LL_CREDITS = ' + json.dumps(C, ensure_ascii=False) + ';\n', js, count=1)
     open(R + 'app.js', 'w', encoding='utf-8').write(js)
 
@@ -190,3 +190,4 @@ for k, spk, f in added:
 write_app(js, A, C)
 print('새 녹음', len(added), '· 전체', len(A))
 bump_and_build(f'원어민 녹음 {len(added)}개 추가 (전체 {len(A)}개)')
+print('음성 합성도 만들려면: python3 ruquiz/tools/audio/make_tts.py (torch 필요)')
