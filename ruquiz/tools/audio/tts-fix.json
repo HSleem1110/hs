@@ -1,9 +1,9 @@
 {
 "анне": {
 "base": "+Анне",
-"model": "v5_6_ru",
-"speaker": "baya",
-"text": "+Анне."
+"from": "ttsm",
+"mode": "swap",
+"model": "v5_6_ru"
 },
 "апельсин": {
 "base": "апельс+ин",
@@ -109,9 +109,8 @@
 },
 "в": {
 "base": "в",
-"model": "v5_6_ru",
-"speaker": "kseniya",
-"text": "<speak><prosody rate=\"x-slow\">в</prosody></speak>"
+"mode": "drop",
+"model": "v5_6_ru"
 },
 "век": {
 "base": "век",
@@ -361,9 +360,9 @@
 },
 "ем": {
 "base": "ем",
-"model": "v5_6_ru",
-"speaker": "kseniya",
-"text": "ем"
+"from": "ttsm",
+"mode": "swap",
+"model": "v5_6_ru"
 },
 "ест": {
 "base": "ест",
@@ -451,9 +450,9 @@
 },
 "занятии": {
 "base": "зан+ятии",
-"model": "v5_6_ru",
-"speaker": "baya",
-"text": "зан+ятии."
+"from": "ttsm",
+"mode": "swap",
+"model": "v5_6_ru"
 },
 "заяц": {
 "base": "з+аяц",
@@ -727,15 +726,14 @@
 },
 "общежитие": {
 "base": "общеж+итие",
-"model": "v5_6_ru",
-"speaker": "baya",
-"text": "общеж+итие."
+"mode": "drop",
+"model": "v5_6_ru"
 },
 "общежитии": {
 "base": "общеж+итии",
-"model": "v5_6_ru",
-"speaker": "kseniya",
-"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">общеж+итии</prosody></speak>"
+"from": "ttsm",
+"mode": "swap",
+"model": "v5_6_ru"
 },
 "общежития": {
 "base": "общеж+ития",
@@ -1009,9 +1007,8 @@
 },
 "птица": {
 "base": "пт+ица",
-"model": "v5_6_ru",
-"speaker": "kseniya",
-"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">пт+ица</prosody></speak>"
+"mode": "drop",
+"model": "v5_6_ru"
 },
 "птицы": {
 "base": "пт+ицы",
@@ -1109,6 +1106,12 @@
 "speaker": "baya",
 "text": "ребёнок."
 },
+"рисуете": {
+"base": "рис+уете",
+"from": "ttsm",
+"mode": "swap",
+"model": "v5_6_ru"
+},
 "рты": {
 "base": "рты",
 "model": "v5_6_ru",
@@ -1117,9 +1120,8 @@
 },
 "семь": {
 "base": "семь",
-"model": "v5_6_ru",
-"speaker": "kseniya",
-"text": "семь"
+"mode": "drop",
+"model": "v5_6_ru"
 },
 "семьи": {
 "base": "с+емьи",
@@ -1177,9 +1179,9 @@
 },
 "слушаете": {
 "base": "сл+ушаете",
-"model": "v5_6_ru",
-"speaker": "kseniya",
-"text": "сл+ушаете"
+"from": "ttsm",
+"mode": "swap",
+"model": "v5_6_ru"
 },
 "слушаешь": {
 "base": "сл+ушаешь",
@@ -1337,6 +1339,12 @@
 "speaker": "baya",
 "text": "ткань."
 },
+"трамваи": {
+"base": "трамв+аи",
+"from": "ttsm",
+"mode": "swap",
+"model": "v5_6_ru"
+},
 "третий": {
 "base": "тр+етий",
 "model": "v5_6_ru",
@@ -1459,15 +1467,13 @@
 },
 "цветок": {
 "base": "цвет+ок",
-"model": "v5_6_ru",
-"speaker": "baya",
-"text": "цвет+ок!"
+"mode": "drop",
+"model": "v5_6_ru"
 },
 "цветы": {
 "base": "цвет+ы",
-"model": "v5_6_ru",
-"speaker": "kseniya",
-"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">цвет+ы</prosody></speak>"
+"mode": "drop",
+"model": "v5_6_ru"
 },
 "ценность": {
 "base": "ц+енность",
@@ -1555,9 +1561,9 @@
 },
 "чьё": {
 "base": "чьё",
-"model": "v5_6_ru",
-"speaker": "kseniya",
-"text": "чьё"
+"from": "ttsm",
+"mode": "swap",
+"model": "v5_6_ru"
 },
 "чёрная": {
 "base": "чёрная",

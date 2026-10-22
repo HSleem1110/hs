@@ -99,7 +99,11 @@ def verdict_txt(form, got, syll=False):
     # 기대 철자(앱 철자 · 발음대로 고쳐 쓴 철자) 중 가장 가까운 것과 비교해요.
     # 인식기가 단어 앞 숨소리를 한 글자 전치사(в · у · с · к · о)로 덧붙여 적는 버릇은 떼고 봐요.
     tok = re.sub(r'[^\w\s-]', ' ', NFC(got.lower())).split()
-    if len(tok) > 1 and len(tok[0]) == 1 and tok[0] in 'вускоиыэа' and not NFC(form.lower()).startswith(tok[0] + ' '): got = ' '.join(tok[1:])
+    if len(tok) > 1 and len(tok[0]) == 1 and tok[0] in 'вускоиыэа' and not NFC(form.lower()).startswith(tok[0] + ' '):
+        a, b = verdict_txt(form, ' '.join(tok[1:]), syll), verdict_txt(form, ''.join(tok), syll)   # 떼고 본 것 · 붙여 본 것 중 나은 쪽 (а эропорту → аэропорту)
+        return a if a[0] or (not b[0] and a[1] <= b[1]) else b
+    f0 = NFC(form.lower()).replace('\u0301', '')
+    if re.search('[аеоуяю]и$', f0) and re.search('[аеоуяю]й$', got.strip().lower()): got = got.strip()[:-1] + 'и'   # 끝 -аи · -еи를 ‘-ай’로 적는 것 (урожа́и → урожай)
     g, gv = letters(got)
     if not g: return False, 9.0
     best = (False, 9.0)
