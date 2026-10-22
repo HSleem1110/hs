@@ -137,12 +137,12 @@
 "ad": 0,
 "av": true,
 "b": "а пельсин",
-"bd": 0,
+"bd": 0.5,
 "bv": true,
 "exp": "[ɐpʲɪlʲˈsʲin]",
 "h": "f32fb7bf7ec9",
 "ok": true,
-"score": 0,
+"score": 0.5,
 "v": "ok"
 },
 "native|аптека": {
@@ -4895,12 +4895,12 @@
 "ad": 0,
 "av": true,
 "b": "а гурец",
-"bd": 0,
+"bd": 0.5,
 "bv": true,
 "exp": "[ɐɡʊˈrʲet͡s]",
 "h": "20931e363d7f",
 "ok": true,
-"score": 0,
+"score": 0.5,
 "v": "ok"
 },
 "native|огурцы": {
@@ -31589,12 +31589,15 @@
 "ad": 0,
 "av": true,
 "b": "а пельсин",
-"bd": 0,
-"bv": true,
+"bd": 0.5,
+"bv": false,
+"c": "Апельсин.",
+"cd": 0,
+"cv": true,
 "exp": "[ɐpʲɪlʲˈsʲin]",
 "h": "173526115059",
 "ok": true,
-"score": 0,
+"score": 0.5,
 "v": "ok"
 },
 "tts|апельсины": {
@@ -31602,12 +31605,15 @@
 "ad": 0,
 "av": true,
 "b": "а пельсины",
-"bd": 0,
-"bv": true,
+"bd": 0.5,
+"bv": false,
+"c": "Апельсины",
+"cd": 0,
+"cv": true,
 "exp": "[ɐpʲɪlʲˈsʲinɨ]",
 "h": "6fbc5966d06e",
 "ok": true,
-"score": 0,
+"score": 0.5,
 "v": "ok"
 },
 "tts|аптека": {
@@ -32560,9 +32566,7 @@
 "h": "09d1561f394b",
 "ok": true,
 "score": 2.5,
-"speaker": "kseniya",
-"text": "<speak><prosody rate=\"x-slow\">в</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "tts|важный": {
 "a": "v a ʃ n i",
@@ -33342,9 +33346,7 @@
 "h": "2f297dbd08da",
 "ok": true,
 "score": 1,
-"speaker": "baya",
-"text": "всегд+а.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|вставать": {
 "a": "s t ʌ v ɑ tʲ",
@@ -37808,12 +37810,15 @@
 "av": true,
 "b": "и мена",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Именно!",
+"cd": 0,
+"cv": false,
 "exp": "[ɪmʲɪˈna]",
 "h": "8899b5177170",
-"ok": true,
+"ok": false,
 "score": 0.5,
-"v": "ok"
+"v": "bad"
 },
 "tts|имени": {
 "a": "iː m i n a",
@@ -42572,12 +42577,15 @@
 "av": true,
 "b": "общижите",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Общежите.",
+"cd": 0.5,
+"cv": false,
 "exp": "[ɐpɕːɪˈʐɨtʲɪje]",
 "h": "20ba96a22e1a",
-"ok": true,
-"score": 0.5,
-"v": "ok"
+"ok": false,
+"score": 1.0,
+"v": "bad"
 },
 "tts|общежитии": {
 "a": "a p ɕ i ʒ i t i",
@@ -43409,9 +43417,7 @@
 "h": "bddd8d6fb359",
 "ok": true,
 "score": 0,
-"speaker": "kseniya",
-"text": "<speak><prosody rate=\"x-slow\">отдых+ать</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "tts|отдыхаю": {
 "a": "a d i x a j",
@@ -46001,9 +46007,7 @@
 "h": "a2ccb88b77ea",
 "ok": true,
 "score": 2,
-"speaker": "kseniya",
-"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">пт+ица</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "tts|птицы": {
 "a": "tʲ i ts ʌ",
@@ -46016,9 +46020,7 @@
 "h": "b6bdba4126c3",
 "ok": true,
 "score": 1,
-"speaker": "baya",
-"text": "<speak><prosody rate=\"x-slow\">пт+ицы</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "tts|пусан": {
 "a": "p s a n",
@@ -46405,7 +46407,10 @@
 "av": true,
 "b": "ради",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Радио.",
+"cd": 0,
+"cv": true,
 "exp": "[ˈradʲɪo]",
 "h": "73ef6c935ae3",
 "ok": true,
@@ -46423,9 +46428,7 @@
 "h": "c9e69179cc36",
 "ok": true,
 "score": 1.5,
-"speaker": "baya",
-"text": "<speak><prosody rate=\"x-slow\">р+азница</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "tts|рано": {
 "a": "r aː n a",
@@ -47533,9 +47536,7 @@
 "h": "793db2bdb64e",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">с+емьи</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "tts|семья": {
 "a": "ʃ i n j a",
@@ -49237,7 +49238,10 @@
 "av": true,
 "b": "стихотворенья",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Стихотворение",
+"cd": 0,
+"cv": true,
 "exp": "[sʲtʲɪxətvɐˈrʲenʲɪje]",
 "h": "42f72088302f",
 "ok": true,
@@ -50030,7 +50034,10 @@
 "av": true,
 "b": "театры",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Театр.",
+"cd": 0,
+"cv": true,
 "exp": "[tʲɪˈat(ə)r]",
 "h": "50ee74b4ffb1",
 "ok": true,
@@ -51256,12 +51263,15 @@
 "av": true,
 "b": "учители",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Учители",
+"cd": 0.5,
+"cv": false,
 "exp": "[ʊˈt͡ɕitʲɪlʲ]",
 "h": "724e85cff90f",
-"ok": true,
-"score": 0.5,
-"v": "ok"
+"ok": false,
+"score": 1.0,
+"v": "bad"
 },
 "tts|учителя": {
 "a": "w u tʃ i t i l aː",
@@ -51672,7 +51682,10 @@
 "av": true,
 "b": "вот",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Фото.",
+"cd": 0,
+"cv": true,
 "exp": "[ˈfotə]",
 "h": "ea655c3550b1",
 "ok": true,
@@ -52907,7 +52920,10 @@
 "av": true,
 "b": "школая",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Школы.",
+"cd": 0,
+"cv": true,
 "exp": "[ˈʂkoɫɨ]",
 "h": "7b14f69257ee",
 "ok": true,
