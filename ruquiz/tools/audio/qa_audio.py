@@ -69,7 +69,7 @@ def verdict_a(exp, got):
 VOW = 'аеёиоуыэюя'
 VCLS = {'а': 'A', 'о': 'A', 'ё': 'O', 'е': 'I', 'э': 'I', 'и': 'I', 'ы': 'I', 'я': 'I', 'у': 'U', 'ю': 'U'}   # 약화되면 같은 소리
 VFINE = {'а': 'a', 'я': 'ä', 'о': 'o', 'ё': 'o', 'е': 'e', 'э': 'e', 'и': 'i', 'ы': 'y', 'у': 'u', 'ю': 'u'}    # 강세 모음은 정확히
-SOFT = {('o', 'e'), ('ä', 'e'), ('ä', 'a'), ('a', 'ä'), ('e', 'ä')}
+SOFT = {('o', 'e'), ('ä', 'e'), ('ä', 'a'), ('a', 'ä'), ('e', 'ä'), ('e', 'i')}   # ё → е, я[æ] ↔ а/е, 연음 사이 е → и (смотре́ть → ‘смотрить’)
 VOICE_PAIR = str.maketrans('бвгдзж', 'пфктсш')    # 유·무성 동화 (хлеб → [хлеп], вчера → [фчера])
 def letters(s):
     # 비교용 기호열: 자음 글자(유·무성 합침) + 모음 등급. й · ь · ъ · 띄어쓰기 · 문장부호는 빼고, 겹자음은 하나로
@@ -93,6 +93,9 @@ isv = lambda x: x in 'AIUO'
 def vcost(x, y): return 0 if x == y or (x == 'O' and y in 'AI') or (y == 'O' and x in 'AI') else (0.5 if isv(x) and isv(y) else 1)
 def verdict_txt(form, got):
     # 기대 철자(앱 철자 · 발음대로 고쳐 쓴 철자) 중 가장 가까운 것과 비교해요.
+    # 인식기가 단어 앞 숨소리를 한 글자 전치사(в · у · с · к · о)로 덧붙여 적는 버릇은 떼고 봐요.
+    tok = re.sub(r'[^\w\s-]', ' ', NFC(got.lower())).split()
+    if len(tok) > 1 and len(tok[0]) == 1 and tok[0] in 'вускои' and not NFC(form.lower()).startswith(tok[0] + ' '): got = ' '.join(tok[1:])
     g, gv = letters(got)
     if not g: return False, 9.0
     best = (False, 9.0)
