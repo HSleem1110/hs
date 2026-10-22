@@ -9182,9 +9182,7 @@
 "h": "186fdde51463",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "+Анна!",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|анне": {
 "a": "a ɲ i",
@@ -9197,9 +9195,7 @@
 "h": "eec92756e6ac",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "+Анне.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|антон": {
 "a": "a n t u n",
@@ -9212,9 +9208,7 @@
 "h": "e956e34fb635",
 "ok": true,
 "score": 0,
-"speaker": "aidar",
-"text": "Ант+он",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|антоне": {
 "a": "a n t o ɲ e",
@@ -9303,12 +9297,15 @@
 "av": true,
 "b": "армяния",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Армение.",
+"cd": 0.5,
+"cv": false,
 "exp": "[ɐrˈmʲænʲe]",
 "h": "441b89b99b3a",
-"ok": true,
-"score": 0.5,
-"v": "ok"
+"ok": false,
+"score": 1.0,
+"v": "bad"
 },
 "ttsm|армянин": {
 "a": "ʌ r mʲ e nʲ i n",
@@ -9373,21 +9370,22 @@
 "h": "0bd9078ca118",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "аудит+ория!",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|аэропорт": {
 "a": "a r a p u r t",
 "ad": 0,
 "av": true,
 "b": "а эропорт",
-"bd": 0,
-"bv": true,
+"bd": 0.5,
+"bv": false,
+"c": "Аэропорт.",
+"cd": 0,
+"cv": true,
 "exp": "[ɐɪrɐˈport]",
 "h": "6c9300eaf45e",
 "ok": true,
-"score": 0,
+"score": 0.5,
 "v": "ok"
 },
 "ttsm|аэропорту": {
@@ -9395,12 +9393,15 @@
 "ad": 0,
 "av": true,
 "b": "а эропорту",
-"bd": 0,
-"bv": true,
+"bd": 0.5,
+"bv": false,
+"c": "Аэропорту?",
+"cd": 0,
+"cv": true,
 "exp": "[ɐɪrɐˈportʊ]",
 "h": "e06331ce612f",
 "ok": true,
-"score": 0,
+"score": 0.5,
 "v": "ok"
 },
 "ttsm|бабушка": {
@@ -9622,9 +9623,7 @@
 "h": "ad806122ff63",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "беж+им.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|бежит": {
 "a": "b i ʒ y t",
@@ -9819,9 +9818,7 @@
 "h": "16e4d3f1e92f",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "— берём",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|берёт": {
 "a": "bʲ i rʲ o t",
@@ -10269,9 +10266,7 @@
 "h": "436df3afeeae",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "век.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|века": {
 "a": "v i k ʌ",
@@ -10284,9 +10279,7 @@
 "h": "4082cedf5921",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "век+а.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|велосипед": {
 "a": "vʲ i ɭ u sʲ i pʲ e t",
@@ -10377,9 +10370,7 @@
 "h": "7a39bcd069b9",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "веществ+а!",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|вещество": {
 "a": "vʲ i ʃ i s t v o ʌ",
@@ -10387,7 +10378,10 @@
 "av": true,
 "b": "веществое",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Вещество.",
+"cd": 0,
+"cv": true,
 "exp": "[vʲɪɕːɪstˈvo]",
 "h": "69ffde14fc97",
 "ok": true,
@@ -10405,9 +10399,7 @@
 "h": "5ebbcdd62a3c",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "— вид",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|видеть": {
 "a": "v i d i t",
@@ -10446,9 +10438,7 @@
 "h": "9029a2fe9bc8",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "в+идит.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|видите": {
 "a": "v vʲ i ɭʲ i tʲ i",
@@ -10487,9 +10477,7 @@
 "h": "dffbba3c2b8a",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "в+иды.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|видят": {
 "a": "vʲ e dʲ i t",
@@ -10502,9 +10490,7 @@
 "h": "81b4458bc894",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "в+идят.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|вижу": {
 "a": "v i ʒ u",
@@ -10608,9 +10594,7 @@
 "h": "6b76f71ead64",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "— вод+итель",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|вожди": {
 "a": "b a s d i",
@@ -10623,9 +10607,7 @@
 "h": "cacc5b5a1eef",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "<speak><break time=\"250ms\"/>вожд+и</speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|вождь": {
 "a": "v o ʃ tʲ",
@@ -10638,9 +10620,7 @@
 "h": "5b970d0f4efd",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "вождь.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|возвращаемся": {
 "a": "v ʌ z v r a ɕ e m sʲ ɪ",
@@ -10661,12 +10641,15 @@
 "av": true,
 "b": "возвращайтесь",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Возвращайтесь.",
+"cd": 0.5,
+"cv": false,
 "exp": "[vəzvrɐˈɕːæ(j)ɪtʲɪsʲ]",
 "h": "30af6623f7bf",
-"ok": true,
-"score": 0.5,
-"v": "ok"
+"ok": false,
+"score": 1.0,
+"v": "bad"
 },
 "ttsm|возвращается": {
 "a": "v ʌ z v r ʌ ɕ e ts ʌ",
@@ -10692,9 +10675,7 @@
 "h": "153beb86f5fd",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "<speak><prosody rate=\"x-slow\">возвращ+аешься</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|возвращаться": {
 "a": "v ʌ t v r ʌ ɕ ɑ ts ʌ",
@@ -10811,9 +10792,7 @@
 "h": "1bbb4b7e3187",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "В+олга.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|волге": {
 "a": "v o l ɡ ɛ",
@@ -10826,9 +10805,7 @@
 "h": "5ba0f4078783",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "В+олге.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|волк": {
 "a": "v o l k",
@@ -10841,9 +10818,7 @@
 "h": "7c8c3918cd2f",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "волк.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|волки": {
 "a": "v o l k i",
@@ -11038,9 +11013,7 @@
 "h": "54f85b2af015",
 "ok": true,
 "score": 1,
-"speaker": "eugene",
-"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">встав+ать</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|встаю": {
 "a": "s t a j uː",
@@ -11054,7 +11027,7 @@
 "h": "a2399d7f1217",
 "ok": true,
 "score": 1,
-"v": "swapped"
+"v": "ok"
 },
 "ttsm|встают": {
 "a": "s t e d",
@@ -11106,9 +11079,7 @@
 "h": "99089b830f61",
 "ok": true,
 "score": 1,
-"speaker": "eugene",
-"text": "Встаёте",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|встаёшь": {
 "a": "s t a o s",
@@ -11121,9 +11092,7 @@
 "h": "c144788fafa3",
 "ok": true,
 "score": 1,
-"speaker": "eugene",
-"text": "встаёшь.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|встречаем": {
 "a": "f r i tʃ e m",
@@ -11149,9 +11118,7 @@
 "h": "a3032bcde0ab",
 "ok": true,
 "score": 1,
-"speaker": "eugene",
-"text": "— встреч+ает",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|встречаете": {
 "a": "s rʲ i tʃʲ ɑ tʲ i",
@@ -11159,12 +11126,15 @@
 "av": true,
 "b": "встречайте",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Встречайте!",
+"cd": 0.5,
+"cv": false,
 "exp": "[fstrʲɪˈt͡ɕæ(j)ɪtʲe]",
 "h": "a8a65bec2a98",
-"ok": true,
-"score": 2.5,
-"v": "ok"
+"ok": false,
+"score": 3.0,
+"v": "bad"
 },
 "ttsm|встречаешь": {
 "a": "s t rʲ i tʃʲ e ʒ",
@@ -11177,9 +11147,7 @@
 "h": "c099ef031bd9",
 "ok": true,
 "score": 1,
-"speaker": "eugene",
-"text": "— встреч+аешь",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|встречать": {
 "a": "s rʲ i tʃʲ e tʲ",
@@ -11205,9 +11173,7 @@
 "h": "2ab451032473",
 "ok": true,
 "score": 1,
-"speaker": "eugene",
-"text": "— встреч+аю",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|встречают": {
 "a": "s t rʲ i tʃʲ e t",
@@ -11220,9 +11186,7 @@
 "h": "cd8a0a3e4359",
 "ok": true,
 "score": 1,
-"speaker": "eugene",
-"text": "— встреч+ают",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|второй": {
 "a": "t a r ʉ",
@@ -11274,9 +11238,7 @@
 "h": "b02aee6c9c98",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">в+ывод</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|выводы": {
 "a": "v ʉ v ʌ d i",
@@ -11393,9 +11355,7 @@
 "h": "367ec94efb0a",
 "ok": true,
 "score": 0,
-"speaker": "aidar",
-"text": "ген",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|гены": {
 "a": "ɡ e n i",
@@ -11408,9 +11368,7 @@
 "h": "546259689f0d",
 "ok": true,
 "score": 0,
-"speaker": "aidar",
-"text": "г+ены.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|германии": {
 "a": "ɡ i r m ɑ nʲ i",
@@ -11423,9 +11381,7 @@
 "h": "e647085b8179",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "— Герм+ании",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|германия": {
 "a": "ɡ i r m a nʲ ja",
@@ -11438,9 +11394,7 @@
 "h": "6f19f71f4a6b",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "Герм+ания!",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|герои": {
 "a": "ɟ i r o",
@@ -11453,9 +11407,7 @@
 "h": "0681a184dc3f",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "гер+ои.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|герой": {
 "a": "ɡ i r o j",
@@ -11468,9 +11420,7 @@
 "h": "f11fa884c081",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "гер+ой.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|гипотеза": {
 "a": "ɡ i p o t a z ɑ",
@@ -11483,9 +11433,7 @@
 "h": "1af21b776fde",
 "ok": true,
 "score": 0.5,
-"speaker": "aidar",
-"text": "гип+отэза.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|гипотезы": {
 "a": "ɡ i p o tʲ i z y",
@@ -11498,9 +11446,7 @@
 "h": "60661c17a4da",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "<speak><prosody rate=\"x-slow\">гип+отезы</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|главный": {
 "a": "ɡ l ɑ m n i",
@@ -11617,9 +11563,7 @@
 "h": "5acd53480fbd",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "говор+ю.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|говорят": {
 "a": "ɡ y v o rʲ e t",
@@ -11718,12 +11662,15 @@
 "av": true,
 "b": "глубая",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Глубая?",
+"cd": 0.5,
+"cv": false,
 "exp": "ɡʌɭubˈɑja",
 "h": "fa9673a57e80",
-"ok": true,
-"score": 0.5,
-"v": "ok"
+"ok": false,
+"score": 1.0,
+"v": "bad"
 },
 "ttsm|голубое": {
 "a": "ɡ o l u b o e",
@@ -11838,7 +11785,10 @@
 "av": true,
 "b": "грожанин",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Горожанин.",
+"cd": 0,
+"cv": true,
 "exp": "[ɡərɐˈʐanʲɪn]",
 "h": "0041bb441c62",
 "ok": true,
@@ -11864,11 +11814,14 @@
 "av": true,
 "b": "горяче",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Горячее.",
+"cd": 0.5,
+"cv": true,
 "exp": "ɡʌrʲˈɑtʃʲʌja",
 "h": "f725c598f3b4",
 "ok": true,
-"score": 0.5,
+"score": 1.0,
 "v": "ok"
 },
 "ttsm|горячее": {
@@ -11877,7 +11830,10 @@
 "av": true,
 "b": "горяче",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Горячее.",
+"cd": 0,
+"cv": true,
 "exp": "[ɡɐˈrʲæt͡ɕɪje]",
 "h": "b294e4bf4726",
 "ok": true,
@@ -12038,9 +11994,7 @@
 "h": "a55e6925a1f7",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "<speak><prosody rate=\"slow\">гот+овит</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|готовите": {
 "a": "ɡ ʌ t o vʲ i tʲ i",
@@ -12092,9 +12046,7 @@
 "h": "fafaea6a05fa",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "<speak><prosody rate=\"slow\">гот+овлю</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|готовят": {
 "a": "ɡ ɛ t o v i t",
@@ -12172,9 +12124,7 @@
 "h": "bcf2af6d265b",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "гриб.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|грибы": {
 "a": "ɡ rʲ i b o",
@@ -12278,9 +12228,7 @@
 "h": "998a8b3d5ad1",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "гул+яю.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|гуляют": {
 "a": "ɡ u l ɛ t",
@@ -12293,9 +12241,7 @@
 "h": "f30c28521186",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">гул+яют</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|да": {
 "a": "d a",
@@ -12373,9 +12319,7 @@
 "h": "23ae24fc0302",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "д+ача!",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|даче": {
 "a": "d a tʃʲ i",
@@ -12388,9 +12332,7 @@
 "h": "38b816b2d021",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "<speak><prosody rate=\"slow\">д+аче</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|даю": {
 "a": "d ʌ j uː",
@@ -12416,9 +12358,7 @@
 "h": "915c10e8868d",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "— да+ют",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|даём": {
 "a": "d ʌ ʉ m",
@@ -12457,9 +12397,7 @@
 "h": "498061fd877b",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "Даёте",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|даёшь": {
 "a": "d[ ɛ ɯ s",
@@ -13056,7 +12994,10 @@
 "av": true,
 "b": "домашня",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Домашнее.",
+"cd": 0,
+"cv": true,
 "exp": "[dɐˈmaʂnʲɪjə]",
 "h": "5e015a4fddc5",
 "ok": true,
@@ -13316,12 +13257,15 @@
 "av": true,
 "b": "думайте",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Думайте.",
+"cd": 0.5,
+"cv": false,
 "exp": "[ˈdumə(j)ɪtʲe]",
 "h": "5dae24a401d1",
-"ok": true,
-"score": 0.5,
-"v": "ok"
+"ok": false,
+"score": 1.0,
+"v": "bad"
 },
 "ttsm|думаешь": {
 "a": "d u m a ʃ",
@@ -13490,9 +13434,7 @@
 "h": "916741421494",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">+едет</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|едете": {
 "a": "e d i t ɪ",
@@ -13596,9 +13538,7 @@
 "h": "f10898c2de5a",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "— ем",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|ест": {
 "a": "e s t",
@@ -13770,9 +13710,7 @@
 "h": "1f95369bf005",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "ждёте!",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|ждёшь": {
 "a": "ʒ dʲ e s",
@@ -13962,7 +13900,10 @@
 "av": true,
 "b": "желта",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Желтая.",
+"cd": 0,
+"cv": true,
 "exp": "ʒˈoɭtʌja",
 "h": "a0c12e7eb064",
 "ok": true,
@@ -13988,7 +13929,10 @@
 "av": true,
 "b": "желты",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Жёлтые.",
+"cd": 0,
+"cv": true,
 "exp": "ʒˈoɭtyjɪ",
 "h": "0649520191fc",
 "ok": true,
@@ -14092,7 +14036,10 @@
 "av": true,
 "b": "завтраком",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Завтракаем.",
+"cd": 0,
+"cv": true,
 "exp": "[ˈzaftrəkə(j)ɪm]",
 "h": "67016e29c62f",
 "ok": true,
@@ -14118,12 +14065,15 @@
 "av": true,
 "b": "завтрак эти",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Завтракайте!",
+"cd": 0.5,
+"cv": false,
 "exp": "[ˈzaftrəkə(j)ɪtʲe]",
 "h": "86eaaede02a8",
-"ok": true,
-"score": 0.5,
-"v": "ok"
+"ok": false,
+"score": 1.0,
+"v": "bad"
 },
 "ttsm|завтракаешь": {
 "a": "z ɑ f t rʲ i k ɪ ʃ",
@@ -14157,7 +14107,10 @@
 "av": true,
 "b": "завтрака",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Завтракаю.",
+"cd": 0,
+"cv": true,
 "exp": "[ˈzaftrəkəjʊ]",
 "h": "49d11fb8af33",
 "ok": true,
@@ -14196,7 +14149,10 @@
 "av": true,
 "b": "заданя",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Задание.",
+"cd": 0,
+"cv": true,
 "exp": "[zɐˈdanʲɪjə]",
 "h": "2f7308452092",
 "ok": true,
@@ -14378,12 +14334,15 @@
 "av": true,
 "b": "занимайтесь",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Занимайтесь!",
+"cd": 0.5,
+"cv": false,
 "exp": "[zənʲɪˈma(j)ɪtʲɪsʲ]",
 "h": "7a8235976ac3",
-"ok": true,
-"score": 0.5,
-"v": "ok"
+"ok": false,
+"score": 1.0,
+"v": "bad"
 },
 "ttsm|занимается": {
 "a": "z ʌ nʲ i m ɑ e ts ʌ",
@@ -14803,7 +14762,10 @@
 "av": true,
 "b": "зелены",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Зеленые.",
+"cd": 0,
+"cv": true,
 "exp": "[zʲɪˈlʲɵnɨje]",
 "h": "8a7bf280213a",
 "ok": true,
@@ -14925,9 +14887,7 @@
 "h": "ab1be7c63f8d",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "зн+амя.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|знамёна": {
 "a": "ʌ z n ʌ kʲ e n ʌ",
@@ -15221,12 +15181,15 @@
 "av": true,
 "b": "играйте",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Играйте.",
+"cd": 0.5,
+"cv": false,
 "exp": "[ɪˈɡra(j)ɪtʲe]",
 "h": "5713e4ffb52c",
-"ok": true,
-"score": 0.5,
-"v": "ok"
+"ok": false,
+"score": 1.0,
+"v": "bad"
 },
 "ttsm|играешь": {
 "a": "i ɡ ɹ ɛ ʃ",
@@ -15325,12 +15288,15 @@
 "av": true,
 "b": "иде",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Иди!",
+"cd": 0.5,
+"cv": false,
 "exp": "[ɪˈdʲeɪ]",
 "h": "b74f4863a708",
-"ok": true,
-"score": 0.5,
-"v": "ok"
+"ok": false,
+"score": 1.0,
+"v": "bad"
 },
 "ttsm|идея": {
 "a": "i d e",
@@ -15338,7 +15304,10 @@
 "av": true,
 "b": "иде",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Идея.",
+"cd": 0,
+"cv": true,
 "exp": "[ɪˈdʲejə]",
 "h": "97f3fd57add3",
 "ok": true,
@@ -15434,9 +15403,7 @@
 "h": "978ad67e75ff",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "идёшь.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|извините": {
 "a": "i z vʲ i nʲ i tʲ i",
@@ -15483,24 +15450,27 @@
 "av": true,
 "b": "изучайти",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Изучайте.",
+"cd": 0.5,
+"cv": false,
 "exp": "[ɪzʊˈt͡ɕæ(j)ɪtʲe]",
 "h": "f92b2e934364",
-"ok": true,
-"score": 0.5,
-"v": "ok"
+"ok": false,
+"score": 1.0,
+"v": "bad"
 },
 "ttsm|изучаешь": {
 "a": "i z u tʃ e ʒ",
 "ad": 0,
 "av": true,
 "b": "ы изучаешь",
-"bd": 0.5,
+"bd": 0,
 "bv": true,
 "exp": "[ɪzʊˈt͡ɕæ(j)ɪʂ]",
 "h": "2bac625d7372",
 "ok": true,
-"score": 0.5,
+"score": 0,
 "v": "ok"
 },
 "ttsm|изучать": {
@@ -15579,9 +15549,7 @@
 "h": "5ecbba72cea5",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "+имени.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|имя": {
 "a": "i m ɛ",
@@ -15724,9 +15692,7 @@
 "h": "0af8886a7dd9",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "интер+есное.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|интересные": {
 "a": "i n tʃʲ i rʲ e s n y",
@@ -15817,9 +15783,7 @@
 "h": "f7caeae5211f",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "<speak><prosody rate=\"slow\">иссл+едователь</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|истории": {
 "a": "i s t o rʲ i",
@@ -15913,9 +15877,7 @@
 "h": "c6d8fb217ed3",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "+ищет.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|ищете": {
 "a": "i ɕ y t e",
@@ -15941,9 +15903,7 @@
 "h": "4f947525b826",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "+ищешь.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|ищу": {
 "a": "i ʃ u",
@@ -15969,9 +15929,7 @@
 "h": "11d14ed0356d",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "+ищут!",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|кавказ": {
 "a": "k a f k ɑ s",
@@ -16023,9 +15981,7 @@
 "h": "4dbe38624fc3",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "как+ая.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|какие": {
 "a": "k ʌ t i",
@@ -16278,9 +16234,7 @@
 "h": "19d16b704c20",
 "ok": true,
 "score": 0,
-"speaker": "aidar",
-"text": "<speak><prosody rate=\"slow\">Кипр</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|кипре": {
 "a": "k i p rʲ",
@@ -16293,9 +16247,7 @@
 "h": "2c29fd3d583b",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "К+ипре.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|китае": {
 "a": "k i t ɛ",
@@ -16334,9 +16286,7 @@
 "h": "9f36cdf92bdb",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "кл+етка!",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|клетки": {
 "a": "ɡ ɭʲ e t kʲ i",
@@ -16349,9 +16299,7 @@
 "h": "d07e56875206",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "кл+етки.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|ключ": {
 "a": "k ɭʲ u tʃʲ",
@@ -16403,9 +16351,7 @@
 "h": "08a96caf203d",
 "ok": true,
 "score": 1,
-"speaker": "eugene",
-"text": "кн+иге.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|книги": {
 "a": "k nʲ i ɡ i",
@@ -16444,9 +16390,7 @@
 "h": "2fda58993912",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "князь+я.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|когда": {
 "a": "k a d aː",
@@ -16693,9 +16637,7 @@
 "h": "879ad2bc9703",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "конч+аем.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|кончает": {
 "a": "k ʌ n ʃ ɑ t",
@@ -16716,12 +16658,15 @@
 "av": true,
 "b": "кончайте",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Кончайте.",
+"cd": 0.5,
+"cv": false,
 "exp": "[kɐnʲˈt͡ɕæ(j)ɪtʲe]",
 "h": "23359002e33d",
-"ok": true,
-"score": 0.5,
-"v": "ok"
+"ok": false,
+"score": 1.0,
+"v": "bad"
 },
 "ttsm|кончается": {
 "a": "k ʌ n tʃʲ e ts ʌ",
@@ -16812,9 +16757,7 @@
 "h": "f99a4cbd0573",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">конч+аюцца</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|корее": {
 "a": "k ʌ ɹ i",
@@ -16853,9 +16796,7 @@
 "h": "84c9b2261c40",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "к+орень.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|корея": {
 "a": "k ʌ rʲ i",
@@ -16876,14 +16817,15 @@
 "av": true,
 "b": "кореч неве",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Коричневая.",
+"cd": 0,
+"cv": true,
 "exp": "kʌrʲˈitʃʲnʲivʌja",
 "h": "5ba978b334fa",
 "ok": true,
 "score": 0.5,
-"speaker": "eugene",
-"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">кор+ичневая</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|коричневое": {
 "a": "k ʌ rʲ i ʃ nʲ i v e",
@@ -16891,11 +16833,14 @@
 "av": true,
 "b": "коричне вы",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Коричневые.",
+"cd": 0.5,
+"cv": true,
 "exp": "kʌrʲˈitʃʲnʲivʌjɪ",
 "h": "35905739b835",
 "ok": true,
-"score": 0.5,
+"score": 1.0,
 "v": "ok"
 },
 "ttsm|коричневые": {
@@ -16904,7 +16849,10 @@
 "av": true,
 "b": "коречне вы",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Коричневые.",
+"cd": 0,
+"cv": true,
 "exp": "kʌrʲˈitʃʲnʲivyjɪ",
 "h": "bf3600400920",
 "ok": true,
@@ -17924,12 +17872,15 @@
 "av": true,
 "b": "лишня",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Лишня.",
+"cd": 0.5,
+"cv": false,
 "exp": "ɭʲˈiʃnʲʌja",
 "h": "72c238b053b3",
-"ok": true,
-"score": 0.5,
-"v": "ok"
+"ok": false,
+"score": 1.0,
+"v": "bad"
 },
 "ttsm|ложка": {
 "a": "ɭ o ʃ k ʌ",
@@ -17997,9 +17948,7 @@
 "h": "fa0fa14ef4fa",
 "ok": true,
 "score": 1,
-"speaker": "eugene",
-"text": "<speak><prosody rate=\"x-slow\">льду</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|любим": {
 "a": "l uː b i m",
@@ -18012,9 +17961,7 @@
 "h": "9222fb7b9b0b",
 "ok": true,
 "score": 0,
-"speaker": "aidar",
-"text": "<speak><prosody rate=\"x-slow\">л+юбим</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|любит": {
 "a": "l y b i t",
@@ -18027,9 +17974,7 @@
 "h": "a075a779a5be",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "л+юбит.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|любите": {
 "a": "l y b i t i",
@@ -18458,9 +18403,7 @@
 "h": "2a1b3f6bf55a",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "медвеж+онок.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|медленно": {
 "a": "m e r l i n a",
@@ -18668,9 +18611,7 @@
 "h": "30340fb468a3",
 "ok": true,
 "score": 0,
-"speaker": "aidar",
-"text": "<speak><prosody rate=\"slow\">мл+адшее</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|младшие": {
 "a": "m u l aː t[ ʃ i",
@@ -18683,9 +18624,7 @@
 "h": "98ae2398f53f",
 "ok": true,
 "score": 0,
-"speaker": "aidar",
-"text": "мл+адшие",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|младший": {
 "a": "m u l aː t[ ʃ i",
@@ -18719,12 +18658,15 @@
 "av": true,
 "b": "мненя",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Мне нет.",
+"cd": 1,
+"cv": false,
 "exp": "[ˈmnʲenʲɪje]",
 "h": "1ac0dd115c05",
-"ok": true,
-"score": 1.5,
-"v": "ok"
+"ok": false,
+"score": 2.5,
+"v": "bad"
 },
 "ttsm|мнения": {
 "a": "m nʲ e nʲ e",
@@ -18732,12 +18674,15 @@
 "av": true,
 "b": "мне не",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Мне не.",
+"cd": 0.5,
+"cv": false,
 "exp": "[ˈmnʲenʲɪjə]",
 "h": "dd65eda4f62b",
-"ok": true,
-"score": 0.5,
-"v": "ok"
+"ok": false,
+"score": 1.0,
+"v": "bad"
 },
 "ttsm|много": {
 "a": "m ɯ n oː ɡ a",
@@ -18776,9 +18721,7 @@
 "h": "f4b712522ede",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "м+огут.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|моем": {
 "a": "m e m",
@@ -18799,12 +18742,15 @@
 "av": true,
 "b": "мот",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Мойт.",
+"cd": 0.5,
+"cv": false,
 "exp": "[ˈmo(j)ɪt]",
 "h": "0b02ef60edaf",
-"ok": true,
-"score": 0.5,
-"v": "ok"
+"ok": false,
+"score": 1.0,
+"v": "bad"
 },
 "ttsm|моете": {
 "a": "m u r e tʲ i",
@@ -18812,12 +18758,15 @@
 "av": true,
 "b": "мойти",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Мойте.",
+"cd": 0.5,
+"cv": false,
 "exp": "[ˈmo(j)ɪtʲe]",
 "h": "61c63fe971dc",
-"ok": true,
-"score": 1.5,
-"v": "ok"
+"ok": false,
+"score": 2.0,
+"v": "bad"
 },
 "ttsm|моешь": {
 "a": "m o ʃ",
@@ -18830,9 +18779,7 @@
 "h": "e113684cfe2c",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "м+оешь!",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|можем": {
 "a": "m o ʒ ʌ m",
@@ -18884,9 +18831,7 @@
 "h": "70a21335b1fa",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "м+ожешь.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|можно": {
 "a": "m o ʒ n a",
@@ -19128,12 +19073,15 @@
 "av": true,
 "b": "мойт",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Мойт.",
+"cd": 0.5,
+"cv": false,
 "exp": "[ˈmojʊt]",
 "h": "578c78179dbc",
-"ok": true,
-"score": 0.5,
-"v": "ok"
+"ok": false,
+"score": 1.0,
+"v": "bad"
 },
 "ttsm|муж": {
 "a": "m u ʃ",
@@ -19193,7 +19141,10 @@
 "av": true,
 "b": "музе",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Музея.",
+"cd": 0,
+"cv": true,
 "exp": "[mʊˈzʲeje]",
 "h": "15c73d12c49f",
 "ok": true,
@@ -19456,7 +19407,10 @@
 "av": true,
 "b": "налогие",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Налоги.",
+"cd": 0,
+"cv": true,
 "exp": "[nɐˈɫoɡʲɪ]",
 "h": "4aef46a56a05",
 "ok": true,
@@ -19929,9 +19883,7 @@
 "h": "b28aea8e840f",
 "ok": true,
 "score": 0,
-"speaker": "aidar",
-"text": "<speak><prosody rate=\"slow\">Н+ине</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|них": {
 "a": "n i ʁ",
@@ -19965,7 +19917,10 @@
 "av": true,
 "b": "но вэ",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Новое.",
+"cd": 0,
+"cv": true,
 "exp": "[ˈnovəjə]",
 "h": "92bc50445777",
 "ok": true,
@@ -19978,12 +19933,15 @@
 "av": true,
 "b": "ну ве",
 "bd": 1.0,
-"bv": true,
+"bv": false,
+"c": "Ну, ва...",
+"cd": 1.0,
+"cv": false,
 "exp": "[ˈnovəjə]",
 "h": "a2cdfb7ef391",
-"ok": true,
-"score": 1.0,
-"v": "ok"
+"ok": false,
+"score": 2.0,
+"v": "bad"
 },
 "ttsm|новости": {
 "a": "n o v ʌ sʲ tʲ i",
@@ -20230,9 +20188,7 @@
 "h": "a8544cb09691",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "нём.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|о": {
 "a": "",
@@ -20279,12 +20235,15 @@
 "av": true,
 "b": "обедите",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Обидрите!",
+"cd": 1,
+"cv": false,
 "exp": "[ɐˈbʲedə(j)ɪtʲe]",
 "h": "bc4fb684bf56",
-"ok": true,
-"score": 0.5,
-"v": "ok"
+"ok": false,
+"score": 1.5,
+"v": "bad"
 },
 "ttsm|обедаешь": {
 "a": "ɐ ʋ e d e ʃ",
@@ -20297,9 +20256,7 @@
 "h": "b36438bbff60",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "об+едаешь.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|обедать": {
 "a": "a b e d i t",
@@ -20414,12 +20371,15 @@
 "av": true,
 "b": "общежите",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Общежите!",
+"cd": 0.5,
+"cv": false,
 "exp": "[ɐpɕːɪˈʐɨtʲɪɪ]",
 "h": "69ede32ef446",
-"ok": true,
-"score": 0.5,
-"v": "ok"
+"ok": false,
+"score": 1.0,
+"v": "bad"
 },
 "ttsm|общежития": {
 "a": "ʌ p ɕ i ʒ i tʲ i",
@@ -20526,9 +20486,7 @@
 "h": "a7b56b4f7e7d",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "+овощ.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|овощи": {
 "a": "o ʃ i",
@@ -20591,12 +20549,15 @@
 "av": true,
 "b": "одевайтесь",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "одевайтесь",
+"cd": 0.5,
+"cv": false,
 "exp": "[ɐdʲɪˈva(j)ɪtʲɪsʲ]",
 "h": "31cf849da642",
-"ok": true,
-"score": 0.5,
-"v": "ok"
+"ok": false,
+"score": 1.0,
+"v": "bad"
 },
 "ttsm|одевается": {
 "a": "ʌ dʲ i v ɑ e ts ʌ",
@@ -20895,9 +20856,7 @@
 "h": "5d56732491ba",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "ор+анжевая!",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|оранжевое": {
 "a": "a r a n ʃ y b ɵ",
@@ -20905,7 +20864,10 @@
 "av": true,
 "b": "оран живы",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Оранжевое.",
+"cd": 0,
+"cv": true,
 "exp": "ʌrˈɑnʒyvʌjɪ",
 "h": "f16dd17dd961",
 "ok": true,
@@ -20918,7 +20880,10 @@
 "av": true,
 "b": "орань жевы",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Оранжевые.",
+"cd": 0,
+"cv": true,
 "exp": "ʌrˈɑnʒyvyjɪ",
 "h": "2a088c4aaa80",
 "ok": true,
@@ -21126,12 +21091,15 @@
 "av": true,
 "b": "отвечайте",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Отвечайте.",
+"cd": 0.5,
+"cv": false,
 "exp": "[ɐtvʲɪˈt͡ɕæ(j)ɪtʲe]",
 "h": "1b61cc3c6afa",
-"ok": true,
-"score": 0.5,
-"v": "ok"
+"ok": false,
+"score": 1.0,
+"v": "bad"
 },
 "ttsm|отвечаешь": {
 "a": "a t v i tʃʲ e ʒ",
@@ -21378,9 +21346,7 @@
 "h": "8bf64609fbed",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "открыв+ают.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|открытка": {
 "a": "ʌ t k r i t k ʌ",
@@ -21812,9 +21778,7 @@
 "h": "8f3ec7c0c258",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">п+ерья</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|песни": {
 "a": "p e sʲ nʲ i",
@@ -21957,9 +21921,7 @@
 "h": "b83ebb607ca8",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "п+ишем.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|пишет": {
 "a": "p i ʃ i t",
@@ -21998,9 +21960,7 @@
 "h": "5f459f62136e",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">п+ишешь</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|пишу": {
 "a": "b i ʃ u",
@@ -22013,9 +21973,7 @@
 "h": "92ab0c2d8056",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "пиш+у.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|пишут": {
 "a": "b i ʃ u t",
@@ -22145,9 +22103,7 @@
 "h": "9220ec5e6b2d",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "Пл+ачешь",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|плачу": {
 "a": "b ɭ ɑ tʃʲ u",
@@ -22264,9 +22220,7 @@
 "h": "656fe38a9a17",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "плод.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|плоды": {
 "a": "p l ʌ d i",
@@ -22279,9 +22233,7 @@
 "h": "88745bb0eef6",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "плод+ы!",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|плохая": {
 "a": "v ɑ r x ɑ",
@@ -22307,9 +22259,7 @@
 "h": "a0a828ef1e45",
 "ok": true,
 "score": 1,
-"speaker": "aidar",
-"text": "плох+ие",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|плохо": {
 "a": "b l o x ʌ",
@@ -22447,12 +22397,15 @@
 "av": true,
 "b": "повторяйте",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Повторяйте.",
+"cd": 0.5,
+"cv": false,
 "exp": "[pəftɐˈrʲæ(j)ɪtʲe]",
 "h": "90c1dcfedf18",
-"ok": true,
-"score": 0.5,
-"v": "ok"
+"ok": false,
+"score": 1.0,
+"v": "bad"
 },
 "ttsm|повторяешь": {
 "a": "p o f t e rʲ e ʃ",
@@ -23040,9 +22993,7 @@
 "h": "531badef1b46",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "поним+ает!",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|понимаете": {
 "a": "p ʌ dʲ i m ɑ j ɛ tʲ i",
@@ -23146,9 +23097,7 @@
 "h": "116af4209484",
 "ok": true,
 "score": 0,
-"speaker": "aidar",
-"text": "порт",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|порту": {
 "a": "p ʌ r t u",
@@ -23343,9 +23292,7 @@
 "h": "db47c9c1eade",
 "ok": true,
 "score": 0,
-"speaker": "aidar",
-"text": "по+эт",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|поэты": {
 "a": "b ɑ e t i",
@@ -23371,9 +23318,7 @@
 "h": "f50caa17189f",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "по+ю.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|поют": {
 "a": "ɑ j i d",
@@ -23412,9 +23357,7 @@
 "h": "01059c660c4b",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "поёт!",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|поёте": {
 "a": "p ɑ5 j o tɕh i",
@@ -23570,9 +23513,7 @@
 "h": "193b193e5190",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "<speak><prosody rate=\"x-slow\">предпри+ятие</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|предприятия": {
 "a": "v rʲ i p rʲ i e tʲ i ʌ",
@@ -24001,9 +23942,7 @@
 "h": "00b8f902a85d",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "путеш+ествуешь.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|путешествую": {
 "a": "p u tʲ i ʃ ɑ s t v u",
@@ -24042,9 +23981,7 @@
 "h": "6657cbb1fea0",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "пью!",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|пьют": {
 "a": "i j u t",
@@ -24070,9 +24007,7 @@
 "h": "02a50936db3d",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "пьём!",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|пьёт": {
 "a": "v i j o t",
@@ -24085,9 +24020,7 @@
 "h": "19798d1f4b84",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">пьёт</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|пьёте": {
 "a": "b i y tʲ i",
@@ -24100,9 +24033,7 @@
 "h": "0ef23a513fd2",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "пьёте!",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|пьёшь": {
 "a": "v i o ʃ",
@@ -24115,9 +24046,7 @@
 "h": "8660512cabd8",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "— пьёшь",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|пятый": {
 "a": "b a t i",
@@ -24190,12 +24119,15 @@
 "av": true,
 "b": "работайте",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Работайте!",
+"cd": 0.5,
+"cv": false,
 "exp": "[rɐˈbotə(j)ɪtʲe]",
 "h": "294194b9b12b",
-"ok": true,
-"score": 1.5,
-"v": "ok"
+"ok": false,
+"score": 2.0,
+"v": "bad"
 },
 "ttsm|работаешь": {
 "a": "r ɐ b u t i s",
@@ -24328,9 +24260,7 @@
 "h": "186259e23e56",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "<speak><prosody rate=\"slow\">расск+азываем</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|рассказывает": {
 "a": "r a s k a z u i t",
@@ -24351,12 +24281,15 @@
 "av": true,
 "b": "рассказывайте",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Рассказывайте.",
+"cd": 0.5,
+"cv": false,
 "exp": "[rɐˈskazɨvə(j)ɪtʲe]",
 "h": "381fb3092880",
-"ok": true,
-"score": 0.5,
-"v": "ok"
+"ok": false,
+"score": 1.0,
+"v": "bad"
 },
 "ttsm|рассказываешь": {
 "a": "r a s k ɑ z v i ʃ",
@@ -24408,9 +24341,7 @@
 "h": "8008936a390f",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "расск+азывают.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|растение": {
 "a": "r ʌ sʲ tʲ e nʲ i ja",
@@ -24423,9 +24354,7 @@
 "h": "4c3b0f705017",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "раст+ение.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|растения": {
 "a": "r ʌ sʲ tʲ e nʲ i ja",
@@ -24503,9 +24432,7 @@
 "h": "da8bb0814673",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "<speak><prosody rate=\"slow\">результ+аты</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|река": {
 "a": "r i k aː",
@@ -24557,9 +24484,7 @@
 "h": "11ab5be19bfe",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "рестор+ане.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|рестораны": {
 "a": "rʲ i s t a r ɑ n y",
@@ -24585,9 +24510,7 @@
 "h": "d9d6589e98eb",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "Реф+орма",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|реформы": {
 "a": "r i f u r m ʌ",
@@ -24704,9 +24627,7 @@
 "h": "2fa67b293980",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "<speak><prosody rate=\"slow\">рис+уете</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|рисуешь": {
 "a": "rʲ i s u ʒ",
@@ -24831,12 +24752,15 @@
 "av": true,
 "b": "розвы",
 "bd": 1.0,
-"bv": true,
+"bv": false,
+"c": "Розовый.",
+"cd": 0.5,
+"cv": false,
 "exp": "rˈozʌvyjɪ",
 "h": "41e70f9a0d2e",
-"ok": true,
-"score": 1.0,
-"v": "ok"
+"ok": false,
+"score": 1.5,
+"v": "bad"
 },
 "ttsm|розовый": {
 "a": "r uː z w iː",
@@ -25125,9 +25049,7 @@
 "h": "b59d7771abc6",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "р+ыцарь.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|сад": {
 "a": "s a t",
@@ -25135,7 +25057,10 @@
 "av": true,
 "b": "сада",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Сад.",
+"cd": 0,
+"cv": true,
 "exp": "[sat]",
 "h": "5c6cf4477adf",
 "ok": true,
@@ -25460,12 +25385,15 @@
 "av": true,
 "b": "серэ",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Сирэ.",
+"cd": 0.5,
+"cv": false,
 "exp": "[ˈsʲerəjə]",
 "h": "73aa1d243684",
-"ok": true,
-"score": 0.5,
-"v": "ok"
+"ok": false,
+"score": 1.0,
+"v": "bad"
 },
 "ttsm|сердца": {
 "a": "s i r s a",
@@ -25499,12 +25427,15 @@
 "av": true,
 "b": "серэ",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Сирэ.",
+"cd": 0.5,
+"cv": false,
 "exp": "[ˈsʲerəjə]",
 "h": "d989d964640d",
-"ok": true,
-"score": 0.5,
-"v": "ok"
+"ok": false,
+"score": 1.0,
+"v": "bad"
 },
 "ttsm|серые": {
 "a": "s i r",
@@ -25564,12 +25495,15 @@
 "av": true,
 "b": "сил",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Всю.",
+"cd": 2.5,
+"cv": false,
 "exp": "[sʲɪˈuɫ]",
 "h": "2781c3882ed7",
-"ok": true,
-"score": 1.5,
-"v": "ok"
+"ok": false,
+"score": 4.0,
+"v": "bad"
 },
 "ttsm|сеуле": {
 "a": "s i u ɭʲ ɪ",
@@ -25577,12 +25511,15 @@
 "av": true,
 "b": "в сили",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Сюли.",
+"cd": 0.5,
+"cv": false,
 "exp": "sʲiˈuɭʲi",
 "h": "f3a38da4ce37",
-"ok": true,
-"score": 0.5,
-"v": "ok"
+"ok": false,
+"score": 1.0,
+"v": "bad"
 },
 "ttsm|сибири": {
 "a": "s i b i ɾ ɪ",
@@ -25733,7 +25670,10 @@
 "av": true,
 "b": "сине",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Синее.",
+"cd": 0,
+"cv": true,
 "exp": "[ˈsʲinʲɪjə]",
 "h": "3310a7f1f2b9",
 "ok": true,
@@ -25746,12 +25686,15 @@
 "av": true,
 "b": "сине",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Синьян",
+"cd": 1,
+"cv": false,
 "exp": "[ˈsʲinʲɪje]",
 "h": "61774070c9c0",
-"ok": true,
-"score": 0.5,
-"v": "ok"
+"ok": false,
+"score": 1.5,
+"v": "bad"
 },
 "ttsm|синий": {
 "a": "s i n i",
@@ -25772,7 +25715,10 @@
 "av": true,
 "b": "сине",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Синее.",
+"cd": 0,
+"cv": true,
 "exp": "[ˈsʲinʲɪjə]",
 "h": "490e08b79e93",
 "ok": true,
@@ -25941,7 +25887,10 @@
 "av": true,
 "b": "слушим",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Слушаем.",
+"cd": 0,
+"cv": true,
 "exp": "[ˈsɫuʂə(j)ɪm]",
 "h": "b14d2bec0219",
 "ok": true,
@@ -25959,9 +25908,7 @@
 "h": "629e5aa5703f",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "сл+ушает.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|слушаете": {
 "a": "s l u5 s. uei5 tɕ iɛ5",
@@ -25969,12 +25916,15 @@
 "av": true,
 "b": "слушайте",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Слушайте.",
+"cd": 0.5,
+"cv": false,
 "exp": "[ˈsɫuʂə(j)ɪtʲe]",
 "h": "89bfd23f86ed",
-"ok": true,
-"score": 0.5,
-"v": "ok"
+"ok": false,
+"score": 1.0,
+"v": "bad"
 },
 "ttsm|слушаешь": {
 "a": "s ɭ u ʃ e ʃ",
@@ -26016,9 +25966,7 @@
 "h": "9c9c78bc223a",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "<speak><prosody rate=\"x-slow\">сл+ушаю</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|слушают": {
 "a": "s l u ʃ y t",
@@ -26031,9 +25979,7 @@
 "h": "d0b07b7e7130",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "<speak><prosody rate=\"slow\">сл+ушают</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|слышат": {
 "a": "s ɭ i ʃ i t",
@@ -26054,12 +26000,15 @@
 "av": true,
 "b": "слышите",
 "bd": 1.0,
-"bv": true,
+"bv": false,
+"c": "Слышите?",
+"cd": 1.0,
+"cv": false,
 "exp": "[ˈsɫɨʂətʲ]",
 "h": "dc05c39cca96",
-"ok": true,
-"score": 1.0,
-"v": "ok"
+"ok": false,
+"score": 2.0,
+"v": "bad"
 },
 "ttsm|слышим": {
 "a": "s ɭ ɪ ʃ ɪ m",
@@ -26421,12 +26370,15 @@
 "av": true,
 "b": "советуйте",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Советуйте.",
+"cd": 0.5,
+"cv": false,
 "exp": "[sɐˈvʲetʊ(j)ɪtʲe]",
 "h": "bce01214bcea",
-"ok": true,
-"score": 0.5,
-"v": "ok"
+"ok": false,
+"score": 1.0,
+"v": "bad"
 },
 "ttsm|советуешь": {
 "a": "s a ɡ i t u ʃ",
@@ -26733,12 +26685,15 @@
 "av": true,
 "b": "спрашивайте",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Спрашивайте.",
+"cd": 0.5,
+"cv": false,
 "exp": "[ˈspraʂɨvə(j)ɪtʲe]",
 "h": "acbeac5ed428",
-"ok": true,
-"score": 0.5,
-"v": "ok"
+"ok": false,
+"score": 1.0,
+"v": "bad"
 },
 "ttsm|спрашиваешь": {
 "a": "s p r a ʃ v i ʃ",
@@ -26915,7 +26870,10 @@
 "av": true,
 "b": "стары",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Старая.",
+"cd": 0,
+"cv": true,
 "exp": "stˈɑrʌja",
 "h": "40a915519898",
 "ok": true,
@@ -26941,7 +26899,10 @@
 "av": true,
 "b": "старше",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "старшая",
+"cd": 0,
+"cv": true,
 "exp": "stˈɑrʃʌja",
 "h": "c0a59590de53",
 "ok": true,
@@ -27261,9 +27222,7 @@
 "h": "5761069d32e3",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "стол+е!",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|столица": {
 "a": "t a ɭʲ i ts ʌ",
@@ -27656,9 +27615,7 @@
 "h": "0a06f18fdf0e",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "С+уздале.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|суздаль": {
 "a": "s u t i",
@@ -27892,9 +27849,7 @@
 "h": "ef7814d749be",
 "ok": true,
 "score": 0,
-"speaker": "aidar",
-"text": "<speak><prosody rate=\"slow\">танц+уют</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|тарелка": {
 "a": "d aː r ʌ l k ʌ",
@@ -27959,9 +27914,7 @@
 "h": "06478bed68ce",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">те+атре</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|театры": {
 "a": "tʲ i ɑ t r y",
@@ -28052,9 +28005,7 @@
 "h": "96f6e60f8785",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "телёнок!",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|теории": {
 "a": "tɕ iouɜ ɹ i",
@@ -28145,9 +28096,7 @@
 "h": "7b194f1e1178",
 "ok": true,
 "score": 0,
-"speaker": "aidar",
-"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">тк+ани</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|ткань": {
 "a": "ɡ ɑ n",
@@ -28160,9 +28109,7 @@
 "h": "0ce080cf2dad",
 "ok": true,
 "score": 1,
-"speaker": "aidar",
-"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">ткань</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|товар": {
 "a": "t a v a r",
@@ -28360,9 +28307,7 @@
 "h": "fe6fabc536f4",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "тур+исты.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|ты": {
 "a": "t i",
@@ -28427,9 +28372,7 @@
 "h": "d3f3518f48de",
 "ok": true,
 "score": 0,
-"speaker": "aidar",
-"text": "угл+у.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|углы": {
 "a": "o ɡ n i",
@@ -28528,12 +28471,15 @@
 "av": true,
 "b": "ужинайти",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Ужинайте!",
+"cd": 0.5,
+"cv": false,
 "exp": "[ˈuʐɨnə(j)ɪtʲe]",
 "h": "8b8934c0eae1",
-"ok": true,
-"score": 0.5,
-"v": "ok"
+"ok": false,
+"score": 1.0,
+"v": "bad"
 },
 "ttsm|ужинаешь": {
 "a": "u ʒ ʊ n e ʃ",
@@ -28541,7 +28487,10 @@
 "av": true,
 "b": "ужинышь",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Ужинаешь?",
+"cd": 0,
+"cv": true,
 "exp": "[ˈuʐɨnə(j)ɪʂ]",
 "h": "60fe6ea29a58",
 "ok": true,
@@ -28572,9 +28521,7 @@
 "h": "56ced62fad7b",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "— +ужинаю",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|ужинают": {
 "a": "oː ʃ ɯ n aɪ t",
@@ -28587,9 +28534,7 @@
 "h": "bd9be41c9a00",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "<speak><prosody rate=\"slow\">+ужинают</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|узнавать": {
 "a": "u z n ʌ v ɑ tʲ",
@@ -28615,9 +28560,7 @@
 "h": "bcfa4acf9f98",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">узна+ю</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|узнают": {
 "a": "u z n ɑ ɡ y t",
@@ -28742,12 +28685,15 @@
 "av": true,
 "b": "улыбайтесь",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Улыбайтесь!",
+"cd": 0.5,
+"cv": false,
 "exp": "[ʊɫɨˈba(j)ɪtʲɪsʲ]",
 "h": "f08a1fdb830a",
-"ok": true,
-"score": 0.5,
-"v": "ok"
+"ok": false,
+"score": 1.0,
+"v": "bad"
 },
 "ttsm|улыбается": {
 "a": "u ɭ y b ɑ e ts ʌ",
@@ -28773,9 +28719,7 @@
 "h": "48b0d90b6183",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "улыб+аешься.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|улыбаться": {
 "a": "u l ɨ b a s ɐ",
@@ -28801,9 +28745,7 @@
 "h": "e8fea6eccef8",
 "ok": true,
 "score": 0,
-"speaker": "aidar",
-"text": "улыб+аюсь.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|улыбаются": {
 "a": "u l i b ɑ e s ɯ",
@@ -28816,9 +28758,7 @@
 "h": "4440dd7b80d7",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "<speak><prosody rate=\"x-slow\">улыб+аюцца</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|умный": {
 "a": "u m eɪ",
@@ -28922,9 +28862,7 @@
 "h": "929987e1437b",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "— Ур+ал",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|урале": {
 "a": "u r aː ɭʲ ʌ",
@@ -28945,14 +28883,15 @@
 "av": true,
 "b": "урожай",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Урожай!",
+"cd": 0.5,
+"cv": false,
 "exp": "[ʊrɐˈʐaɪ]",
 "h": "b54c85d95bfa",
-"ok": true,
-"score": 0.5,
-"speaker": "eugene",
-"text": "урож+аи.",
-"v": "fixed"
+"ok": false,
+"score": 1.0,
+"v": "bad"
 },
 "ttsm|урожай": {
 "a": "u r ɑ s a k",
@@ -29030,9 +28969,7 @@
 "h": "19b70dae307f",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "усл+овия!",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|утро": {
 "a": "u t r ʌ",
@@ -29084,9 +29021,7 @@
 "h": "7369febeb9d1",
 "ok": true,
 "score": 0.5,
-"speaker": "eugene",
-"text": "+учацца!",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|учебник": {
 "a": "u tʃ i b nʲ i k",
@@ -29164,9 +29099,7 @@
 "h": "829aa35cce8f",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "+учит.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|учите": {
 "a": "u tʃʲ i tʲ i",
@@ -29179,9 +29112,7 @@
 "h": "72dd7d03cfa9",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "+учите.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|учителе": {
 "a": "u tʃ i tʲ i ɭʲ e",
@@ -29194,9 +29125,7 @@
 "h": "d7449c0ad107",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "уч+ителе.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|учитель": {
 "a": "u tʃʲ i tʲ i ɭ",
@@ -29261,9 +29190,7 @@
 "h": "439624031189",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "<speak><prosody rate=\"slow\">уч+ить</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|учиться": {
 "a": "u tʃʲ i ts ʌ",
@@ -29289,9 +29216,7 @@
 "h": "30b5222f9d90",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "+учишь.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|учишься": {
 "a": "u tS i s e",
@@ -29317,9 +29242,7 @@
 "h": "49609b48d5e1",
 "ok": true,
 "score": 0,
-"speaker": "aidar",
-"text": "<speak><prosody rate=\"x-slow\">уч+у</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|учусь": {
 "a": "u tʃʲ u s",
@@ -29332,9 +29255,7 @@
 "h": "ed80cc900900",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "уч+усь.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|учёный": {
 "a": "u tʃʲ y n i",
@@ -29542,9 +29463,7 @@
 "h": "1c0d59381149",
 "ok": true,
 "score": 0,
-"speaker": "aidar",
-"text": "фиол+етовая",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|фиолетовое": {
 "a": "f i l e t ʌ v ɵ",
@@ -29557,9 +29476,7 @@
 "h": "5a15779b8dc5",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "<speak><prosody rate=\"slow\">фиол+етовое</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|фиолетовые": {
 "a": "f a l i t a β ɵ",
@@ -29572,9 +29489,7 @@
 "h": "5ab55088cbb5",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "фиол+етовые!",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|фиолетовый": {
 "a": "f aː l e t ʉ",
@@ -29616,9 +29531,7 @@
 "h": "6c1e58cdfd97",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "ф+ирме!",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|фирмы": {
 "a": "f i r m ʌ",
@@ -29691,12 +29604,15 @@
 "av": true,
 "b": "фотографируйте",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Фотографируйте.",
+"cd": 0.5,
+"cv": false,
 "exp": "[fətəɡrɐˈfʲirʊ(j)ɪtʲe]",
 "h": "1bb1c0b700e0",
-"ok": true,
-"score": 1.5,
-"v": "ok"
+"ok": false,
+"score": 2.0,
+"v": "bad"
 },
 "ttsm|фотографируешь": {
 "a": "f o t e k r ɛ x i l u ʃ",
@@ -29761,9 +29677,7 @@
 "h": "ab6f45c1f647",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "фр+укты.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|функции": {
 "a": "f onɡ5 ŋ ts y5",
@@ -29815,9 +29729,7 @@
 "h": "8ca9ede35868",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "<speak><prosody rate=\"x-slow\">х+одим</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|ходит": {
 "a": "h o d i t",
@@ -29843,9 +29755,7 @@
 "h": "dc65c888c2a3",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "<speak><prosody rate=\"x-slow\">х+одите</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|ходить": {
 "a": "x a d i d",
@@ -29858,9 +29768,7 @@
 "h": "b07a9095cc1a",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "ход+ить!",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|ходишь": {
 "a": "h o dʲ i ʃ",
@@ -29873,9 +29781,7 @@
 "h": "f2ea72bf6edb",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "<speak><prosody rate=\"slow\">х+одишь</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|ходят": {
 "a": "k o dʲ i t",
@@ -29888,9 +29794,7 @@
 "h": "62726cff57de",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">х+одят</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|хожу": {
 "a": "x a ʒ uː",
@@ -29903,9 +29807,7 @@
 "h": "2b100389e65a",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "<speak><prosody rate=\"x-slow\">хож+у</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|хозяева": {
 "a": "x a z b ɐ",
@@ -29918,9 +29820,7 @@
 "h": "638047a4ede4",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "хоз+яева.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|хозяин": {
 "a": "x ɑ z e n",
@@ -29959,9 +29859,7 @@
 "h": "6264e3f02eed",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "холод+ильнике.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|холодильники": {
 "a": "k ʌ l ʌ dʲ i l n i k i",
@@ -29974,9 +29872,7 @@
 "h": "fc481fc15542",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">холод+ильники</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|холодная": {
 "a": "x a l o d n eː",
@@ -30158,9 +30054,7 @@
 "h": "620bf6c5e067",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "х+очет.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|хочешь": {
 "a": "x o tʃ i s",
@@ -30225,9 +30119,7 @@
 "h": "7afba5bf2f91",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "— цар+и",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|царь": {
 "a": "s a r i",
@@ -30235,12 +30127,15 @@
 "av": true,
 "b": "цари",
 "bd": 0.5,
-"bv": true,
+"bv": false,
+"c": "Садик.",
+"cd": 3.5,
+"cv": false,
 "exp": "[t͡sarʲ]",
 "h": "06269042b330",
-"ok": true,
-"score": 0.5,
-"v": "ok"
+"ok": false,
+"score": 4.0,
+"v": "bad"
 },
 "ttsm|цветок": {
 "a": "s vʲ i t o k",
@@ -30617,9 +30512,7 @@
 "h": "496100b4ee1e",
 "ok": true,
 "score": 1,
-"speaker": "eugene",
-"text": "ч+уство.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|чудеса": {
 "a": "tʃ u d i s a",
@@ -30684,9 +30577,7 @@
 "h": "43fb571a69fc",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "чуж+ое.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|чужой": {
 "a": "tɕ y5 z oɪ",
@@ -30712,9 +30603,7 @@
 "h": "827f1916b153",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "чьи.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|чья": {
 "a": "ʃ i",
@@ -30883,9 +30772,7 @@
 "h": "9e6aaf468999",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "шк+оле.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|школы": {
 "a": "k o l e",
@@ -30963,9 +30850,7 @@
 "h": "172cdb2819ef",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "<speak><prosody rate=\"slow\">экск+урсии</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|экскурсия": {
 "a": "e k s k u r sʲ e",
@@ -30978,9 +30863,7 @@
 "h": "43cc0025bfde",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "<speak><prosody rate=\"slow\">экск+урсия</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|эпоха": {
 "a": "e p u x a",
@@ -31006,9 +30889,7 @@
 "h": "d56d620af733",
 "ok": true,
 "score": 1,
-"speaker": "eugene",
-"text": "<speak><break time=\"250ms\"/>эп+охи</speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|эта": {
 "a": "e t a",
@@ -31125,9 +31006,7 @@
 "h": "8fc73a7f38b8",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "+юге.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|я": {
 "a": "k a",
@@ -31192,9 +31071,7 @@
 "h": "7f18d58f369e",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "явл+ения.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|ягода": {
 "a": "i j a ɡ ʌ d ʌ",
