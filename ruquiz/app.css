@@ -182,6 +182,8 @@ details.rules .ptab{ margin:8px 0; }
 .legend li{ display:flex; align-items:center; gap:10px; }
 .legend b{ color:var(--ink); }
 .field h3.fh{ margin:0; font-size:.86rem; font-weight:700; }
+.seg .play{ flex:0 0 44px; display:grid; place-items:center; color:var(--ok); }
+.seg .play .ic{ width:18px; height:18px; }
 .updbar.busy{ background:var(--accent-soft); color:var(--accent); }
 .hint{ text-align:center; color:var(--muted); margin:0 0 6px; }
 .hint b{ color:var(--ink); }

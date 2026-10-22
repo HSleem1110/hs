@@ -12,7 +12,7 @@ css = open(R + 'app.css', encoding='utf-8').read()
 js = open(R + 'app.js', encoding='utf-8').read()
 assert '</script' not in js.lower()
 
-PACKS = {'native': 'audio-native.json', 'tts': 'audio-tts.json'}
+PACKS = {'native': 'audio-native.json', 'tts': 'audio-tts.json', 'ttsm': 'audio-tts-m.json'}
 packs, pack_tags = {}, []
 for name, fn in PACKS.items():
     if not os.path.exists(R + fn): continue
