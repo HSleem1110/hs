@@ -977,13 +977,10 @@
 "native|вставать": {
 "a": "s t a b a t",
 "ad": 1,
-"av": false,
+"av": true,
 "b": "вставать",
 "bd": 0,
 "bv": true,
-"c": "Вставать!",
-"cd": 0,
-"cv": true,
 "exp": "[fstɐˈvatʲ]",
 "h": "d4ad37f9a513",
 "ok": true,
@@ -993,13 +990,10 @@
 "native|встречать": {
 "a": "s t rʲ i tʃ a tʲ",
 "ad": 1,
-"av": false,
+"av": true,
 "b": "встречать",
 "bd": 0,
 "bv": true,
-"c": "Встречать!",
-"cd": 0,
-"cv": true,
 "exp": "[fstrʲɪˈt͡ɕætʲ]",
 "h": "d748c0c24982",
 "ok": true,
@@ -3243,13 +3237,10 @@
 "native|кот": {
 "a": "u d",
 "ad": 1,
-"av": false,
+"av": true,
 "b": "кот",
 "bd": 0,
 "bv": true,
-"c": "Кот",
-"cd": 0,
-"cv": true,
 "exp": "[kot]",
 "h": "069daf91e078",
 "ok": true,
@@ -3272,13 +3263,10 @@
 "native|коты": {
 "a": "a t i",
 "ad": 1,
-"av": false,
+"av": true,
 "b": "каты",
 "bd": 0,
 "bv": true,
-"c": "Каты.",
-"cd": 0,
-"cv": true,
 "exp": "[kɐˈtɨ]",
 "h": "20cb1e24cafe",
 "ok": true,
@@ -3421,13 +3409,10 @@
 "native|кто": {
 "a": "t uː",
 "ad": 1,
-"av": false,
+"av": true,
 "b": "кто",
 "bd": 0,
 "bv": true,
-"c": "Кто?",
-"cd": 0,
-"cv": true,
 "exp": "[kto]",
 "h": "3116388b9687",
 "ok": true,
@@ -5981,15 +5966,18 @@
 "native|потому что": {
 "a": "ɐ t a m uː s t a",
 "ad": 1,
-"av": false,
+"av": true,
 "b": "тому жто",
 "bd": 2.5,
 "bv": false,
+"c": "Потому что...",
+"cd": 0,
+"cv": true,
 "exp": "[pətɐˈmu‿ʂtə]",
 "h": "49737e0267b1",
-"ok": false,
+"ok": true,
 "score": 3.5,
-"v": "bad"
+"v": "ok"
 },
 "native|почва": {
 "a": "p o tʃ i v a",
@@ -6312,14 +6300,17 @@
 "native|пять": {
 "a": "ɛ t",
 "ad": 1,
-"av": false,
+"av": true,
 "b": "ять",
 "bd": 1,
 "bv": false,
+"c": "5.",
+"cd": 9.0,
+"cv": false,
 "exp": "[pʲætʲ]",
 "h": "82410c467309",
 "ok": false,
-"score": 2,
+"score": 11.0,
 "v": "bad"
 },
 "native|работа": {
@@ -8505,13 +8496,10 @@
 "native|хотеть": {
 "a": "ɛ t i t",
 "ad": 1,
-"av": false,
+"av": true,
 "b": "хотить",
 "bd": 0,
 "bv": true,
-"c": "Хотеть!",
-"cd": 0,
-"cv": true,
 "exp": "[xɐˈtʲetʲ]",
 "h": "adfeef5bcce8",
 "ok": true,
@@ -8751,13 +8739,10 @@
 "native|что": {
 "a": "t[ o",
 "ad": 1,
-"av": false,
+"av": true,
 "b": "что",
 "bd": 0,
 "bv": true,
-"c": "Что?",
-"cd": 0,
-"cv": true,
 "exp": "[ʂto]",
 "h": "5bd69b111540",
 "ok": true,
@@ -10505,14 +10490,17 @@
 "ttsm|виды": {
 "a": "d i d i",
 "ad": 1,
-"av": false,
+"av": true,
 "b": "деды",
 "bd": 1,
 "bv": false,
+"c": "Гиды!",
+"cd": 1,
+"cv": false,
 "exp": "[ˈvʲidɨ]",
 "h": "da3275ce447a",
 "ok": false,
-"score": 2,
+"score": 3,
 "v": "bad"
 },
 "ttsm|видят": {
@@ -11058,13 +11046,10 @@
 "ttsm|всегда": {
 "a": "s i ɡ d a",
 "ad": 1,
-"av": false,
+"av": true,
 "b": "всегда",
 "bd": 0,
 "bv": true,
-"c": "Всегда.",
-"cd": 0,
-"cv": true,
 "exp": "[fsʲɪɡˈda]",
 "h": "5a2ff2ec9367",
 "ok": true,
@@ -11232,13 +11217,10 @@
 "ttsm|встречать": {
 "a": "s rʲ i tʃʲ e tʲ",
 "ad": 2,
-"av": false,
+"av": true,
 "b": "встречать",
 "bd": 0,
 "bv": true,
-"c": "встречать",
-"cd": 0,
-"cv": true,
 "exp": "[fstrʲɪˈt͡ɕætʲ]",
 "h": "13c5714661bc",
 "ok": true,
@@ -11274,13 +11256,10 @@
 "ttsm|второй": {
 "a": "t a r ʉ",
 "ad": 1,
-"av": false,
+"av": true,
 "b": "второй",
 "bd": 0,
 "bv": true,
-"c": "Второй.",
-"cd": 0,
-"cv": true,
 "exp": "[ftɐˈroj]",
 "h": "f1be8582d2ac",
 "ok": true,
@@ -11290,18 +11269,15 @@
 "ttsm|вчера": {
 "a": "ʃ i r ɑ",
 "ad": 1,
-"av": false,
+"av": true,
 "b": "вчера",
 "bd": 0,
 "bv": true,
-"c": "ЩЕРА",
-"cd": 2,
-"cv": false,
 "exp": "[ft͡ɕɪˈra]",
 "h": "dc52d02eea1d",
-"ok": false,
-"score": 3,
-"v": "bad"
+"ok": true,
+"score": 1,
+"v": "ok"
 },
 "ttsm|вы": {
 "a": "b u",
@@ -11429,13 +11405,10 @@
 "ttsm|где": {
 "a": "d e",
 "ad": 1,
-"av": false,
+"av": true,
 "b": "где",
 "bd": 0,
 "bv": true,
-"c": "Где?",
-"cd": 0,
-"cv": true,
 "exp": "[ɡdʲe]",
 "h": "400b330155af",
 "ok": true,
@@ -17448,14 +17421,17 @@
 "ttsm|кто": {
 "a": "t uː",
 "ad": 1,
-"av": false,
+"av": true,
 "b": "то",
 "bd": 1,
 "bv": false,
+"c": "то",
+"cd": 1,
+"cv": false,
 "exp": "[kto]",
 "h": "a90e466b183c",
 "ok": false,
-"score": 2,
+"score": 3,
 "v": "bad"
 },
 "ttsm|куда": {
@@ -20645,13 +20621,10 @@
 "ttsm|овощи": {
 "a": "o ʃ i",
 "ad": 1,
-"av": false,
+"av": true,
 "b": "повощи",
 "bd": 1,
 "bv": true,
-"c": "Овощи.",
-"cd": 0,
-"cv": true,
 "exp": "[ˈovəɕːɪ]",
 "h": "5cc7a3782469",
 "ok": true,
@@ -21633,13 +21606,10 @@
 "ttsm|офисы": {
 "a": "o tʃ i s aɪ",
 "ad": 1,
-"av": false,
+"av": true,
 "b": "офисы",
 "bd": 0,
 "bv": true,
-"c": "Офисы.",
-"cd": 0,
-"cv": true,
 "exp": "[ˈofʲɪsɨ]",
 "h": "f634a51234de",
 "ok": true,
@@ -22737,13 +22707,10 @@
 "ttsm|подруги": {
 "a": "a d r u ɡ i",
 "ad": 1,
-"av": false,
+"av": true,
 "b": "подруги",
 "bd": 0,
 "bv": true,
-"c": "Подруги.",
-"cd": 0,
-"cv": true,
 "exp": "[pɐˈdruɡʲɪ]",
 "h": "c6645dbaf5e1",
 "ok": true,
@@ -26872,13 +26839,10 @@
 "ttsm|спортсмен": {
 "a": "p ʌ r ts mʲ e n",
 "ad": 1,
-"av": false,
+"av": true,
 "b": "спортсмен",
 "bd": 0,
 "bv": true,
-"c": "Спортсмен.",
-"cd": 0,
-"cv": true,
 "exp": "[spɐrt͡sˈmʲen]",
 "h": "1236412d8c43",
 "ok": true,
@@ -26888,13 +26852,10 @@
 "ttsm|спортсмены": {
 "a": "p ʌ r ts mʲ e n y",
 "ad": 1,
-"av": false,
+"av": true,
 "b": "спортсмены",
 "bd": 0,
 "bv": true,
-"c": "Спортсмены!",
-"cd": 0,
-"cv": true,
 "exp": "[spɐrt͡sˈmʲenɨ]",
 "h": "fb0b6818ba98",
 "ok": true,
@@ -26904,13 +26865,10 @@
 "ttsm|способности": {
 "a": "p ʌ s o b n ʌ sʲ tʲ i",
 "ad": 1,
-"av": false,
+"av": true,
 "b": "способности",
 "bd": 0,
 "bv": true,
-"c": "способности.",
-"cd": 0,
-"cv": true,
 "exp": "[spɐˈsobnəsʲtʲɪ]",
 "h": "029711e71eb0",
 "ok": true,
@@ -26920,18 +26878,15 @@
 "ttsm|способность": {
 "a": "p ʌ s o b n ʌ sʲ tʲ",
 "ad": 1,
-"av": false,
+"av": true,
 "b": "способность",
 "bd": 0,
 "bv": true,
-"c": "Пособность.",
-"cd": 1,
-"cv": false,
 "exp": "[spɐˈsobnəsʲtʲ]",
 "h": "365afd432254",
-"ok": false,
-"score": 2,
-"v": "bad"
+"ok": true,
+"score": 1,
+"v": "ok"
 },
 "ttsm|спрашиваем": {
 "a": "s p r a ʃ u v i m",
@@ -27004,13 +26959,10 @@
 "ttsm|спрашиваю": {
 "a": "p r ɑ ʃ i v u",
 "ad": 1,
-"av": false,
+"av": true,
 "b": "спрашиваю",
 "bd": 0,
 "bv": true,
-"c": "Спрашиваю.",
-"cd": 0,
-"cv": true,
 "exp": "[ˈspraʂɨvəjʊ]",
 "h": "60ef9308ce14",
 "ok": true,
@@ -27282,13 +27234,10 @@
 "ttsm|статья": {
 "a": "t a tʃ i a",
 "ad": 1,
-"av": false,
+"av": true,
 "b": "статья",
 "bd": 0,
 "bv": true,
-"c": "Статья!",
-"cd": 0,
-"cv": true,
 "exp": "[stɐˈtʲja]",
 "h": "eb946b041cff",
 "ok": true,
@@ -27522,45 +27471,36 @@
 "ttsm|столица": {
 "a": "t a ɭʲ i ts ʌ",
 "ad": 1,
-"av": false,
+"av": true,
 "b": "столица",
 "bd": 0,
 "bv": true,
-"c": "Алица.",
-"cd": 2,
-"cv": false,
 "exp": "[stɐˈlʲit͡sə]",
 "h": "caad254b7e14",
-"ok": false,
-"score": 3,
-"v": "bad"
+"ok": true,
+"score": 1,
+"v": "ok"
 },
 "ttsm|столицы": {
 "a": "t ʌ ɭʲ i ts y",
 "ad": 1,
-"av": false,
+"av": true,
 "b": "столицы",
 "bd": 0,
 "bv": true,
-"c": "Втолицы.",
-"cd": 1,
-"cv": false,
 "exp": "[stɐˈlʲit͡sɨ]",
 "h": "81b3f38220c4",
-"ok": false,
-"score": 2,
-"v": "bad"
+"ok": true,
+"score": 1,
+"v": "ok"
 },
 "ttsm|столы": {
 "a": "t a l iː",
 "ad": 1,
-"av": false,
+"av": true,
 "b": "сталы",
 "bd": 0,
 "bv": true,
-"c": "Столы",
-"cd": 0,
-"cv": true,
 "exp": "[stɐˈɫɨ]",
 "h": "4347eae3460b",
 "ok": true,
@@ -27609,13 +27549,10 @@
 "ttsm|страна": {
 "a": "t r o n aː",
 "ad": 1,
-"av": false,
+"av": true,
 "b": "страная",
 "bd": 0.5,
 "bv": true,
-"c": "Страна",
-"cd": 0,
-"cv": true,
 "exp": "[strɐˈna]",
 "h": "6968d061e329",
 "ok": true,
@@ -27741,13 +27678,10 @@
 "ttsm|структура": {
 "a": "t r u k t u r a",
 "ad": 1,
-"av": false,
+"av": true,
 "b": "структура",
 "bd": 0,
 "bv": true,
-"c": "Структура.",
-"cd": 0,
-"cv": true,
 "exp": "[strʊkˈturə]",
 "h": "376e441b3584",
 "ok": true,
@@ -28446,27 +28380,33 @@
 "ttsm|ткани": {
 "a": "k ɑ nʲ i",
 "ad": 1,
-"av": false,
+"av": true,
 "b": "кане",
 "bd": 1,
 "bv": false,
+"c": "Кани.",
+"cd": 1,
+"cv": false,
 "exp": "[ˈtkanʲɪ]",
 "h": "4c0c7013a686",
 "ok": false,
-"score": 2,
+"score": 3,
 "v": "bad"
 },
 "ttsm|ткань": {
 "a": "k ʌ n",
 "ad": 1,
-"av": false,
+"av": true,
 "b": "кань",
 "bd": 1,
 "bv": false,
+"c": "Кань.",
+"cd": 1,
+"cv": false,
 "exp": "[tkanʲ]",
 "h": "5185ea9c5422",
 "ok": false,
-"score": 2,
+"score": 3,
 "v": "bad"
 },
 "ttsm|товар": {
@@ -31246,13 +31186,10 @@
 "ttsm|школы": {
 "a": "k o l e",
 "ad": 1,
-"av": false,
+"av": true,
 "b": "школы",
 "bd": 0,
 "bv": true,
-"c": "Школы.",
-"cd": 0,
-"cv": true,
 "exp": "[ˈʂkoɫɨ]",
 "h": "b0b18ec132f4",
 "ok": true,
@@ -31573,17 +31510,14 @@
 "ttsm|ягоды": {
 "a": "t i a ɡ ʌ d y",
 "ad": 1,
-"av": false,
+"av": true,
 "b": "я годы",
 "bd": 0,
 "bv": true,
-"c": "Я гды?",
-"cd": 0.5,
-"cv": true,
 "exp": "[ˈjaɡədɨ]",
 "h": "aa49685e7337",
 "ok": true,
-"score": 1.5,
+"score": 1,
 "v": "ok"
 },
 "ttsm|язык": {
@@ -31792,9 +31726,7 @@
 "h": "ca36fbd744b5",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "— +Анне",
-"v": "fixed"
+"v": "ok"
 },
 "tts|антон": {
 "a": "h a n t o n",
@@ -32093,9 +32025,7 @@
 "h": "5eca8619f331",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "бал+еты.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|банан": {
 "a": "b a n aː n",
@@ -32186,9 +32116,7 @@
 "h": "e60d5c8e9071",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "бег+ут.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|бежать": {
 "a": "b e ʒ ɑ tʲ",
@@ -32201,9 +32129,7 @@
 "h": "6f902ba5963c",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "беж+ать.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|бежим": {
 "a": "b i ʒ i m",
@@ -32216,9 +32142,7 @@
 "h": "cbc4efca4437",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "беж+им.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|бежит": {
 "a": "b e ʒ y t[",
@@ -32231,9 +32155,7 @@
 "h": "e3c3f5104d28",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "беж+ит.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|бежите": {
 "a": "b i ʒ y tʲ e",
@@ -32259,9 +32181,7 @@
 "h": "d7e2b1f4a886",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "беж+ишь!",
-"v": "fixed"
+"v": "ok"
 },
 "tts|белая": {
 "a": "b i e ɭ ʌ",
@@ -32274,9 +32194,7 @@
 "h": "aaa86202b258",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "б+елая.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|белки": {
 "a": "b i l k i",
@@ -32302,9 +32220,7 @@
 "h": "37b06836ca6d",
 "ok": true,
 "score": 0,
-"speaker": "kseniya",
-"text": "б+елое",
-"v": "fixed"
+"v": "ok"
 },
 "tts|белок": {
 "a": "b i l o q",
@@ -32317,9 +32233,7 @@
 "h": "cf3fb96a4d4f",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "бел+ок!",
-"v": "fixed"
+"v": "ok"
 },
 "tts|белые": {
 "a": "b e l ʉ j",
@@ -32371,9 +32285,7 @@
 "h": "9bcfea5e30ed",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "берег+а.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|берегу": {
 "a": "b i ɹ i ɡ u",
@@ -32425,9 +32337,7 @@
 "h": "46f307214106",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "берём.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|берёт": {
 "a": "b i r j t",
@@ -32492,9 +32402,7 @@
 "h": "483a87d8d52c",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "библиот+еке!",
-"v": "fixed"
+"v": "ok"
 },
 "tts|библиотеки": {
 "a": "b i b l aː t i k i",
@@ -32637,9 +32545,7 @@
 "h": "4829233c3127",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "— больн+ице",
-"v": "fixed"
+"v": "ok"
 },
 "tts|больницы": {
 "a": "b ʌ ɭʲ nʲ i ts y",
@@ -32824,7 +32730,7 @@
 "h": "e25dbcc50067",
 "ok": false,
 "score": 16.5,
-"v": "unfixed"
+"v": "bad"
 },
 "tts|важный": {
 "a": "v a ʃ n i",
@@ -32876,9 +32782,7 @@
 "h": "00f64265a012",
 "ok": true,
 "score": 0,
-"speaker": "kseniya",
-"text": "век",
-"v": "fixed"
+"v": "ok"
 },
 "tts|века": {
 "a": "v i k aː",
@@ -32891,9 +32795,7 @@
 "h": "d365eff5d5d8",
 "ok": true,
 "score": 0,
-"speaker": "kseniya",
-"text": "век+а",
-"v": "fixed"
+"v": "ok"
 },
 "tts|велосипед": {
 "a": "v e l a ʃ i p j e t",
@@ -32906,9 +32808,7 @@
 "h": "7a8ee5e3d17c",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "— велосип+ед",
-"v": "fixed"
+"v": "ok"
 },
 "tts|велосипеды": {
 "a": "vʲ i ɭ ɐ s i p e d ɐ",
@@ -32921,9 +32821,7 @@
 "h": "f65e9e2b3810",
 "ok": true,
 "score": 0,
-"speaker": "kseniya",
-"text": "велосип+еды",
-"v": "fixed"
+"v": "ok"
 },
 "tts|весна": {
 "a": "v iː s n aː",
@@ -32936,9 +32834,7 @@
 "h": "a8eedc73c276",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "весн+а!",
-"v": "fixed"
+"v": "ok"
 },
 "tts|весёлый": {
 "a": "v i s o l i",
@@ -32977,9 +32873,7 @@
 "h": "e8971f6bac19",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "вечер+а.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|вещества": {
 "a": "v i ʃ i s t v a r",
@@ -33018,9 +32912,7 @@
 "h": "bb4ba9e3511b",
 "ok": true,
 "score": 0,
-"speaker": "kseniya",
-"text": "вид.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|видеть": {
 "a": "v i d i t",
@@ -33033,9 +32925,7 @@
 "h": "18947ee4310c",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "в+идеть!",
-"v": "fixed"
+"v": "ok"
 },
 "tts|видим": {
 "a": "v iː dʒ m",
@@ -33061,9 +32951,7 @@
 "h": "c8fb171e9f17",
 "ok": true,
 "score": 0,
-"speaker": "kseniya",
-"text": "в+идит",
-"v": "fixed"
+"v": "ok"
 },
 "tts|видите": {
 "a": "vʲ e d i t i",
@@ -33076,9 +32964,7 @@
 "h": "8d4d3c89d946",
 "ok": true,
 "score": 0,
-"speaker": "kseniya",
-"text": "в+идите",
-"v": "fixed"
+"v": "ok"
 },
 "tts|видишь": {
 "a": "v iː d i ʃ",
@@ -33091,9 +32977,7 @@
 "h": "02a7ca293505",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "в+идишь.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|виды": {
 "a": "v iː d",
@@ -33119,9 +33003,7 @@
 "h": "f49c529f5840",
 "ok": true,
 "score": 0,
-"speaker": "kseniya",
-"text": "в+идят",
-"v": "fixed"
+"v": "ok"
 },
 "tts|вижу": {
 "a": "v i ʒ u",
@@ -33134,9 +33016,7 @@
 "h": "146add087aa0",
 "ok": true,
 "score": 0,
-"speaker": "kseniya",
-"text": "в+ижу",
-"v": "fixed"
+"v": "ok"
 },
 "tts|вилка": {
 "a": "v i l k ɑ",
@@ -33175,9 +33055,7 @@
 "h": "0755d842f942",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "виногр+ад.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|вместе": {
 "a": "v mʲ e s t ɪ",
@@ -33190,9 +33068,7 @@
 "h": "319689d4807c",
 "ok": true,
 "score": 0,
-"speaker": "kseniya",
-"text": "вм+есте",
-"v": "fixed"
+"v": "ok"
 },
 "tts|вода": {
 "a": "v a d a",
@@ -33257,9 +33133,7 @@
 "h": "db89e81b41cd",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "вождь.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|возвращаемся": {
 "a": "v ʌ z v r ʌ ɕ ɑ m sʲ e",
@@ -33402,9 +33276,7 @@
 "h": "cc4e7e96c766",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "вокз+але.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|вокзалы": {
 "a": "v a k z ɑ l i",
@@ -33646,96 +33518,78 @@
 "tts|вставать": {
 "a": "s t ʌ v ɑ tʲ",
 "ad": 1,
-"av": false,
+"av": true,
 "b": "вставать",
 "bd": 0,
 "bv": true,
-"c": "Вставайте.",
-"cd": 0.5,
-"cv": true,
 "exp": "[fstɐˈvatʲ]",
 "h": "2e5f0cd2c022",
 "ok": true,
-"score": 1.5,
+"score": 1,
 "v": "ok"
 },
 "tts|встаю": {
 "a": "s t a j uː",
 "ad": 1,
-"av": false,
+"av": true,
 "b": "встою",
 "bd": 0,
 "bv": true,
-"c": "Встаю.",
-"cd": 0,
-"cv": true,
 "exp": "[fstɐˈju]",
 "h": "a2399d7f1217",
 "ok": true,
 "score": 1,
-"speaker": "baya",
-"text": "— вста+ю",
-"v": "fixed"
+"v": "ok"
 },
 "tts|встают": {
 "a": "s t a j u t",
 "ad": 1,
-"av": false,
+"av": true,
 "b": "стают",
 "bd": 1,
 "bv": false,
+"c": "Стают!",
+"cd": 1,
+"cv": false,
 "exp": "[fstɐˈjut]",
 "h": "cb9aee2bfdd9",
 "ok": false,
-"score": 2,
-"v": "unfixed"
+"score": 3,
+"v": "bad"
 },
 "tts|встаём": {
 "a": "s t a j m",
 "ad": 1,
-"av": false,
+"av": true,
 "b": "встоем",
 "bd": 0,
 "bv": true,
-"c": "Встаем!",
-"cd": 0,
-"cv": true,
 "exp": "[fstɐˈjɵm]",
 "h": "fa17126f718b",
 "ok": true,
 "score": 1,
-"speaker": "baya",
-"text": "— встаём",
-"v": "fixed"
+"v": "ok"
 },
 "tts|встаёт": {
 "a": "s t a j o d",
 "ad": 1,
-"av": false,
+"av": true,
 "b": "встает",
 "bd": 0,
 "bv": true,
-"c": "Встает.",
-"cd": 0,
-"cv": true,
 "exp": "[fstɐˈjɵt]",
 "h": "47b6d1be635a",
 "ok": true,
 "score": 1,
-"speaker": "kseniya",
-"text": "встаёт.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|встаёте": {
 "a": "s t a j o t i",
 "ad": 1,
-"av": false,
+"av": true,
 "b": "встаете",
 "bd": 0,
 "bv": true,
-"c": "Встаете.",
-"cd": 0,
-"cv": true,
 "exp": "[fstɐˈjɵtʲe]",
 "h": "4b1297f6e43b",
 "ok": true,
@@ -33745,31 +33599,23 @@
 "tts|встаёшь": {
 "a": "s t a j o ʃ",
 "ad": 1,
-"av": false,
+"av": true,
 "b": "встаешь",
 "bd": 0,
 "bv": true,
-"c": "Встаешь.",
-"cd": 0,
-"cv": true,
 "exp": "[fstɐˈjɵʂ]",
 "h": "743cb4cd7199",
 "ok": true,
 "score": 1,
-"speaker": "baya",
-"text": "встаёшь.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|встречаем": {
 "a": "s t rʲ i tʃ e j m",
 "ad": 1,
-"av": false,
+"av": true,
 "b": "встречаем",
 "bd": 0,
 "bv": true,
-"c": "Встречаем.",
-"cd": 0,
-"cv": true,
 "exp": "[fstrʲɪˈt͡ɕæ(j)ɪm]",
 "h": "6be2785c0699",
 "ok": true,
@@ -33779,13 +33625,10 @@
 "tts|встречает": {
 "a": "s t rʲ i tʃ e d",
 "ad": 1,
-"av": false,
+"av": true,
 "b": "встречает",
 "bd": 0,
 "bv": true,
-"c": "Встречает!",
-"cd": 0,
-"cv": true,
 "exp": "[fstrʲɪˈt͡ɕæ(j)ɪt]",
 "h": "daf4f78b0e83",
 "ok": true,
@@ -33795,29 +33638,23 @@
 "tts|встречаете": {
 "a": "s p rʲ i tʃʲ ɑ j i tʲ i",
 "ad": 2,
-"av": false,
+"av": true,
 "b": "встречайте",
 "bd": 0.5,
 "bv": true,
-"c": "Встречайте!",
-"cd": 0.5,
-"cv": true,
 "exp": "[fstrʲɪˈt͡ɕæ(j)ɪtʲe]",
 "h": "f5b93196346a",
 "ok": true,
-"score": 3.0,
+"score": 2.5,
 "v": "ok"
 },
 "tts|встречаешь": {
 "a": "s t rʲ i k e ʃ",
 "ad": 2,
-"av": false,
+"av": true,
 "b": "встречаешь",
 "bd": 0,
 "bv": true,
-"c": "Встречаешь!",
-"cd": 0,
-"cv": true,
 "exp": "[fstrʲɪˈt͡ɕæ(j)ɪʂ]",
 "h": "787042c668f0",
 "ok": true,
@@ -33827,17 +33664,14 @@
 "tts|встречать": {
 "a": "s t r i tʃ ɛ t",
 "ad": 1,
-"av": false,
+"av": true,
 "b": "встречать",
 "bd": 0,
 "bv": true,
-"c": "Встречайте!",
-"cd": 0.5,
-"cv": true,
 "exp": "[fstrʲɪˈt͡ɕætʲ]",
 "h": "58f9aaa849a3",
 "ok": true,
-"score": 1.5,
+"score": 1,
 "v": "ok"
 },
 "tts|встречаю": {
@@ -33859,13 +33693,10 @@
 "tts|встречают": {
 "a": "s t rʲ i k ɛ t",
 "ad": 2,
-"av": false,
+"av": true,
 "b": "встречают",
 "bd": 0,
 "bv": true,
-"c": "Встречают.",
-"cd": 0,
-"cv": true,
 "exp": "[fstrʲɪˈt͡ɕæjʊt]",
 "h": "865297252f5b",
 "ok": true,
@@ -34026,9 +33857,7 @@
 "h": "77d6316a0ebd",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "где.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|ген": {
 "a": "ɡ n",
@@ -34288,9 +34117,7 @@
 "h": "5c066378c54b",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "г+оды.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|голова": {
 "a": "ɡ ʌ l ɑ v ɑ",
@@ -34368,9 +34195,7 @@
 "h": "26e8975ef937",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "голуб+ое!",
-"v": "fixed"
+"v": "ok"
 },
 "tts|голубой": {
 "a": "ɡ ʌ l u b o",
@@ -34461,9 +34286,7 @@
 "h": "661d8720e760",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "горож+ане.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|горожанин": {
 "a": "ɡ ʌ r ɑ ʒ ɑ nʲ i n",
@@ -34736,9 +34559,7 @@
 "h": "7ae42ce14901",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "— гот+овят",
-"v": "fixed"
+"v": "ok"
 },
 "tts|граждане": {
 "a": "ɡ r ɑ ʃ t ʌ nʲ i",
@@ -35687,9 +35508,7 @@
 "h": "1cd975cbc45b",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "— д+оме",
-"v": "fixed"
+"v": "ok"
 },
 "tts|дорога": {
 "a": "d a r o ɡ a",
@@ -36092,9 +35911,7 @@
 "h": "8ed69677ca48",
 "ok": true,
 "score": 0,
-"speaker": "kseniya",
-"text": "+едем",
-"v": "fixed"
+"v": "ok"
 },
 "tts|едет": {
 "a": "j a d t",
@@ -36107,9 +35924,7 @@
 "h": "5544b64da6a4",
 "ok": true,
 "score": 0,
-"speaker": "kseniya",
-"text": "+едет",
-"v": "fixed"
+"v": "ok"
 },
 "tts|едете": {
 "a": "j e d i t e",
@@ -36148,9 +35963,7 @@
 "h": "1249357bcd7e",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "ед+им.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|едите": {
 "a": "i d i t e",
@@ -36176,9 +35989,7 @@
 "h": "fdf472603cad",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "+еду!",
-"v": "fixed"
+"v": "ok"
 },
 "tts|едут": {
 "a": "j a d u t",
@@ -36191,9 +36002,7 @@
 "h": "fd6c3bab49f1",
 "ok": true,
 "score": 0,
-"speaker": "kseniya",
-"text": "+едут",
-"v": "fixed"
+"v": "ok"
 },
 "tts|едят": {
 "a": "i dʒ a d",
@@ -36206,9 +36015,7 @@
 "h": "1993d365dfba",
 "ok": true,
 "score": 1,
-"speaker": "baya",
-"text": "ед+ят.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|ем": {
 "a": "k m",
@@ -36224,9 +36031,7 @@
 "h": "72137335ec7d",
 "ok": true,
 "score": 1,
-"speaker": "kseniya",
-"text": "ем",
-"v": "fixed"
+"v": "ok"
 },
 "tts|ест": {
 "a": "j e s t",
@@ -36239,9 +36044,7 @@
 "h": "4b4c3c872652",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "ест.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|есть": {
 "a": "j i s t",
@@ -36254,9 +36057,7 @@
 "h": "5f2b7ef8915e",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "есть.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|ехать": {
 "a": "j iː χ a t",
@@ -36282,9 +36083,7 @@
 "h": "5564f49ef92f",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "ешь.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|ещё": {
 "a": "i ʃ o",
@@ -36349,9 +36148,7 @@
 "h": "f8e6dbda87b0",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "— жду",
-"v": "fixed"
+"v": "ok"
 },
 "tts|ждут": {
 "a": "ʒ y t o t",
@@ -36416,9 +36213,7 @@
 "h": "b6df53d6fd8c",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "ждёшь.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|жена": {
 "a": "ʒ y n a",
@@ -36483,9 +36278,7 @@
 "h": "fc8691772e8b",
 "ok": true,
 "score": 0,
-"speaker": "kseniya",
-"text": "жив+ут",
-"v": "fixed"
+"v": "ok"
 },
 "tts|живём": {
 "a": "ʒ i ɡ j m",
@@ -36550,9 +36343,7 @@
 "h": "2efdd5968f3e",
 "ok": true,
 "score": 0,
-"speaker": "kseniya",
-"text": "жизнь",
-"v": "fixed"
+"v": "ok"
 },
 "tts|жить": {
 "a": "ʃ y k",
@@ -36591,9 +36382,7 @@
 "h": "94523ba3f608",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "журн+алы.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|жёлтая": {
 "a": "ʒ o l t[ e",
@@ -37009,9 +36798,7 @@
 "h": "dde75995ce5e",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "заним+аемся.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|занимаетесь": {
 "a": "z ɯ n i m a j e t i s",
@@ -37050,9 +36837,7 @@
 "h": "3d5d22740716",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "— заним+аешься",
-"v": "fixed"
+"v": "ok"
 },
 "tts|заниматься": {
 "a": "z e ɲ i m a s e",
@@ -37354,9 +37139,7 @@
 "h": "6af96c8e1544",
 "ok": true,
 "score": 0,
-"speaker": "kseniya",
-"text": "зд+ание",
-"v": "fixed"
+"v": "ok"
 },
 "tts|здания": {
 "a": "z d aː ɲ a",
@@ -37382,9 +37165,7 @@
 "h": "31b006b9b91c",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "здесь.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|здоровье": {
 "a": "s t a r ð j a",
@@ -37488,9 +37269,7 @@
 "h": "b52a5bdd68e5",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "з+еркало.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|зима": {
 "a": "s i m a",
@@ -37529,9 +37308,7 @@
 "h": "c9d9956fdf09",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "зн+ает.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|знаете": {
 "a": "s n ʌ i tʲ i",
@@ -37583,9 +37360,7 @@
 "h": "6bc6d9b1270a",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "знамёна.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|знать": {
 "a": "z n aː t",
@@ -38573,9 +38348,7 @@
 "h": "205af38b37e3",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "— +ищешь",
-"v": "fixed"
+"v": "ok"
 },
 "tts|ищу": {
 "a": "i ʃ u",
@@ -38991,9 +38764,7 @@
 "h": "cfd1f2a0fd3f",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "ключ+и.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|книга": {
 "a": "k ɲ iː ɡ a",
@@ -39019,9 +38790,7 @@
 "h": "b86b97b2a91e",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "кн+иге.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|книги": {
 "a": "k n i ŋ ɡ i",
@@ -39060,9 +38829,7 @@
 "h": "b0af81ce103a",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "князь+я.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|когда": {
 "a": "k a ɡ d a",
@@ -39387,9 +39154,7 @@
 "h": "86dd1f0dcbbd",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "конч+ацца.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|кончаю": {
 "a": "k ʌ n tʃ ɑ u",
@@ -39493,9 +39258,7 @@
 "h": "20b128ebf965",
 "ok": true,
 "score": 0.5,
-"speaker": "baya",
-"text": "кор+ичневая.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|коричневое": {
 "a": "k ʌ rʲ i tʃʲ ʃ nʲ i v ʌ",
@@ -39521,9 +39284,7 @@
 "h": "8706c3a1eee6",
 "ok": true,
 "score": 0,
-"speaker": "kseniya",
-"text": "кор+ичневые",
-"v": "fixed"
+"v": "ok"
 },
 "tts|коричневый": {
 "a": "k ʌ rʲ i tʃʲ nʲ i v ʌ j",
@@ -39705,9 +39466,7 @@
 "h": "cb17c20fa1c7",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "к+ошка.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|кошки": {
 "a": "k o ʃ kʲ i",
@@ -39876,9 +39635,7 @@
 "h": "e7a78349f0f1",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "кр+изисы!",
-"v": "fixed"
+"v": "ok"
 },
 "tts|кровати": {
 "a": "k r ʌ v a tʲ i",
@@ -39943,9 +39700,7 @@
 "h": "2eb8212d2bbe",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "Крым.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|крыму": {
 "a": "k ɹ m uː",
@@ -39963,18 +39718,15 @@
 "tts|кто": {
 "a": "t u",
 "ad": 1,
-"av": false,
+"av": true,
 "b": "кто",
 "bd": 0,
 "bv": true,
-"c": "то",
-"cd": 1,
-"cv": false,
 "exp": "[kto]",
 "h": "8f8342f863b6",
-"ok": false,
-"score": 2,
-"v": "unfixed"
+"ok": true,
+"score": 1,
+"v": "ok"
 },
 "tts|куда": {
 "a": "k u d aː",
@@ -40221,9 +39973,7 @@
 "h": "3521b9e0fbec",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "леж+ит.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|лежите": {
 "a": "ɭʲ e ʒ y tʲ e",
@@ -40275,9 +40025,7 @@
 "h": "df45fd37562c",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "лек+арство!",
-"v": "fixed"
+"v": "ok"
 },
 "tts|лекции": {
 "a": "ɭʲ e k ts y",
@@ -40615,7 +40363,7 @@
 "h": "bef50f96fe98",
 "ok": false,
 "score": 2,
-"v": "unfixed"
+"v": "bad"
 },
 "tts|любим": {
 "a": "l uː d ʉ m",
@@ -40732,9 +40480,7 @@
 "h": "13c759a20abb",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "лёхкий!",
-"v": "fixed"
+"v": "ok"
 },
 "tts|лёд": {
 "a": "l ɔ t",
@@ -40786,9 +40532,7 @@
 "h": "72a867cf093d",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "магаз+ины!",
-"v": "fixed"
+"v": "ok"
 },
 "tts|магистратура": {
 "a": "m a ɡ i s t r a t uː r a",
@@ -41048,9 +40792,7 @@
 "h": "d3956b9cef0f",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "медв+едь!",
-"v": "fixed"
+"v": "ok"
 },
 "tts|медвежата": {
 "a": "m i d l i ʒ aː t a",
@@ -41076,9 +40818,7 @@
 "h": "196344f9329f",
 "ok": true,
 "score": 0.5,
-"speaker": "baya",
-"text": "медвеж+онок.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|медленно": {
 "a": "m i d l i n n aː",
@@ -41273,9 +41013,7 @@
 "h": "947f07e15380",
 "ok": true,
 "score": 0.5,
-"speaker": "baya",
-"text": "мл+адшая!",
-"v": "fixed"
+"v": "ok"
 },
 "tts|младшее": {
 "a": "m ɭ ɑ tʲ ʃ i",
@@ -41288,9 +41026,7 @@
 "h": "e7e2528f5f3a",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "мл+адшее!",
-"v": "fixed"
+"v": "ok"
 },
 "tts|младшие": {
 "a": "m l aː t i",
@@ -41303,9 +41039,7 @@
 "h": "771b09d20718",
 "ok": true,
 "score": 1,
-"speaker": "kseniya",
-"text": "мл+адшие",
-"v": "fixed"
+"v": "ok"
 },
 "tts|младший": {
 "a": "m l aː t ʃ i",
@@ -41799,9 +41533,7 @@
 "h": "f61c28c71ebd",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "— мужь+я",
-"v": "fixed"
+"v": "ok"
 },
 "tts|музее": {
 "a": "m u dʒ i j",
@@ -42061,9 +41793,7 @@
 "h": "63c84add2ca4",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "нал+ог.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|налоги": {
 "a": "n a q o ɡ i",
@@ -42297,9 +42027,7 @@
 "h": "d4b8d3b1cfcf",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "не.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|небеса": {
 "a": "n i b i s aː",
@@ -42351,9 +42079,7 @@
 "h": "7bf2101bb31a",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "нед+ели!",
-"v": "fixed"
+"v": "ok"
 },
 "tts|неделя": {
 "a": "ɲ i n t e l ʌ",
@@ -42496,9 +42222,7 @@
 "h": "cca3da84b80c",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "нельз+я.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|нет": {
 "a": "n t",
@@ -43083,9 +42807,7 @@
 "h": "e0bd95248fca",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "объявл+ение.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|объявления": {
 "a": "a b iː v l e ɲ",
@@ -43137,9 +42859,7 @@
 "h": "cbc296bb46a0",
 "ok": true,
 "score": 0,
-"speaker": "kseniya",
-"text": "+овощ",
-"v": "fixed"
+"v": "ok"
 },
 "tts|овощи": {
 "a": "o v ɐ ʃ i",
@@ -43152,9 +42872,7 @@
 "h": "df777d82dc4b",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "+овощи.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|огурец": {
 "a": "h ɑ ɡ u rʲ e s",
@@ -43245,9 +42963,7 @@
 "h": "008bfbb0969f",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "одев+ацца.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|одеваюсь": {
 "a": "ɐ dʒ ɨ v a ʃ",
@@ -43364,9 +43080,7 @@
 "h": "dfc6868cf113",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "он.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|она": {
 "a": "a n a m",
@@ -43691,9 +43405,7 @@
 "h": "578d2ee13ba1",
 "ok": true,
 "score": 0,
-"speaker": "kseniya",
-"text": "отв+ет",
-"v": "fixed"
+"v": "ok"
 },
 "tts|ответы": {
 "a": "a t v a t a",
@@ -43706,9 +43418,7 @@
 "h": "2b87baf7c975",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "отв+еты!",
-"v": "fixed"
+"v": "ok"
 },
 "tts|отвечаем": {
 "a": "h a t v i tʃ ɛ j m",
@@ -43825,9 +43535,7 @@
 "h": "35fdb97e1dce",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "— отдых+ает",
-"v": "fixed"
+"v": "ok"
 },
 "tts|отдыхаете": {
 "a": "ʌ d d[ ɯ x ɑ j e tʲ i",
@@ -43840,9 +43548,7 @@
 "h": "a81f4344e55e",
 "ok": true,
 "score": 0.5,
-"speaker": "baya",
-"text": "— отдых+аете",
-"v": "fixed"
+"v": "ok"
 },
 "tts|отдыхаешь": {
 "a": "ɑ d d[ ɯ x ɑ j ʃ",
@@ -43855,9 +43561,7 @@
 "h": "321c3f071fbb",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "— отдых+аешь",
-"v": "fixed"
+"v": "ok"
 },
 "tts|отдыхать": {
 "a": "a n d ɯ x a dʒ",
@@ -43886,9 +43590,7 @@
 "h": "bacc0a6a1375",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "— отдых+аю",
-"v": "fixed"
+"v": "ok"
 },
 "tts|отдыхают": {
 "a": "ɑ d d[ ɯ x a t[",
@@ -43901,9 +43603,7 @@
 "h": "28f83d667c38",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "— отдых+ают",
-"v": "fixed"
+"v": "ok"
 },
 "tts|отец": {
 "a": "a t e t",
@@ -44098,9 +43798,7 @@
 "h": "cfbdc4cc527c",
 "ok": true,
 "score": 0,
-"speaker": "kseniya",
-"text": "+офис",
-"v": "fixed"
+"v": "ok"
 },
 "tts|офисе": {
 "a": "u f i s ɨ",
@@ -44113,24 +43811,19 @@
 "h": "cfc1a574374a",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "+офисе.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|офисы": {
 "a": "o ʃ i s e",
 "ad": 1,
-"av": false,
+"av": true,
 "b": "офисы",
 "bd": 0,
 "bv": true,
-"c": "Ощися.",
-"cd": 1,
-"cv": true,
 "exp": "[ˈofʲɪsɨ]",
 "h": "654589de3794",
 "ok": true,
-"score": 2,
+"score": 1,
 "v": "ok"
 },
 "tts|очень": {
@@ -44209,9 +43902,7 @@
 "h": "76598c1cdec8",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "пальт+о.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|пальцы": {
 "a": "p ɑ l s i",
@@ -44406,9 +44097,7 @@
 "h": "b3766c001fb9",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "— певц+ы",
-"v": "fixed"
+"v": "ok"
 },
 "tts|первый": {
 "a": "b iː r v uɨ",
@@ -44421,9 +44110,7 @@
 "h": "149aae6f4009",
 "ok": true,
 "score": 0,
-"speaker": "kseniya",
-"text": "п+ервый",
-"v": "fixed"
+"v": "ok"
 },
 "tts|перо": {
 "a": "p i ɹ uː",
@@ -44436,9 +44123,7 @@
 "h": "0e71f21aa4c0",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "пер+о!",
-"v": "fixed"
+"v": "ok"
 },
 "tts|перья": {
 "a": "p i ɹ a",
@@ -44503,9 +44188,7 @@
 "h": "ce52263b202f",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "— пис+атели",
-"v": "fixed"
+"v": "ok"
 },
 "tts|писатель": {
 "a": "b i s aː t l",
@@ -44635,9 +44318,7 @@
 "h": "b935df344a91",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "п+ишешь.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|пишу": {
 "a": "b i ʃ uː",
@@ -44650,9 +44331,7 @@
 "h": "9e339fb4b414",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "— пиш+у",
-"v": "fixed"
+"v": "ok"
 },
 "tts|пишут": {
 "a": "p i ʃ u t[",
@@ -44665,9 +44344,7 @@
 "h": "c41084aced66",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "п+ишут.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|плакать": {
 "a": "p l a k ʌ tʲ",
@@ -44823,9 +44500,7 @@
 "h": "0b0fb000a866",
 "ok": true,
 "score": 0,
-"speaker": "kseniya",
-"text": "плащ",
-"v": "fixed"
+"v": "ok"
 },
 "tts|плащи": {
 "a": "p l a ʃ iː",
@@ -44864,9 +44539,7 @@
 "h": "469e424c2851",
 "ok": true,
 "score": 0,
-"speaker": "kseniya",
-"text": "пл+емя",
-"v": "fixed"
+"v": "ok"
 },
 "tts|плечи": {
 "a": "p l e tʃ ɨ",
@@ -44918,9 +44591,7 @@
 "h": "e862049eb794",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "плод+ы!",
-"v": "fixed"
+"v": "ok"
 },
 "tts|плохая": {
 "a": "b l a x aɪ j",
@@ -45050,9 +44721,7 @@
 "h": "8a0c1b23ff70",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "повар+а.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|повторяем": {
 "a": "b ɔ f t ʌ r j eː m",
@@ -45338,9 +45007,7 @@
 "h": "c7914e17212e",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "— покуп+ает",
-"v": "fixed"
+"v": "ok"
 },
 "tts|покупаете": {
 "a": "p o k u p a j i tʲ i",
@@ -45366,9 +45033,7 @@
 "h": "aff758029a7a",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "покуп+аешь!",
-"v": "fixed"
+"v": "ok"
 },
 "tts|покупать": {
 "a": "p o k u p a t ɨ",
@@ -45381,9 +45046,7 @@
 "h": "d5ac4dc79852",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "покуп+ать.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|покупаю": {
 "a": "f o k u p a ũ",
@@ -45643,9 +45306,7 @@
 "h": "4a5ee408cb30",
 "ok": true,
 "score": 0,
-"speaker": "kseniya",
-"text": "понед+ельник",
-"v": "fixed"
+"v": "ok"
 },
 "tts|понедельники": {
 "a": "p a ɲ i d e l n i k i",
@@ -45801,9 +45462,7 @@
 "h": "7c6f988447ed",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "порт+у!",
-"v": "fixed"
+"v": "ok"
 },
 "tts|портфеле": {
 "a": "p ʌ r t i l",
@@ -46063,9 +45722,7 @@
 "h": "835744428033",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "поёте.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|поёшь": {
 "a": "p a j o ʃ",
@@ -46208,9 +45865,7 @@
 "h": "065c01a6459d",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "предпри+ятие.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|предприятия": {
 "a": "p rʲ i t p rʲ i ʌ tʲ i",
@@ -46223,9 +45878,7 @@
 "h": "368d684af8b5",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "предпри+ятия.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|преподаватели": {
 "a": "p rʲ i p ʌ d ʌ v ɑ tʲ i ɭʲ i",
@@ -46511,7 +46164,7 @@
 "h": "c8062b096c04",
 "ok": false,
 "score": 3,
-"v": "unfixed"
+"v": "bad"
 },
 "tts|птицы": {
 "a": "i t s y",
@@ -46524,7 +46177,7 @@
 "h": "d8a5775a153b",
 "ok": false,
 "score": 3,
-"v": "unfixed"
+"v": "bad"
 },
 "tts|пусан": {
 "a": "p s a n",
@@ -46685,20 +46338,15 @@
 "tts|пьют": {
 "a": "ð j u d",
 "ad": 1,
-"av": false,
+"av": true,
 "b": "пьют",
 "bd": 0,
 "bv": true,
-"c": "Бьют!",
-"cd": 0,
-"cv": true,
 "exp": "[p⁽ʲ⁾jut]",
 "h": "e8b07a161d40",
 "ok": true,
 "score": 1,
-"speaker": "kseniya",
-"text": "пьют",
-"v": "fixed"
+"v": "ok"
 },
 "tts|пьём": {
 "a": "f iː m",
@@ -46711,9 +46359,7 @@
 "h": "c4af00f940b6",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "пьём.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|пьёт": {
 "a": "b i o d",
@@ -46729,9 +46375,7 @@
 "h": "baba7ab82952",
 "ok": true,
 "score": 1,
-"speaker": "kseniya",
-"text": "пьёт.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|пьёте": {
 "a": "p i5 j oː tɕ iɛ5",
@@ -46744,9 +46388,7 @@
 "h": "e2a52bb54467",
 "ok": true,
 "score": 0,
-"speaker": "kseniya",
-"text": "пьёте.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|пьёшь": {
 "a": "b i j u ʃ",
@@ -46759,9 +46401,7 @@
 "h": "53613ba8433d",
 "ok": true,
 "score": 0,
-"speaker": "kseniya",
-"text": "пьёшь",
-"v": "fixed"
+"v": "ok"
 },
 "tts|пятый": {
 "a": "f a t",
@@ -46800,9 +46440,7 @@
 "h": "1a443027f05f",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "раб+ота!",
-"v": "fixed"
+"v": "ok"
 },
 "tts|работаем": {
 "a": "r a b o t[ a m",
@@ -46815,9 +46453,7 @@
 "h": "d7614fab0619",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "раб+отаем.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|работает": {
 "a": "r ɑ b o t e d",
@@ -47015,9 +46651,7 @@
 "h": "847de78d357e",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "расск+азываешь.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|рассказывать": {
 "a": "r a s k a z y v ʌ tʲ",
@@ -47030,9 +46664,7 @@
 "h": "53c57622cd37",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "расск+азывать!",
-"v": "fixed"
+"v": "ok"
 },
 "tts|рассказываю": {
 "a": "r a s k a z i v u",
@@ -47071,9 +46703,7 @@
 "h": "166aaeb2331f",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "раст+ение!",
-"v": "fixed"
+"v": "ok"
 },
 "tts|растения": {
 "a": "r ʌ sʲ tʲ e nʲ i ʌ",
@@ -47086,9 +46716,7 @@
 "h": "1063b5930364",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "раст+ения!",
-"v": "fixed"
+"v": "ok"
 },
 "tts|ребёнке": {
 "a": "r i b o n k e",
@@ -47114,9 +46742,7 @@
 "h": "18d9b17d15df",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "ребёнок.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|редко": {
 "a": "ɾ e t k a",
@@ -47571,9 +47197,7 @@
 "h": "7b52c22738cd",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "рты!",
-"v": "fixed"
+"v": "ok"
 },
 "tts|рубашка": {
 "a": "r u b a ʃ k a",
@@ -48044,9 +47668,7 @@
 "h": "bc892f28b006",
 "ok": true,
 "score": 1,
-"speaker": "kseniya",
-"text": "семь",
-"v": "fixed"
+"v": "ok"
 },
 "tts|семье": {
 "a": "ʃ i n j a",
@@ -48075,9 +47697,7 @@
 "h": "6f91e30455e1",
 "ok": true,
 "score": 1,
-"speaker": "kseniya",
-"text": "с+емьи.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|семья": {
 "a": "ʃ i n j a",
@@ -48103,9 +47723,7 @@
 "h": "001fc1d45392",
 "ok": true,
 "score": 0,
-"speaker": "kseniya",
-"text": "с+емя",
-"v": "fixed"
+"v": "ok"
 },
 "tts|серая": {
 "a": "ɕ i r e",
@@ -48144,9 +47762,7 @@
 "h": "cb7fec09a684",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "с+ерце.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|серое": {
 "a": "ʃ i r e",
@@ -48227,7 +47843,7 @@
 "h": "8996061725c3",
 "ok": false,
 "score": 5.5,
-"v": "unfixed"
+"v": "bad"
 },
 "tts|сеуле": {
 "a": "s i l a",
@@ -48279,9 +47895,7 @@
 "h": "120e75d7ccb6",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "сигар+ета.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|сигареты": {
 "a": "ɕ i ɡ ɑ rʲ j o t[ ɯ",
@@ -48489,9 +48103,7 @@
 "h": "97a0e51d0963",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "слав+яне.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|славянин": {
 "a": "s l e v i n i n",
@@ -48621,9 +48233,7 @@
 "h": "67efabb5e8e7",
 "ok": true,
 "score": 0.5,
-"speaker": "kseniya",
-"text": "сл+ушает",
-"v": "fixed"
+"v": "ok"
 },
 "tts|слушаете": {
 "a": "s w u5 s. y5 tɕ iɛ5",
@@ -48636,9 +48246,7 @@
 "h": "8bb56fb6023a",
 "ok": true,
 "score": 1.5,
-"speaker": "kseniya",
-"text": "сл+ушаете",
-"v": "fixed"
+"v": "ok"
 },
 "tts|слушаешь": {
 "a": "s u ʃ e ʃ",
@@ -48680,9 +48288,7 @@
 "h": "28e3ed0f15cc",
 "ok": true,
 "score": 1.5,
-"speaker": "kseniya",
-"text": "сл+ушаю.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|слушают": {
 "a": "s l oː ʃ uː d",
@@ -48695,9 +48301,7 @@
 "h": "9e70bdd2afc1",
 "ok": true,
 "score": 0.5,
-"speaker": "kseniya",
-"text": "сл+ушают.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|слышат": {
 "a": "s l i ʃ e k",
@@ -48788,9 +48392,7 @@
 "h": "9f43368c55fe",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "сл+ышу.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|слёзы": {
 "a": "s l oː z ɪ",
@@ -49284,9 +48886,7 @@
 "h": "5fa8ba99569e",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "сп+ите.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|спишь": {
 "a": "s p i ʃ",
@@ -49715,9 +49315,7 @@
 "h": "e4f68b48da1b",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "— ст+ебель",
-"v": "fixed"
+"v": "ok"
 },
 "tts|стебли": {
 "a": "tʃ e b l e",
@@ -49743,9 +49341,7 @@
 "h": "24e71f58a523",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "— стен+а",
-"v": "fixed"
+"v": "ok"
 },
 "tts|стене": {
 "a": "s t i n e",
@@ -49771,9 +49367,7 @@
 "h": "5dcb62e63116",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "ст+ены.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|стих": {
 "a": "s t i x",
@@ -49786,9 +49380,7 @@
 "h": "16197b511f75",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "стих!",
-"v": "fixed"
+"v": "ok"
 },
 "tts|стихи": {
 "a": "s t i x iː",
@@ -49931,9 +49523,7 @@
 "h": "4d7874421509",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "стол+е.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|столица": {
 "a": "s t a ʎ i s e",
@@ -50115,9 +49705,7 @@
 "h": "b8ef97756b93",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "— стр+ою",
-"v": "fixed"
+"v": "ok"
 },
 "tts|строят": {
 "a": "s t r o e t",
@@ -50182,9 +49770,7 @@
 "h": "2220b9d4d75a",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "студ+енте.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|студентка": {
 "a": "s t u ɟ e n t k a",
@@ -50522,9 +50108,7 @@
 "h": "5c887c105792",
 "ok": true,
 "score": 0,
-"speaker": "kseniya",
-"text": "танц+уете.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|танцуешь": {
 "a": "t a n s uː ʃ",
@@ -50563,9 +50147,7 @@
 "h": "ac86f07ba6cc",
 "ok": true,
 "score": 0.5,
-"speaker": "baya",
-"text": "танц+уют!",
-"v": "fixed"
+"v": "ok"
 },
 "tts|тарелка": {
 "a": "t ʌ rʲ e l k ʌ",
@@ -50578,9 +50160,7 @@
 "h": "3b5755e6ce76",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "тар+елка.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|тарелки": {
 "a": "t a ɹ i a l k i",
@@ -50645,9 +50225,7 @@
 "h": "24ad4679bee0",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "— те+атры",
-"v": "fixed"
+"v": "ok"
 },
 "tts|тебе": {
 "a": "tʃ i b a",
@@ -50725,9 +50303,7 @@
 "h": "b8220c0f46a1",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "— телёнок",
-"v": "fixed"
+"v": "ok"
 },
 "tts|теории": {
 "a": "t ʉ w ɹ i",
@@ -50766,9 +50342,7 @@
 "h": "787228842a0a",
 "ok": true,
 "score": 0.5,
-"speaker": "baya",
-"text": "— тепл+ица",
-"v": "fixed"
+"v": "ok"
 },
 "tts|теплице": {
 "a": "tʃ ɪ p ɭʲ i t s y",
@@ -50812,15 +50386,18 @@
 "tts|ткани": {
 "a": "k a ɲ i",
 "ad": 1,
-"av": false,
+"av": true,
 "b": "ткони",
 "bd": 0,
 "bv": false,
+"c": "Скани!",
+"cd": 1,
+"cv": false,
 "exp": "[ˈtkanʲɪ]",
 "h": "576e72f40fcd",
 "ok": false,
-"score": 1,
-"v": "unfixed"
+"score": 2,
+"v": "bad"
 },
 "tts|ткань": {
 "a": "k a",
@@ -50833,7 +50410,7 @@
 "h": "b87204991ecb",
 "ok": false,
 "score": 3.5,
-"v": "unfixed"
+"v": "bad"
 },
 "tts|товар": {
 "a": "t a v a r",
@@ -50976,9 +50553,7 @@
 "h": "11d779fc678a",
 "ok": true,
 "score": 0,
-"speaker": "kseniya",
-"text": "тр+етий",
-"v": "fixed"
+"v": "ok"
 },
 "tts|три": {
 "a": "t ɹ i",
@@ -51004,9 +50579,7 @@
 "h": "aa34e7aaebf9",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "тр+удный.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|турист": {
 "a": "t u r i s t",
@@ -51097,9 +50670,7 @@
 "h": "107065439675",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "угл+у.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|углы": {
 "a": "u ɡ l e",
@@ -51112,9 +50683,7 @@
 "h": "7f25dae66071",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "угл+ы!",
-"v": "fixed"
+"v": "ok"
 },
 "tts|угол": {
 "a": "ɡ ʌ l",
@@ -51296,9 +50865,7 @@
 "h": "addaeaeb95a0",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "узна+ют.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|узнаём": {
 "a": "u z n a j u m",
@@ -51714,9 +51281,7 @@
 "h": "e9b7567faa86",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "+ухо.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|учат": {
 "a": "uː tʃ i t",
@@ -51924,9 +51489,7 @@
 "h": "a19e3dd293fe",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "уч+ицца.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|учишь": {
 "a": "u tʃ i ʃ",
@@ -52095,9 +51658,7 @@
 "h": "7af527d5d3a4",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "ф+ерма!",
-"v": "fixed"
+"v": "ok"
 },
 "tts|ферме": {
 "a": "θ iː r m ɨ",
@@ -52110,9 +51671,7 @@
 "h": "21220802103f",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "ф+ерме.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|фермент": {
 "a": "f i r m j a n t",
@@ -52151,9 +51710,7 @@
 "h": "57b4f2ba29ce",
 "ok": true,
 "score": 0,
-"speaker": "kseniya",
-"text": "фильм.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|фильме": {
 "a": "f i ɹ m i",
@@ -52205,9 +51762,7 @@
 "h": "a9d62f2e2dd2",
 "ok": true,
 "score": 0.5,
-"speaker": "baya",
-"text": "фиол+етовое.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|фиолетовые": {
 "a": "f e l i t ʌ v u",
@@ -52441,9 +51996,7 @@
 "h": "bedceae4d30e",
 "ok": true,
 "score": 0,
-"speaker": "kseniya",
-"text": "хлеб",
-"v": "fixed"
+"v": "ok"
 },
 "tts|ходим": {
 "a": "x o dʒ i m",
@@ -52456,9 +52009,7 @@
 "h": "a092d2009dc4",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "х+одим.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|ходит": {
 "a": "h o dʒ i t",
@@ -52497,9 +52048,7 @@
 "h": "9468836a3c13",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "— ход+ить",
-"v": "fixed"
+"v": "ok"
 },
 "tts|ходишь": {
 "a": "x o d i ʃ",
@@ -52577,9 +52126,7 @@
 "h": "6b3a72fbb0e1",
 "ok": true,
 "score": 1,
-"speaker": "baya",
-"text": "холод+ильник!",
-"v": "fixed"
+"v": "ok"
 },
 "tts|холодильнике": {
 "a": "x ɑ l ɑ d i r n i k e",
@@ -52868,7 +52415,7 @@
 "h": "28db0d310a31",
 "ok": false,
 "score": 3,
-"v": "unfixed"
+"v": "bad"
 },
 "tts|цветок": {
 "a": "s vʲ i t o k",
@@ -52884,9 +52431,7 @@
 "h": "038aae33a512",
 "ok": true,
 "score": 1,
-"speaker": "baya",
-"text": "цвет+ок!",
-"v": "fixed"
+"v": "ok"
 },
 "tts|цветы": {
 "a": "s t iː",
@@ -52902,7 +52447,7 @@
 "h": "8cc283f95f9d",
 "ok": false,
 "score": 3,
-"v": "unfixed"
+"v": "bad"
 },
 "tts|ценности": {
 "a": "s e n ʌ s tʲ i",
@@ -52928,9 +52473,7 @@
 "h": "e98ea335253a",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "ц+енность!",
-"v": "fixed"
+"v": "ok"
 },
 "tts|центр": {
 "a": "s ɛ n t ɹ ə",
@@ -52956,9 +52499,7 @@
 "h": "28911efe9721",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "ц+ентре.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|цыплята": {
 "a": "s e p l aː t a",
@@ -52971,9 +52512,7 @@
 "h": "9633460cd6bd",
 "ok": true,
 "score": 0,
-"speaker": "kseniya",
-"text": "цыпл+ята",
-"v": "fixed"
+"v": "ok"
 },
 "tts|цыплёнок": {
 "a": "s e p l o n a k",
@@ -52986,9 +52525,7 @@
 "h": "d88e8f50d241",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "цыплёнок!",
-"v": "fixed"
+"v": "ok"
 },
 "tts|чай": {
 "a": "ʃ ei5",
@@ -53014,9 +52551,7 @@
 "h": "1482c6137a37",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "час.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|часто": {
 "a": "tʃ a s t a",
@@ -53094,9 +52629,7 @@
 "h": "bcf19f1a4ed1",
 "ok": true,
 "score": 0,
-"speaker": "kseniya",
-"text": "челов+ек",
-"v": "fixed"
+"v": "ok"
 },
 "tts|человеке": {
 "a": "tʃʲ i v ʌ vʲ e k i",
@@ -53148,9 +52681,7 @@
 "h": "bd43ce0eeb21",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "чит+аем!",
-"v": "fixed"
+"v": "ok"
 },
 "tts|читает": {
 "a": "tʃ i t aɪ d",
@@ -53189,9 +52720,7 @@
 "h": "9a0ceddccec6",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "чит+аешь.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|читать": {
 "a": "tʃ i t a t",
@@ -53217,9 +52746,7 @@
 "h": "520746d8635d",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "чит+аю.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|читают": {
 "a": "tʃ i t aɪ d",
@@ -53297,9 +52824,7 @@
 "h": "bd47d2772e8c",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "ч+удо.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|чужая": {
 "a": "tɕh i.5 s. ai5 j",
@@ -53338,9 +52863,7 @@
 "h": "057e600430b0",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "чуж+ое.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|чужой": {
 "a": "tʃ u ʒ oɪ",
@@ -53353,9 +52876,7 @@
 "h": "8832a495fd34",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "чуж+ой.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|чьи": {
 "a": "ʃ i",
@@ -53368,9 +52889,7 @@
 "h": "d13d1ad43c6e",
 "ok": true,
 "score": 0,
-"speaker": "kseniya",
-"text": "чьи",
-"v": "fixed"
+"v": "ok"
 },
 "tts|чья": {
 "a": "ts.h a",
@@ -53383,9 +52902,7 @@
 "h": "6b80380db768",
 "ok": true,
 "score": 1.5,
-"speaker": "baya",
-"text": "чья!",
-"v": "fixed"
+"v": "ok"
 },
 "tts|чьё": {
 "a": "tɕh u",
@@ -53401,9 +52918,7 @@
 "h": "b53900c4b6c8",
 "ok": true,
 "score": 1.5,
-"speaker": "kseniya",
-"text": "чьё",
-"v": "fixed"
+"v": "ok"
 },
 "tts|чёрная": {
 "a": "tʃʲ o r n ɑ",
@@ -53416,9 +52931,7 @@
 "h": "93b96ae959af",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "чёрная.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|чёрное": {
 "a": "tʃ o r n ɑ",
@@ -53431,9 +52944,7 @@
 "h": "cc47075c332d",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "чёрное.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|чёрные": {
 "a": "ʃ o r n e",
@@ -53693,9 +53204,7 @@
 "h": "cdbce91347c6",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "эт+аж.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|этажи": {
 "a": "h t a ʒ",
