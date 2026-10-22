@@ -85,10 +85,17 @@ open(R + 'russian-quiz.html', 'w', encoding='utf-8').write(html)
 print('built', VER, round(len(html.encode()) / 1e6, 2), 'MB', {k: v['mb'] for k, v in packs.items()})
 
 if '--artifact' in sys.argv:
+    # 아티팩트 페이지는 16MB까지라 소리 팩은 따로 올리는 파일(pack-이름.js)로 내보내요: 페이지 옆 같은 폴더에 생겨요.
     out = sys.argv[sys.argv.index('--artifact') + 1]
+    od = os.path.dirname(os.path.abspath(out))
+    pack_js = []
+    for name, p in packs.items():
+        data = open(R + p['file'], encoding='utf-8').read()
+        open(f'{od}/pack-{name}.js', 'w', encoding='utf-8').write(f'(window.RQ_PACKS = window.RQ_PACKS || {{}}).{name} = {data};\n')
+        pack_js.append(f'<script src="pack-{name}.js"></script>')
     art = ('<title>러시아어 문법 퀴즈</title>\n<meta name="claude:viewport-fit-sides" content="cover">\n'
            '<link rel="preconnect" href="https://fonts.googleapis.com">\n<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n'
            '<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=PT+Sans:wght@400;700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">\n'
-           '<style>' + css + '</style>\n<div id="app"></div>\n' + packs_html + '\n<script>' + js + '</script>\n')
+           '<style>' + css + '</style>\n<div id="app"></div>\n' + '\n'.join(pack_js) + '\n<script>' + js + '</script>\n')
     open(out, 'w', encoding='utf-8').write(art)
-    print('artifact page', out, round(len(art.encode()) / 1e6, 2), 'MB')
+    print('artifact page', out, round(len(art.encode()) / 1e6, 2), 'MB · 따로 올릴 파일', ' '.join(f'pack-{n}.js' for n in packs))

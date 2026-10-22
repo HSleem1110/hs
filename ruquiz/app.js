@@ -2488,6 +2488,8 @@ async function loadPacks(){
     let rec = null;
     if(window.RQ){ try{ rec = await idbGet("pack:" + name); }catch(e){} }
     const useRec = rec && (!el || verCmp(rec.ver, el.dataset.ver || "0") >= 0);
+    const ext = !useRec && !el && window.RQ_PACKS ? RQ_PACKS[name] : null;   /* 아티팩트: 팩을 따로 올린 파일(pack-*.js)에서 */
+    if(ext){ Object.assign(PACKS[name], ext); PACK_INFO[name] = { hash:"ext" }; continue; }
     const txt = useRec ? rec.data : el ? el.textContent : null;
     if(!txt) continue;
     try{ Object.assign(PACKS[name], JSON.parse(txt)); PACK_INFO[name] = { hash: useRec ? rec.hash : el.dataset.hash }; }catch(e){}
