@@ -1,9 +1,9 @@
 {
 "анне": {
 "base": "+Анне",
-"from": "ttsm",
-"mode": "swap",
-"model": "v5_6_ru"
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "— +Анне"
 },
 "апельсин": {
 "base": "апельс+ин",
@@ -1341,9 +1341,9 @@
 },
 "трамваи": {
 "base": "трамв+аи",
-"from": "ttsm",
-"mode": "swap",
-"model": "v5_6_ru"
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "трамв+аи"
 },
 "третий": {
 "base": "тр+етий",
