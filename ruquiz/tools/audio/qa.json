@@ -1,4 +1,11 @@
 {
+"native|а": {
+"d": 0,
+"exp": "ˈɑ",
+"h": "4f7697893479",
+"heard": "ɑ",
+"v": "ok"
+},
 "native|автобус": {
 "d": 0,
 "exp": "aftˈobus",
@@ -12,6 +19,13 @@
 "h": "32600789f613",
 "heard": "a n d r i s",
 "v": "bad"
+},
+"native|америка": {
+"d": 0,
+"exp": "amʲˈerʲika",
+"h": "35afb5d4e69d",
+"heard": "ɐ m i ɹ i k ʌ",
+"v": "ok"
 },
 "native|английский язык": {
 "d": 2,
@@ -132,6 +146,13 @@
 "heard": "b e l o",
 "v": "ok"
 },
+"native|белый": {
+"d": 1,
+"exp": "bʲˈeɭyj",
+"h": "182d166a87ed",
+"heard": "b i ʌ l",
+"v": "ok"
+},
 "native|берег": {
 "d": 1,
 "exp": "bʲirʲˈek",
@@ -167,6 +188,13 @@
 "heard": "b e l i s k iː",
 "v": "bad"
 },
+"native|блузка": {
+"d": 0,
+"exp": "bɭˈuska",
+"h": "a389926eb1a2",
+"heard": "b ɭ u s k ʌ",
+"v": "ok"
+},
 "native|блюда": {
 "d": 1,
 "exp": "bɭʲˈu\"da",
@@ -188,6 +216,13 @@
 "heard": "b ɐ l e z",
 "v": "bad"
 },
+"native|болеть": {
+"d": 2,
+"exp": "bʌɭʲˈetʲ",
+"h": "9e96f29abcf7",
+"heard": "m ʌ l eː d",
+"v": "bad"
+},
 "native|больница": {
 "d": 0,
 "exp": "bʌɭnʲˈitsa",
@@ -200,6 +235,13 @@
 "exp": "bʌɭʃˈoj",
 "h": "f50c03866620",
 "heard": "m e l ʃ ɑ",
+"v": "bad"
+},
+"native|бояться": {
+"d": 4,
+"exp": "bʌˈjatstsa",
+"h": "75f1911c71f1",
+"heard": "m aɪ j a t",
 "v": "bad"
 },
 "native|брат": {
@@ -244,11 +286,25 @@
 "heard": "v e s t rʲ i",
 "v": "bad"
 },
+"native|в": {
+"d": 0,
+"exp": "vˈɛ",
+"h": "3c19ef54f072",
+"heard": "v ə",
+"v": "ok"
+},
 "native|важный": {
 "d": 1,
 "exp": "vˈɑʒnyj",
 "h": "836a2f415d0d",
 "heard": "v a ʒ n i",
+"v": "ok"
+},
+"native|ваш": {
+"d": 0,
+"exp": "vˈɑʃ",
+"h": "cda1be235945",
+"heard": "v a ʃ",
 "v": "ok"
 },
 "native|век": {
@@ -342,6 +398,20 @@
 "heard": "v o d ɯ",
 "v": "ok"
 },
+"native|вокзал": {
+"d": 1,
+"exp": "vʌɡzˈɑɭ",
+"h": "492632abe680",
+"heard": "v a ɡ z a l",
+"v": "ok"
+},
+"native|волга": {
+"d": 1,
+"exp": "vˈoɭɡa",
+"h": "dafd247e1cb3",
+"heard": "v ʌ l ɡ ɐ",
+"v": "ok"
+},
 "native|волк": {
 "d": 1,
 "exp": "vˈoɭk",
@@ -363,11 +433,53 @@
 "heard": "v o ɕ i",
 "v": "ok"
 },
+"native|восток": {
+"d": 0,
+"exp": "vʌstˈok",
+"h": "038f3f792d32",
+"heard": "v ʌ s t u k",
+"v": "ok"
+},
 "native|врач": {
 "d": 0,
 "exp": "vrˈɑtʃʲ",
 "h": "bc5308925405",
 "heard": "v r aː dʒ",
+"v": "ok"
+},
+"native|время": {
+"d": 0,
+"exp": "vrʲˈemʲʌ",
+"h": "4f5efc9c0bcb",
+"heard": "v r eː m a",
+"v": "ok"
+},
+"native|всегда": {
+"d": 0,
+"exp": "fsʲiɡdˈɑ",
+"h": "3b786ab0de67",
+"heard": "f s i ɡ d a",
+"v": "ok"
+},
+"native|второй": {
+"d": 2,
+"exp": "ftʌrˈoj",
+"h": "73ba68a0c9c8",
+"heard": "s t a r oɪ",
+"v": "bad"
+},
+"native|вы": {
+"d": 0,
+"exp": "vˈy",
+"h": "72004e07e688",
+"heard": "v i",
+"v": "ok"
+},
+"native|газета": {
+"d": 0,
+"exp": "ɡaʑˈeta",
+"h": "adf742fcff4f",
+"heard": "ɡ ʌ ʑ i e t a",
 "v": "ok"
 },
 "native|где": {
@@ -382,6 +494,13 @@
 "exp": "ɡʲirmˈɑnʲija",
 "h": "334030acc26a",
 "heard": "ɟ e r m a nʲ i",
+"v": "bad"
+},
+"native|герой": {
+"d": 2,
+"exp": "ɡʲirˈoj",
+"h": "cdfebe4dbf1f",
+"heard": "j i r uː",
 "v": "bad"
 },
 "native|глаз": {
@@ -412,12 +531,26 @@
 "heard": "ɡ oː t",
 "v": "ok"
 },
+"native|голова": {
+"d": 1,
+"exp": "ɡʌɭʌvˈɑ",
+"h": "ebb85904f535",
+"heard": "ɡ a l a v a",
+"v": "ok"
+},
 "native|голос": {
 "d": 1,
 "exp": "ɡˈoɭʌs",
 "h": "1eda3b125953",
 "heard": "ɡ o l ɯ s",
 "v": "ok"
+},
+"native|голубой": {
+"d": 2,
+"exp": "ɡʌɭubˈoj",
+"h": "34dd7f3165f4",
+"heard": "d[ ɯ l b o j",
+"v": "bad"
 },
 "native|гора": {
 "d": 0,
@@ -431,6 +564,20 @@
 "exp": "ɡˈorʌt",
 "h": "d4061a4dc0d3",
 "heard": "ɡ uː r a d",
+"v": "ok"
+},
+"native|господин": {
+"d": 0,
+"exp": "ɡʌspʌdʲˈin",
+"h": "779ee506287f",
+"heard": "ɡ ʌ s p a dʲ i n",
+"v": "ok"
+},
+"native|гость": {
+"d": 0,
+"exp": "ɡˈostʲ",
+"h": "3285a0352af4",
+"heard": "ɡ u s tʲ",
 "v": "ok"
 },
 "native|государства": {
@@ -475,6 +622,27 @@
 "heard": "ɡ ʌ rʲ i b u",
 "v": "ok"
 },
+"native|да": {
+"d": 0,
+"exp": "dˈɑ",
+"h": "63c328667175",
+"heard": "d a",
+"v": "ok"
+},
+"native|давать": {
+"d": 0,
+"exp": "davˈɑtʲ",
+"h": "2af63ba1b450",
+"heard": "d a v a t",
+"v": "ok"
+},
+"native|далёкий": {
+"d": 2,
+"exp": "daɭʲˈɵkʲij",
+"h": "93a708627ee8",
+"heard": "d a l uː k i ç",
+"v": "bad"
+},
 "native|два": {
 "d": 0,
 "exp": "dvˈɑ",
@@ -489,12 +657,26 @@
 "heard": "d v iː r",
 "v": "ok"
 },
+"native|девочка": {
+"d": 0,
+"exp": "dʲˈevʌtʃʲka",
+"h": "c81c9b3f410a",
+"heard": "dʲ i v ʌ tʃ k ʌ",
+"v": "ok"
+},
 "native|девять": {
 "d": 0,
 "exp": "dʲˈevʲʌtʲ",
 "h": "5ae6da04b793",
 "heard": "d e v ɪ t",
 "v": "ok"
+},
+"native|делать": {
+"d": 2,
+"exp": "dʲˈeɭʌtʲ",
+"h": "1c811d12b33c",
+"heard": "ɡ e l ʌ t",
+"v": "bad"
 },
 "native|день": {
 "d": 1,
@@ -510,12 +692,33 @@
 "heard": "dʲ e nʲ i r ʌ ʒ dʲ e nʲ i j ja",
 "v": "ok"
 },
+"native|дерево": {
+"d": 0,
+"exp": "dʲˈerʲivʌ",
+"h": "a63785e932ac",
+"heard": "dʲ i rʲ i v a",
+"v": "ok"
+},
 "native|десять": {
 "d": 1,
 "exp": "dʲˈesʲʌtʲ",
 "h": "281b33fc9197",
 "heard": "e s ɪ t",
 "v": "bad"
+},
+"native|дети": {
+"d": 1,
+"exp": "dʲˈetʲɪ",
+"h": "eda4ce3c1dc1",
+"heard": "ɟ e tʲ i",
+"v": "ok"
+},
+"native|дешёвый": {
+"d": 1,
+"exp": "dʲiʃˈovyj",
+"h": "5981da6aa817",
+"heard": "d i ʃ o v ɪ ç",
+"v": "ok"
 },
 "native|дом": {
 "d": 0,
@@ -531,6 +734,13 @@
 "heard": "d o m i",
 "v": "ok"
 },
+"native|дорога": {
+"d": 0,
+"exp": "dʌrˈoɡa",
+"h": "4c73f4c9e9b8",
+"heard": "d a r oː ɡ a",
+"v": "ok"
+},
 "native|дочь": {
 "d": 0,
 "exp": "dˈotʃʲ",
@@ -543,6 +753,27 @@
 "exp": "drˈuk",
 "h": "ddd7a5ec6abe",
 "heard": "d[ ɹ uː k",
+"v": "ok"
+},
+"native|другой": {
+"d": 1,
+"exp": "druɡˈoj",
+"h": "4a2952af94f6",
+"heard": "d ɹ uː ɡ uː ç",
+"v": "ok"
+},
+"native|друзья": {
+"d": 2,
+"exp": "druʑjˈja",
+"h": "e6b7df46f674",
+"heard": "d r u z i a",
+"v": "bad"
+},
+"native|душа": {
+"d": 0,
+"exp": "dˈuʃa",
+"h": "c5e735024a36",
+"heard": "d uː ʃ a",
 "v": "ok"
 },
 "native|дядя": {
@@ -565,6 +796,20 @@
 "h": "72354374ad0a",
 "heard": "j e v oː",
 "v": "ok"
+},
+"native|есть": {
+"d": 0,
+"exp": "jˈestʲ",
+"h": "ea323e14dbf6",
+"heard": "j e s t",
+"v": "ok"
+},
+"native|ещё": {
+"d": 1,
+"exp": "jɪɕˈɵ",
+"h": "da24eb618ead",
+"heard": "v i ʃ o",
+"v": "bad"
 },
 "native|её": {
 "d": 1,
@@ -601,11 +846,46 @@
 "heard": "ʒ y tʲ",
 "v": "ok"
 },
+"native|журнал": {
+"d": 2,
+"exp": "ʒurnˈɑɭ",
+"h": "d55d6b8a6f23",
+"heard": "ʒ uː n ɑ l",
+"v": "bad"
+},
+"native|жёлтый": {
+"d": 1,
+"exp": "ʒˈoɭtyj",
+"h": "8a9ae300dc3b",
+"heard": "ʒ o t i",
+"v": "ok"
+},
+"native|завод": {
+"d": 1,
+"exp": "zavˈot",
+"h": "5518911e84ed",
+"heard": "z a b uː t",
+"v": "ok"
+},
 "native|задание": {
 "d": 1,
 "exp": "zadˈɑnʲijɪ",
 "h": "26d58b43c0dc",
 "heard": "z a d a nʲ ɪ",
+"v": "ok"
+},
+"native|запад": {
+"d": 0,
+"exp": "zˈɑpʌt",
+"h": "4c86932d17bf",
+"heard": "z a p a t",
+"v": "ok"
+},
+"native|здесь": {
+"d": 0,
+"exp": "ʑdʲˈesʲ",
+"h": "0cf7aafc2a86",
+"heard": "z d i ʃ",
 "v": "ok"
 },
 "native|здравствуйте": {
@@ -615,11 +895,74 @@
 "heard": "ʌ z b r ɑ s t v y tʲ i",
 "v": "ok"
 },
+"native|зелёный": {
+"d": 2,
+"exp": "ʑiɭʲˈɵnyj",
+"h": "36ff0e600d6f",
+"heard": "z i l u n i",
+"v": "bad"
+},
 "native|зима": {
 "d": 0,
 "exp": "ʑimˈɑ",
 "h": "d5783cf63c17",
 "heard": "z i m a",
+"v": "ok"
+},
+"native|знать": {
+"d": 0,
+"exp": "znˈɑtʲ",
+"h": "926f106133b0",
+"heard": "z n a tʲ",
+"v": "ok"
+},
+"native|зонт": {
+"d": 0,
+"exp": "zˈont",
+"h": "d5feece3841d",
+"heard": "z o n t",
+"v": "ok"
+},
+"native|зуб": {
+"d": 0,
+"exp": "zˈup",
+"h": "d44698b8a150",
+"heard": "z uː p",
+"v": "ok"
+},
+"native|и": {
+"d": 0,
+"exp": "ˈi",
+"h": "c0ce4bde4bed",
+"heard": "iː",
+"v": "ok"
+},
+"native|иван": {
+"d": 0,
+"exp": "ɪvˈɑn",
+"h": "b9f06333bc12",
+"heard": "i v a n",
+"v": "ok"
+},
+"native|игра": {
+"d": 0,
+"exp": "ɪɡrˈɑ",
+"h": "f77b1bbe72f9",
+"heard": "i ɡ ɹ aː",
+"v": "ok"
+},
+"native|играть": {
+"d": 1,
+"exp": "ɪɡrˈɑtʲ",
+"h": "ea7a1722ea1e",
+"heard": "i ɡ r ɑ sʲ",
+"v": "ok"
+},
+"native|идти": {
+"d": 1,
+"exp": "ɪtʲtʲˈɪ",
+"h": "162ac74547d1",
+"heard": "i t i",
 "v": "ok"
 },
 "native|извините": {
@@ -643,6 +986,27 @@
 "heard": "i m i n aː",
 "v": "ok"
 },
+"native|имя": {
+"d": 0,
+"exp": "ˈɪmʲʌ",
+"h": "4dec5f4fb7f6",
+"heard": "ʔ i m a",
+"v": "ok"
+},
+"native|иногда": {
+"d": 0,
+"exp": "ɪnʌɡdˈɑ",
+"h": "9b185249a78f",
+"heard": "i n a ɡ d a",
+"v": "ok"
+},
+"native|история": {
+"d": 1,
+"exp": "ɪstˈorʲija",
+"h": "2b2fa1c5eab6",
+"heard": "i s t u ɾ i ɐ",
+"v": "ok"
+},
 "native|италия": {
 "d": 1,
 "exp": "ɪtˈɑɭʲija",
@@ -664,6 +1028,20 @@
 "heard": "ɑ k",
 "v": "ok"
 },
+"native|какой": {
+"d": 1,
+"exp": "kakˈoj",
+"h": "b987591ce024",
+"heard": "k a k u",
+"v": "ok"
+},
+"native|карандаш": {
+"d": 0,
+"exp": "kʌrandˈɑʃ",
+"h": "03c2c799f41b",
+"heard": "k ɑ r a n d[ a ʃ",
+"v": "ok"
+},
 "native|картофель": {
 "d": 2,
 "exp": "kartˈofʲiɭ",
@@ -678,12 +1056,33 @@
 "heard": "k i b o r",
 "v": "ok"
 },
+"native|книга": {
+"d": 0,
+"exp": "knʲˈiɡa",
+"h": "2a03215c0846",
+"heard": "k ʌ n iː ɡ ʌ",
+"v": "ok"
+},
 "native|князь": {
 "d": 1,
 "exp": "knʲˈɑʑ",
 "h": "e8a7744256c3",
 "heard": "nʲ ɑ s",
 "v": "bad"
+},
+"native|когда": {
+"d": 0,
+"exp": "kʌɡdˈɑ",
+"h": "e925a90cfb7e",
+"heard": "k a ɡ d a",
+"v": "ok"
+},
+"native|комната": {
+"d": 0,
+"exp": "kˈomnʌta",
+"h": "7ce78d545c40",
+"heard": "k o m n a t[ ɛ",
+"v": "ok"
 },
 "native|компьютер": {
 "d": 2,
@@ -699,12 +1098,26 @@
 "heard": "a m f i r i ɛ n ts ʉ j a m",
 "v": "bad"
 },
+"native|коричневый": {
+"d": 3,
+"exp": "kʌrʲˈitʃʲnʲivyj",
+"h": "59de961faf4f",
+"heard": "a r i ʃ n i v oɪ",
+"v": "bad"
+},
 "native|кот": {
 "d": 1,
 "exp": "kˈot",
 "h": "069daf91e078",
 "heard": "u d",
 "v": "bad"
+},
+"native|который": {
+"d": 1,
+"exp": "kʌtˈoryj",
+"h": "61be20ccdc22",
+"heard": "ɡ a t uː r ɨ ç",
+"v": "ok"
 },
 "native|коты": {
 "d": 1,
@@ -727,11 +1140,39 @@
 "heard": "o tʃ k e̞",
 "v": "bad"
 },
+"native|красивый": {
+"d": 1,
+"exp": "krasʲˈivyj",
+"h": "1af19b0d6084",
+"heard": "k ɹ a s iː v i ç",
+"v": "ok"
+},
+"native|красный": {
+"d": 2,
+"exp": "krˈɑsnyj",
+"h": "6fdaf8dfca75",
+"heard": "r aː s n i",
+"v": "bad"
+},
 "native|крестьянин": {
 "d": 3,
 "exp": "krʲistʲjˈjanʲin",
 "h": "393b584708cc",
 "heard": "k rʲ i s t i aː nʲ u",
+"v": "ok"
+},
+"native|кровать": {
+"d": 0,
+"exp": "krʌvˈɑtʲ",
+"h": "3fff09f95781",
+"heard": "k r ɑ v ɑ tʲ",
+"v": "ok"
+},
+"native|крыло": {
+"d": 0,
+"exp": "krˈyɭʌ",
+"h": "3882235f8e45",
+"heard": "k r i ɭ o",
 "v": "ok"
 },
 "native|крым": {
@@ -741,12 +1182,33 @@
 "heard": "r iː n",
 "v": "bad"
 },
+"native|кто": {
+"d": 1,
+"exp": "ktˈo",
+"h": "3116388b9687",
+"heard": "t uː",
+"v": "bad"
+},
+"native|куда": {
+"d": 0,
+"exp": "kudˈɑ",
+"h": "11481684e3b6",
+"heard": "k u d a",
+"v": "ok"
+},
 "native|куртка": {
 "d": 1,
 "exp": "kˈurtka",
 "h": "c08b8c609325",
 "heard": "o r t[ k ɑ",
 "v": "bad"
+},
+"native|кухня": {
+"d": 0,
+"exp": "kˈuxnʲʌ",
+"h": "e27ab4577610",
+"heard": "k u x ɲ e",
+"v": "ok"
 },
 "native|лес": {
 "d": 1,
@@ -776,6 +1238,27 @@
 "heard": "l i m u n",
 "v": "bad"
 },
+"native|лист": {
+"d": 1,
+"exp": "ɭʲˈist",
+"h": "0bdd04239c56",
+"heard": "l iː s t",
+"v": "bad"
+},
+"native|лошадь": {
+"d": 2,
+"exp": "ɭˈoʃʌtʲ",
+"h": "1137bf1f39b9",
+"heard": "l uː r ʃ ɛ tʲ",
+"v": "bad"
+},
+"native|любить": {
+"d": 1,
+"exp": "ɭʲu\"bʲˈitʲ",
+"h": "3ce4da2945e6",
+"heard": "l y b i t",
+"v": "bad"
+},
 "native|люди": {
 "d": 2,
 "exp": "ɭʲˈu\"dʲɪ",
@@ -790,6 +1273,20 @@
 "heard": "l o d",
 "v": "bad"
 },
+"native|маленький": {
+"d": 2,
+"exp": "mˈɑɭʲinkʲij",
+"h": "f80ee89dfb85",
+"heard": "m aː l i ŋ k i",
+"v": "bad"
+},
+"native|мальчик": {
+"d": 0,
+"exp": "mˈɑɭtʃʲik",
+"h": "2208ff16ada6",
+"heard": "m aː i tʃ i k",
+"v": "ok"
+},
 "native|мама": {
 "d": 0,
 "exp": "mˈɑma",
@@ -797,11 +1294,25 @@
 "heard": "m aː m a",
 "v": "ok"
 },
+"native|мать": {
+"d": 0,
+"exp": "mˈɑtʲ",
+"h": "59b3e1b61bd9",
+"heard": "m ɑ t",
+"v": "ok"
+},
 "native|медведи": {
 "d": 1,
 "exp": "mʲidvʲˈedʲɪ",
 "h": "e70fcad9b4f5",
 "heard": "m i d i vʲ e dʲ e m",
+"v": "ok"
+},
+"native|медведь": {
+"d": 0,
+"exp": "mʲidvʲˈetʲ",
+"h": "58cc72a6af7a",
+"heard": "m i d v i t",
 "v": "ok"
 },
 "native|медвежонок": {
@@ -818,6 +1329,41 @@
 "heard": "m e ɲ a",
 "v": "ok"
 },
+"native|место": {
+"d": 0,
+"exp": "mʲˈestʌ",
+"h": "654f6d2f0a85",
+"heard": "m i s t a",
+"v": "ok"
+},
+"native|месяц": {
+"d": 1,
+"exp": "mʲˈesʲʌts",
+"h": "93794939ca51",
+"heard": "mʲ e sʲ ɪ s",
+"v": "ok"
+},
+"native|метро": {
+"d": 0,
+"exp": "mʲitrˈo",
+"h": "c2c6aa026b1a",
+"heard": "m i t r uː",
+"v": "ok"
+},
+"native|мечта": {
+"d": 0,
+"exp": "mʲitʃʲtˈɑ",
+"h": "705bee47886a",
+"heard": "m i tʃ t a",
+"v": "ok"
+},
+"native|минута": {
+"d": 0,
+"exp": "mʲinˈuta",
+"h": "1aac827b1847",
+"heard": "m i n uː t a",
+"v": "ok"
+},
 "native|мир": {
 "d": 1,
 "exp": "mʲˈir",
@@ -832,11 +1378,60 @@
 "heard": "m ʉ n i ʌ",
 "v": "ok"
 },
+"native|мнение": {
+"d": 1,
+"exp": "mnʲˈenʲijɪ",
+"h": "cd400c1547f6",
+"heard": "m ʌ nʲ e nʲ i",
+"v": "ok"
+},
+"native|много": {
+"d": 0,
+"exp": "mnˈoɡʌ",
+"h": "3520e7014471",
+"heard": "m ʉ n oː ɡ ʌ",
+"v": "ok"
+},
+"native|можно": {
+"d": 0,
+"exp": "mˈoʒnʌ",
+"h": "8228aec88578",
+"heard": "m o ʒ y n ʌ",
+"v": "ok"
+},
+"native|мой": {
+"d": 1,
+"exp": "mˈoj",
+"h": "b63d778ddb4d",
+"heard": "m uː ç",
+"v": "ok"
+},
+"native|молодой": {
+"d": 2,
+"exp": "mʌɭʌdˈoj",
+"h": "a87dab3b1c85",
+"heard": "m ʌ l ʌ d oɪ",
+"v": "bad"
+},
 "native|молоко": {
 "d": 1,
 "exp": "mʌɭʌkˈo",
 "h": "115585921d8f",
 "heard": "m a l a k u",
+"v": "ok"
+},
+"native|море": {
+"d": 0,
+"exp": "mˈorʲi",
+"h": "7a3ab86c147f",
+"heard": "m u ɹ i",
+"v": "ok"
+},
+"native|москва": {
+"d": 0,
+"exp": "mʌskvˈɑ",
+"h": "8bf6d1aa21b9",
+"heard": "m a s k v a",
 "v": "ok"
 },
 "native|мост": {
@@ -846,11 +1441,46 @@
 "heard": "m o s t",
 "v": "ok"
 },
+"native|мочь": {
+"d": 1,
+"exp": "mˈotʃʲ",
+"h": "78aa08540d2a",
+"heard": "m u t ɨ",
+"v": "ok"
+},
+"native|муж": {
+"d": 0,
+"exp": "mˈuʃ",
+"h": "830b9f8b75d1",
+"heard": "m u ʃ",
+"v": "ok"
+},
+"native|мужчина": {
+"d": 0,
+"exp": "muɕˈina",
+"h": "eca52d2e75ec",
+"heard": "m u ʃ i n a",
+"v": "ok"
+},
 "native|мутация": {
 "d": 1,
 "exp": "mutˈɑtsyja",
 "h": "a23925630079",
 "heard": "m u t a ts e",
+"v": "ok"
+},
+"native|мы": {
+"d": 0,
+"exp": "mˈy",
+"h": "775a62e2f433",
+"heard": "m ʉ",
+"v": "ok"
+},
+"native|мыть": {
+"d": 1,
+"exp": "mˈytʲ",
+"h": "080277c23081",
+"heard": "m y k",
 "v": "ok"
 },
 "native|мясо": {
@@ -860,11 +1490,53 @@
 "heard": "m aː s a",
 "v": "ok"
 },
+"native|на": {
+"d": 0,
+"exp": "nˈɑ",
+"h": "9cc6a5cdd6b3",
+"heard": "n aː",
+"v": "ok"
+},
 "native|народ": {
 "d": 0,
 "exp": "narˈot",
 "h": "362c56a40d88",
 "heard": "n ɑ r o d",
+"v": "ok"
+},
+"native|нас": {
+"d": 0,
+"exp": "nˈɑs",
+"h": "a95a8572db2b",
+"heard": "n a s",
+"v": "ok"
+},
+"native|наука": {
+"d": 0,
+"exp": "naˈuka",
+"h": "73d72c582bb3",
+"heard": "n oː uː k ʌ",
+"v": "ok"
+},
+"native|находить": {
+"d": 0,
+"exp": "nʌxʌdʲˈitʲ",
+"h": "938663e0e2ea",
+"heard": "n a x a d i t",
+"v": "ok"
+},
+"native|наш": {
+"d": 0,
+"exp": "nˈɑʃ",
+"h": "4f1313af1351",
+"heard": "n a ʃ",
+"v": "ok"
+},
+"native|не": {
+"d": 0,
+"exp": "nʲˈe",
+"h": "8f5686971843",
+"heard": "n e",
 "v": "ok"
 },
 "native|небеса": {
@@ -902,11 +1574,39 @@
 "heard": "n o",
 "v": "ok"
 },
+"native|новый": {
+"d": 2,
+"exp": "nˈovyj",
+"h": "9b3505d219f4",
+"heard": "n uː b i ç",
+"v": "bad"
+},
 "native|нога": {
 "d": 0,
 "exp": "nʌɡˈɑ",
 "h": "bb43a2bf889a",
 "heard": "n a k a",
+"v": "ok"
+},
+"native|нож": {
+"d": 0,
+"exp": "nˈoʃ",
+"h": "7a38826d714e",
+"heard": "n o ʃ",
+"v": "ok"
+},
+"native|ножницы": {
+"d": 0,
+"exp": "nˈoʒnʲitsy",
+"h": "3bb82e7d9a28",
+"heard": "n o ʒ y nʲ i ts y",
+"v": "ok"
+},
+"native|номер": {
+"d": 0,
+"exp": "nˈomʲir",
+"h": "83a35daf16e7",
+"heard": "n oː m ɪ r",
 "v": "ok"
 },
 "native|носок": {
@@ -928,6 +1628,41 @@
 "exp": "nʲˈɵm",
 "h": "404dfb84f0ff",
 "heard": "nʲ e m",
+"v": "ok"
+},
+"native|о": {
+"d": 0,
+"exp": "ˈo",
+"h": "cd8e97c7dcb1",
+"heard": "u",
+"v": "ok"
+},
+"native|обедать": {
+"d": 0,
+"exp": "ʌbʲˈedʌtʲ",
+"h": "2fccee61759f",
+"heard": "a b i e d ɪ t",
+"v": "ok"
+},
+"native|облако": {
+"d": 0,
+"exp": "ˈobɭʌkʌ",
+"h": "209438e64b13",
+"heard": "o b ɭ ʌ k ʌ",
+"v": "ok"
+},
+"native|общество": {
+"d": 1,
+"exp": "ˈopɕistvʌ",
+"h": "a78d2355d05c",
+"heard": "o p ʃ i s t a",
+"v": "ok"
+},
+"native|обычно": {
+"d": 0,
+"exp": "ʌbˈytʃʲnʌ",
+"h": "c3f8380ef972",
+"heard": "a b u tʃ n a",
 "v": "ok"
 },
 "native|овощи": {
@@ -958,6 +1693,20 @@
 "heard": "a d i m",
 "v": "ok"
 },
+"native|озеро": {
+"d": 0,
+"exp": "ˈoʑirʌ",
+"h": "b261f1416cf3",
+"heard": "o ʑ i r ɐ",
+"v": "ok"
+},
+"native|окно": {
+"d": 0,
+"exp": "ʌknˈo",
+"h": "74d6d771aed3",
+"heard": "a k n o",
+"v": "ok"
+},
 "native|он": {
 "d": 0,
 "exp": "ˈon",
@@ -978,6 +1727,13 @@
 "h": "9fc9a5119678",
 "heard": "a n iː",
 "v": "ok"
+},
+"native|оранжевый": {
+"d": 2,
+"exp": "ʌrˈɑnʒyvyj",
+"h": "a545f9c56af5",
+"heard": "a r aː n dʒ ɯ v i",
+"v": "bad"
 },
 "native|осень": {
 "d": 0,
@@ -1000,11 +1756,39 @@
 "heard": "a tʲ e",
 "v": "bad"
 },
+"native|открывать": {
+"d": 0,
+"exp": "ʌtkryvˈɑtʲ",
+"h": "e3f72b05a1e1",
+"heard": "a t k ɹ ɨ v a t",
+"v": "ok"
+},
 "native|отпуск": {
 "d": 0,
 "exp": "ˈotpusk",
 "h": "16fb650f002a",
 "heard": "o t[ p u s k",
+"v": "ok"
+},
+"native|очень": {
+"d": 0,
+"exp": "ˈotʃʲin",
+"h": "97d59ef06e5d",
+"heard": "o tʃ i n",
+"v": "ok"
+},
+"native|палец": {
+"d": 2,
+"exp": "pˈɑɭʲits",
+"h": "121755acfafe",
+"heard": "b ɑ l i t",
+"v": "bad"
+},
+"native|пальто": {
+"d": 1,
+"exp": "paɭtˈo",
+"h": "c65601246ec6",
+"heard": "p ʌ l t u",
 "v": "ok"
 },
 "native|папа": {
@@ -1014,12 +1798,89 @@
 "heard": "aː p a",
 "v": "ok"
 },
+"native|первый": {
+"d": 3,
+"exp": "pʲˈervyj",
+"h": "1c35f105ffdb",
+"heard": "j ʌ r m uɨ",
+"v": "bad"
+},
+"native|перо": {
+"d": 0,
+"exp": "pʲirˈo",
+"h": "38a1c8a4db12",
+"heard": "b iː r oː",
+"v": "ok"
+},
+"native|песня": {
+"d": 0,
+"exp": "pʲˈesʲnʲʌ",
+"h": "b26e87780280",
+"heard": "bʲ e sʲ nʲ i",
+"v": "ok"
+},
+"native|писать": {
+"d": 0,
+"exp": "pʲisˈɑtʲ",
+"h": "ba87017016b0",
+"heard": "b i s ɛ t",
+"v": "ok"
+},
+"native|письмо": {
+"d": 0,
+"exp": "pʲisʲmˈo",
+"h": "ddaaaeab7dd3",
+"heard": "b i s m o",
+"v": "ok"
+},
+"native|пить": {
+"d": 0,
+"exp": "pʲˈitʲ",
+"h": "327f004955a2",
+"heard": "b i t",
+"v": "ok"
+},
 "native|платье": {
 "d": 3,
 "exp": "pɭˈɑtʲjjɪ",
 "h": "602984db1a58",
 "heard": "ɭ ɑ tʲ i",
 "v": "bad"
+},
+"native|плохой": {
+"d": 2,
+"exp": "pɭʌxˈoj",
+"h": "97f85ecb0816",
+"heard": "b l a x oɪ",
+"v": "bad"
+},
+"native|площадь": {
+"d": 0,
+"exp": "pɭˈoɕʌtʲ",
+"h": "18c357761501",
+"heard": "b ɭ o ʃ i tʲ",
+"v": "ok"
+},
+"native|по-русски": {
+"d": 1,
+"exp": "pˈorˈusskʲɪ",
+"h": "70ccb0fd7c03",
+"heard": "b a r uː s k a",
+"v": "ok"
+},
+"native|погода": {
+"d": 0,
+"exp": "pʌɡˈoda",
+"h": "cbda14dee783",
+"heard": "p ɐ ɡ o d ɐ",
+"v": "ok"
+},
+"native|поезд": {
+"d": 1,
+"exp": "pˈojist",
+"h": "2d8e4bd9a397",
+"heard": "b uː s t",
+"v": "ok"
 },
 "native|пожалуйста": {
 "d": 2,
@@ -1041,6 +1902,13 @@
 "h": "3be757c1e84b",
 "heard": "o l",
 "v": "bad"
+},
+"native|поле": {
+"d": 0,
+"exp": "pˈoɭʲi",
+"h": "da5bfb8f7c67",
+"heard": "p u ɭʲ i",
+"v": "ok"
 },
 "native|помидор": {
 "d": 1,
@@ -1070,12 +1938,54 @@
 "heard": "o r",
 "v": "bad"
 },
+"native|последний": {
+"d": 2,
+"exp": "pʌsɭʲˈednʲij",
+"h": "51f5c27d4166",
+"heard": "p a s l e d ɲ i x",
+"v": "bad"
+},
+"native|потом": {
+"d": 0,
+"exp": "pˈotʌm",
+"h": "78e14f32af8d",
+"heard": "b ʌ t[ u m",
+"v": "ok"
+},
 "native|потому что": {
 "d": 1,
 "exp": "pʌtʌmˈu ʃto",
 "h": "49737e0267b1",
 "heard": "ɐ t a m uː s t a",
 "v": "bad"
+},
+"native|почему": {
+"d": 0,
+"exp": "pʌtʃʲimˈu",
+"h": "0fb373788028",
+"heard": "p ʌ tʃ i m u",
+"v": "ok"
+},
+"native|поэт": {
+"d": 1,
+"exp": "pʌˈɛt",
+"h": "a7c7683957d8",
+"heard": "b ɑ j e tː",
+"v": "ok"
+},
+"native|правда": {
+"d": 1,
+"exp": "prˈɑvda",
+"h": "71f888fca2f7",
+"heard": "r a v d a",
+"v": "bad"
+},
+"native|право": {
+"d": 0,
+"exp": "prˈɑvʌ",
+"h": "f665a04c3125",
+"heard": "p r aː v a",
+"v": "ok"
 },
 "native|привет": {
 "d": 5,
@@ -1091,12 +2001,40 @@
 "heard": "r a f e s a r",
 "v": "bad"
 },
+"native|птица": {
+"d": 0,
+"exp": "ptʲˈitsa",
+"h": "da5827cf63ea",
+"heard": "p t iː ts a",
+"v": "ok"
+},
+"native|пятый": {
+"d": 1,
+"exp": "pʲˈɑtyj",
+"h": "b17b8f4507aa",
+"heard": "b a t iː",
+"v": "ok"
+},
 "native|пять": {
 "d": 1,
 "exp": "pʲˈɑtʲ",
 "h": "82410c467309",
 "heard": "ɛ t",
 "v": "bad"
+},
+"native|работа": {
+"d": 0,
+"exp": "rabˈota",
+"h": "aa1f56d011d8",
+"heard": "r a b o t ʌ",
+"v": "ok"
+},
+"native|рассказывать": {
+"d": 2,
+"exp": "rasskˈɑzyvʌtʲ",
+"h": "a5d884eb46e3",
+"heard": "r a s k a z z ʌ v ɪ tʲ",
+"v": "ok"
 },
 "native|растения": {
 "d": 0,
@@ -1105,11 +2043,53 @@
 "heard": "r ʌ s tʲ i nʲ i ja",
 "v": "ok"
 },
+"native|ребёнок": {
+"d": 1,
+"exp": "rʲibʲˈɵnʌk",
+"h": "be4873b3a89c",
+"heard": "e r i b j o n a k",
+"v": "ok"
+},
+"native|река": {
+"d": 0,
+"exp": "rʲikˈɑ",
+"h": "64d563271948",
+"heard": "e ɹ i k aː",
+"v": "ok"
+},
+"native|ресторан": {
+"d": 0,
+"exp": "rʲistʌrˈɑn",
+"h": "b4b34174d30c",
+"heard": "r i s t ʌ r ɑ n",
+"v": "ok"
+},
 "native|рис": {
 "d": 0,
 "exp": "rʲˈis",
 "h": "2a4273f770fc",
 "heard": "ɹ iː s",
+"v": "ok"
+},
+"native|родина": {
+"d": 0,
+"exp": "rˈodʲina",
+"h": "9dae125d0ec6",
+"heard": "r o dʲ i n ʌ",
+"v": "ok"
+},
+"native|розовый": {
+"d": 1,
+"exp": "rˈozʌvyj",
+"h": "6a7630e7abcf",
+"heard": "r oː z e v i",
+"v": "ok"
+},
+"native|роман": {
+"d": 0,
+"exp": "rʌmˈɑn",
+"h": "0652b417c168",
+"heard": "ʌ r a m a n",
 "v": "ok"
 },
 "native|россии": {
@@ -1147,11 +2127,53 @@
 "heard": "r oː s kʲ iː",
 "v": "bad"
 },
+"native|ручка": {
+"d": 0,
+"exp": "rˈutʃʲka",
+"h": "b8bcad0b1bed",
+"heard": "r uː tʃ k a",
+"v": "ok"
+},
+"native|рыба": {
+"d": 1,
+"exp": "rˈyba",
+"h": "b77270673bf4",
+"heard": "r ɹ iː b a",
+"v": "ok"
+},
 "native|сад": {
 "d": 0,
 "exp": "sˈɑt",
 "h": "911c3da6e883",
 "heard": "s a d",
+"v": "ok"
+},
+"native|самолёт": {
+"d": 1,
+"exp": "sʌmʌɭʲˈɵt",
+"h": "d145a453dab8",
+"heard": "s a m a ʎ o t",
+"v": "ok"
+},
+"native|север": {
+"d": 1,
+"exp": "sʲˈevʲir",
+"h": "1226db3a7f04",
+"heard": "s iː l a r",
+"v": "ok"
+},
+"native|сегодня": {
+"d": 1,
+"exp": "sʲivˈodnʲʌ",
+"h": "70a513534a87",
+"heard": "s i v o d nʲ ja",
+"v": "ok"
+},
+"native|сейчас": {
+"d": 1,
+"exp": "sʲijtʃʲˈɑs",
+"h": "3b98c6a44bf2",
+"heard": "s i tʃ a s",
 "v": "ok"
 },
 "native|семь": {
@@ -1161,12 +2183,75 @@
 "heard": "ɕ i5 m",
 "v": "ok"
 },
+"native|семя": {
+"d": 0,
+"exp": "sʲˈemʲʌ",
+"h": "16d8cb454b1f",
+"heard": "s i m a",
+"v": "ok"
+},
+"native|сердце": {
+"d": 0,
+"exp": "sʲˈertsy",
+"h": "5d07c52d9849",
+"heard": "s e r ts e",
+"v": "ok"
+},
+"native|серый": {
+"d": 1,
+"exp": "sʲˈeryj",
+"h": "86b6eab1b2c0",
+"heard": "s i r oɪ",
+"v": "ok"
+},
 "native|сибирь": {
 "d": 2,
 "exp": "sʲibʲˈirɪ^",
 "h": "24d44c6a90b5",
 "heard": "s i i d",
 "v": "bad"
+},
+"native|сидеть": {
+"d": 2,
+"exp": "sʲidʲˈetʲ",
+"h": "9664cc94d283",
+"heard": "ʃ y n j e t",
+"v": "bad"
+},
+"native|синий": {
+"d": 1,
+"exp": "sʲˈinʲij",
+"h": "cdf201f3befe",
+"heard": "s iː n i",
+"v": "ok"
+},
+"native|система": {
+"d": 1,
+"exp": "sʲisʲtʲˈema",
+"h": "367b3b76d75c",
+"heard": "tʃ i s tʲ e m a",
+"v": "bad"
+},
+"native|сколько": {
+"d": 0,
+"exp": "skˈoɭkʌ",
+"h": "e4c2d3583202",
+"heard": "s k u ɭʲ k ʌ",
+"v": "ok"
+},
+"native|следующий": {
+"d": 2,
+"exp": "sɭʲˈedujuɕij",
+"h": "e6410ac512af",
+"heard": "s l i d uː j y ʃ i ç",
+"v": "bad"
+},
+"native|словаре": {
+"d": 1,
+"exp": "sɭʌvarʲˈe",
+"h": "5a427ce7d579",
+"heard": "s l o v a r i e",
+"v": "ok"
 },
 "native|словарь": {
 "d": 2,
@@ -1196,6 +2281,13 @@
 "heard": "s a b a k a",
 "v": "ok"
 },
+"native|собрание": {
+"d": 1,
+"exp": "sʌbrˈɑnʲijɪ",
+"h": "21f49bb9dfc0",
+"heard": "s ʌ b r a nʲ i",
+"v": "ok"
+},
 "native|сок": {
 "d": 1,
 "exp": "sˈok",
@@ -1208,6 +2300,27 @@
 "exp": "spasʲˈibʌ",
 "h": "35e574f3283c",
 "heard": "s p a r ɕ iː b a",
+"v": "ok"
+},
+"native|спать": {
+"d": 0,
+"exp": "spˈɑtʲ",
+"h": "6ce02601df08",
+"heard": "s p a t",
+"v": "ok"
+},
+"native|сразу": {
+"d": 0,
+"exp": "srˈɑzu",
+"h": "a59a9285c9bc",
+"heard": "s e r aː z uː",
+"v": "ok"
+},
+"native|стена": {
+"d": 0,
+"exp": "sʲtʲinˈɑ",
+"h": "e2c2a4d78d05",
+"heard": "s t ɪ n a",
 "v": "ok"
 },
 "native|стихи": {
@@ -1231,6 +2344,34 @@
 "heard": "s t o l",
 "v": "ok"
 },
+"native|страна": {
+"d": 0,
+"exp": "stranˈɑ",
+"h": "14a380d07e2e",
+"heard": "s t r a n a",
+"v": "ok"
+},
+"native|студент": {
+"d": 1,
+"exp": "studʲˈent",
+"h": "44cc1d1dd615",
+"heard": "s t u dʒ a n t",
+"v": "ok"
+},
+"native|суд": {
+"d": 0,
+"exp": "sˈut",
+"h": "59efb17b7f15",
+"heard": "s uː t",
+"v": "ok"
+},
+"native|сумка": {
+"d": 0,
+"exp": "sˈumka",
+"h": "b794fc46cbea",
+"heard": "s uː m k a",
+"v": "ok"
+},
 "native|суп": {
 "d": 1,
 "exp": "sˈup",
@@ -1245,6 +2386,27 @@
 "heard": "s ɪ n",
 "v": "ok"
 },
+"native|там": {
+"d": 0,
+"exp": "tˈɑm",
+"h": "bf8e99576a13",
+"heard": "t a m",
+"v": "ok"
+},
+"native|твой": {
+"d": 1,
+"exp": "tvˈoj",
+"h": "214cca47c85a",
+"heard": "d ə v uɨ ç",
+"v": "ok"
+},
+"native|театр": {
+"d": 0,
+"exp": "tʲiˈɑtr",
+"h": "c2bdd9a4ffd8",
+"heard": "d i aː t r",
+"v": "ok"
+},
 "native|тебе": {
 "d": 1,
 "exp": "tʲˈebʲi",
@@ -1252,12 +2414,54 @@
 "heard": "s e b e",
 "v": "bad"
 },
+"native|телефон": {
+"d": 1,
+"exp": "tʲiɭʲifˈon",
+"h": "04b9b5a74264",
+"heard": "t i l i f uː n",
+"v": "ok"
+},
+"native|телёнок": {
+"d": 1,
+"exp": "tʲiɭʲˈɵnʌk",
+"h": "661106bef1aa",
+"heard": "d i l ɔ n a k",
+"v": "ok"
+},
+"native|теория": {
+"d": 3,
+"exp": "tʲiˈorʲija",
+"h": "5e350863a213",
+"heard": "tɕ i5 w uei5 tɕ iɛ5",
+"v": "bad"
+},
+"native|только": {
+"d": 0,
+"exp": "tˈoɭkʌ",
+"h": "b59918d4502e",
+"heard": "t u ɭʲ k ʌ",
+"v": "ok"
+},
+"native|третий": {
+"d": 1,
+"exp": "trʲˈetʲij",
+"h": "2d2d5e3ad9cb",
+"heard": "t rʲ i e ts i ç",
+"v": "ok"
+},
 "native|три": {
 "d": 1,
 "exp": "trʲˈɪ",
 "h": "3d11ce037ef9",
 "heard": "r iː",
 "v": "bad"
+},
+"native|ты": {
+"d": 0,
+"exp": "tˈy",
+"h": "939ac2a3560b",
+"heard": "t i",
+"v": "ok"
 },
 "native|тысяча": {
 "d": 1,
@@ -1273,11 +2477,60 @@
 "heard": "u ɡ ʌ",
 "v": "ok"
 },
+"native|уже": {
+"d": 0,
+"exp": "ˈuʒy",
+"h": "1fb3d5faa7c2",
+"heard": "u ʒ e",
+"v": "ok"
+},
+"native|улица": {
+"d": 1,
+"exp": "ˈuɭʲitsa",
+"h": "c0bdc3d6dece",
+"heard": "ʔ uː l i ts a",
+"v": "bad"
+},
 "native|университет": {
 "d": 0,
 "exp": "unʲivʲirsʲitʲˈet",
 "h": "34c8a85299d1",
 "heard": "u nʲ iː v i r s i tʲ i a t",
+"v": "ok"
+},
+"native|урок": {
+"d": 1,
+"exp": "urˈok",
+"h": "e8a5b81506a1",
+"heard": "uː l o k",
+"v": "bad"
+},
+"native|ухо": {
+"d": 1,
+"exp": "ˈuxʌ",
+"h": "4f0f20096d88",
+"heard": "ʔ n x a",
+"v": "bad"
+},
+"native|учитель": {
+"d": 1,
+"exp": "utʃʲˈitʲiɭ",
+"h": "33049f98ad79",
+"heard": "u tʃ i t i l",
+"v": "ok"
+},
+"native|учить": {
+"d": 0,
+"exp": "utʃʲˈitʲ",
+"h": "0b2f6d733931",
+"heard": "u tʃ i tʲ",
+"v": "ok"
+},
+"native|учиться": {
+"d": 2,
+"exp": "utʃʲˈitstsa",
+"h": "b1e1ab4afa03",
+"heard": "u tʃ i ts ʌ",
 "v": "ok"
 },
 "native|фермент": {
@@ -1294,6 +2547,13 @@
 "heard": "f i l",
 "v": "ok"
 },
+"native|фиолетовый": {
+"d": 3,
+"exp": "fʲiʌɭʲˈetʌvyj",
+"h": "a3dca99d138a",
+"heard": "f aː l i t w",
+"v": "bad"
+},
 "native|фрукты": {
 "d": 1,
 "exp": "frˈukty",
@@ -1306,6 +2566,13 @@
 "exp": "xɭʲˈep",
 "h": "a78ec35937fd",
 "heard": "x ʌ l j a b",
+"v": "bad"
+},
+"native|ходить": {
+"d": 1,
+"exp": "xʌdʲˈitʲ",
+"h": "e5875cbd8be1",
+"heard": "ʁ a d i t",
 "v": "bad"
 },
 "native|холодильник": {
@@ -1329,11 +2596,39 @@
 "heard": "a v a d i n i k i",
 "v": "bad"
 },
+"native|хороший": {
+"d": 1,
+"exp": "xʌrˈoʃyj",
+"h": "bceac6429254",
+"heard": "x a r uː ʃ i k",
+"v": "ok"
+},
+"native|хорошо": {
+"d": 1,
+"exp": "xʌrʌʃˈo",
+"h": "740bb6611dea",
+"heard": "x ɑ r a m ʃ o",
+"v": "ok"
+},
+"native|хотеть": {
+"d": 1,
+"exp": "xʌtʲˈetʲ",
+"h": "adfeef5bcce8",
+"heard": "ɛ t i t",
+"v": "bad"
+},
 "native|царь": {
 "d": 1,
 "exp": "tsˈɑrɪ^",
 "h": "720ef54dd9ed",
 "heard": "s aː r",
+"v": "bad"
+},
+"native|цветок": {
+"d": 1,
+"exp": "tsvʲitˈok",
+"h": "4e1b93bed661",
+"heard": "s i v i t o k",
 "v": "bad"
 },
 "native|цыплёнок": {
@@ -1357,6 +2652,27 @@
 "heard": "tʃ a s",
 "v": "ok"
 },
+"native|часто": {
+"d": 0,
+"exp": "tʃʲˈɑstʌ",
+"h": "b52bc31e960c",
+"heard": "tʃ ɑ s t ɯ",
+"v": "ok"
+},
+"native|часы": {
+"d": 1,
+"exp": "tʃʲasˈy",
+"h": "8997a8d63715",
+"heard": "tʃ i s y x",
+"v": "ok"
+},
+"native|чей": {
+"d": 1,
+"exp": "tʃʲˈej",
+"h": "7b8941cad955",
+"heard": "tʃ i ç",
+"v": "ok"
+},
 "native|человек": {
 "d": 0,
 "exp": "tʃʲiɭʌvʲˈek",
@@ -1371,11 +2687,32 @@
 "heard": "ʃ i t i rʲ i",
 "v": "bad"
 },
+"native|читать": {
+"d": 1,
+"exp": "tʃʲitˈɑtʲ",
+"h": "f8e866901180",
+"heard": "tʃ i k t a t",
+"v": "ok"
+},
 "native|что": {
 "d": 1,
 "exp": "ʃtˈo",
 "h": "5bd69b111540",
 "heard": "t[ o",
+"v": "bad"
+},
+"native|чудо": {
+"d": 0,
+"exp": "tʃʲˈudʌ",
+"h": "fc6339cf92e8",
+"heard": "tʃ uː d a",
+"v": "ok"
+},
+"native|чёрный": {
+"d": 3,
+"exp": "tʃʲˈɵrnyj",
+"h": "f48d8f6c9b6c",
+"heard": "o r n ɨ",
 "v": "bad"
 },
 "native|шесть": {
@@ -1392,11 +2729,74 @@
 "heard": "ʃ k ɑ v",
 "v": "ok"
 },
+"native|школа": {
+"d": 1,
+"exp": "ʃkˈoɭa",
+"h": "75af56273032",
+"heard": "ʃ k o l ɐ",
+"v": "ok"
+},
+"native|щенок": {
+"d": 0,
+"exp": "ɕinˈok",
+"h": "ff51b97dcb95",
+"heard": "ʃ i n o k",
+"v": "ok"
+},
+"native|этаж": {
+"d": 0,
+"exp": "ɛtˈɑʃ",
+"h": "b4192004a2dd",
+"heard": "e t a ʃ",
+"v": "ok"
+},
+"native|это": {
+"d": 0,
+"exp": "ˈɛtʌ",
+"h": "b5f795853826",
+"heard": "ɛ t ʌ",
+"v": "ok"
+},
+"native|этот": {
+"d": 0,
+"exp": "ˈɛtʌt",
+"h": "a55398c395c7",
+"heard": "ɛ t t",
+"v": "ok"
+},
+"native|юбка": {
+"d": 2,
+"exp": "ˈjupka",
+"h": "fa3dbc3654ee",
+"heard": "e̞ t k e̞",
+"v": "bad"
+},
+"native|юг": {
+"d": 0,
+"exp": "ˈjuk",
+"h": "8cb36d02d2a1",
+"heard": "j u k",
+"v": "ok"
+},
+"native|я": {
+"d": 0,
+"exp": "ˈja",
+"h": "4fd4d8107d42",
+"heard": "i j aː",
+"v": "ok"
+},
 "native|яблоко": {
 "d": 1,
 "exp": "ˈjabɭʌkʌ",
 "h": "9535fb59971a",
 "heard": "j e b l a k o",
+"v": "ok"
+},
+"native|язык": {
+"d": 0,
+"exp": "jazˈyk",
+"h": "7bfe3819435b",
+"heard": "j i z ɪ k",
 "v": "ok"
 }
 }
