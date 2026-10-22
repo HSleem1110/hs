@@ -97,4 +97,14 @@ html = f'''<!doctype html>
 </html>
 '''
 open(R + 'russian-quiz.html', 'w', encoding='utf-8').write(html)
+# --artifact <경로>: claude.ai 아티팩트용 페이지(부트스트랩 없이, 앱 코드 그대로)도 만들기
+import sys
+if '--artifact' in sys.argv:
+    out = sys.argv[sys.argv.index('--artifact') + 1]
+    art = ('<title>러시아어 문법 퀴즈</title>\n<meta name="claude:viewport-fit-sides" content="cover">\n'
+           '<link rel="preconnect" href="https://fonts.googleapis.com">\n<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n'
+           '<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=PT+Sans:wght@400;700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">\n'
+           '<style>' + css + '</style>\n<div id="app"></div>\n<script>' + js + '</script>\n')
+    open(out, 'w', encoding='utf-8').write(art)
+    print('artifact page', out)
 print('built', VER, round(len(html.encode()) / 1e6, 2), 'MB')
