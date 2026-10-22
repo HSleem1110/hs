@@ -3,7 +3,31 @@
 "base": "+Анне",
 "model": "v5_6_ru",
 "speaker": "baya",
-"text": "— +Анне"
+"text": "+Анне."
+},
+"апельсин": {
+"base": "апельс+ин",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "<speak><break time=\"250ms\"/>апельс+ин</speak>"
+},
+"апельсины": {
+"base": "апельс+ины",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">апельс+ины</prosody></speak>"
+},
+"аспирантуре": {
+"base": "аспирант+уре",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "аспирант+уре!"
+},
+"аэропорту": {
+"base": "аэропорт+у",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "аэропорт+у!"
 },
 "балеты": {
 "base": "бал+еты",
@@ -179,11 +203,29 @@
 "speaker": "kseniya",
 "text": "вм+есте"
 },
+"водитель": {
+"base": "вод+итель",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "вод+итель."
+},
 "вождь": {
 "base": "вождь",
 "model": "v5_6_ru",
 "speaker": "baya",
 "text": "вождь."
+},
+"возвращаетесь": {
+"base": "возвращ+аетесь",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "возвращ+аетесь."
+},
+"возможность": {
+"base": "возм+ожность",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "возм+ожность."
 },
 "вокзале": {
 "base": "вокз+але",
@@ -227,6 +269,12 @@
 "speaker": "baya",
 "text": "встаёшь."
 },
+"встречаете": {
+"base": "встреч+аете",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "<speak><prosody rate=\"x-slow\">встреч+аете</prosody></speak>"
+},
 "встречаю": {
 "base": "встреч+аю",
 "model": "v5_6_ru",
@@ -268,6 +316,12 @@
 "model": "v5_6_ru",
 "speaker": "baya",
 "text": "— д+оме"
+},
+"думаете": {
+"base": "д+умаете",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "д+умаете!"
 },
 "едем": {
 "base": "+едем",
@@ -359,6 +413,30 @@
 "speaker": "baya",
 "text": "журн+алы."
 },
+"завтракаем": {
+"base": "з+автракаем",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "з+автракаем."
+},
+"завтракает": {
+"base": "з+автракает",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "з+автракает."
+},
+"завтракаете": {
+"base": "з+автракаете",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "<speak><prosody rate=\"x-slow\">з+автракаете</prosody></speak>"
+},
+"зайцы": {
+"base": "з+айцы",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "— з+айцы"
+},
 "занимаемся": {
 "base": "заним+аемся",
 "model": "v5_6_ru",
@@ -371,11 +449,29 @@
 "speaker": "baya",
 "text": "— заним+аешься"
 },
+"занятии": {
+"base": "зан+ятии",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "зан+ятии."
+},
+"заяц": {
+"base": "з+аяц",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "<speak><prosody rate=\"slow\">з+аец</prosody></speak>"
+},
 "здание": {
 "base": "зд+ание",
 "model": "v5_6_ru",
 "speaker": "kseniya",
 "text": "зд+ание"
+},
+"здания": {
+"base": "зд+ания",
+"model": "v5_6_ru",
+"speaker": "kseniya",
+"text": "зд+ания"
 },
 "здесь": {
 "base": "здесь",
@@ -401,11 +497,47 @@
 "speaker": "baya",
 "text": "знамёна."
 },
+"изучаете": {
+"base": "изуч+аете",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "изуч+аете!"
+},
+"имена": {
+"base": "имен+а",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "Имен+а"
+},
+"имени": {
+"base": "+имени",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "+имени."
+},
+"ищет": {
+"base": "+ищет",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "+ищет."
+},
 "ищешь": {
 "base": "+ищешь",
 "model": "v5_6_ru",
 "speaker": "baya",
 "text": "— +ищешь"
+},
+"кипр": {
+"base": "Кипр",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "Кипр."
+},
+"китае": {
+"base": "Кит+ае",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "Кит+ае!"
 },
 "ключи": {
 "base": "ключ+и",
@@ -473,6 +605,18 @@
 "speaker": "baya",
 "text": "лек+арство!"
 },
+"лишнее": {
+"base": "л+ишнее",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "л+ишнее."
+},
+"лишняя": {
+"base": "л+ишняя",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "<speak><prosody rate=\"slow\">л+ишняя</prosody></speak>"
+},
 "льду": {
 "base": "льду",
 "from": "ttsm",
@@ -521,11 +665,35 @@
 "speaker": "kseniya",
 "text": "мл+адшие"
 },
+"мнение": {
+"base": "мн+ение",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "мн+ение."
+},
+"моете": {
+"base": "м+оете",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "м+оете."
+},
 "мужья": {
 "base": "мужь+я",
 "model": "v5_6_ru",
 "speaker": "baya",
 "text": "— мужь+я"
+},
+"музеи": {
+"base": "муз+еи",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "муз+еи."
+},
+"мутации": {
+"base": "мут+ации",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "мут+ации."
 },
 "налог": {
 "base": "нал+ог",
@@ -551,6 +719,30 @@
 "speaker": "baya",
 "text": "нельз+я."
 },
+"обедаете": {
+"base": "об+едаете",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "об+едаете!"
+},
+"общежитие": {
+"base": "общеж+итие",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "общеж+итие."
+},
+"общежитии": {
+"base": "общеж+итии",
+"model": "v5_6_ru",
+"speaker": "kseniya",
+"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">общеж+итии</prosody></speak>"
+},
+"общежития": {
+"base": "общеж+ития",
+"model": "v5_6_ru",
+"speaker": "kseniya",
+"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">общеж+ития</prosody></speak>"
+},
 "объявление": {
 "base": "объявл+ение",
 "model": "v5_6_ru",
@@ -569,11 +761,23 @@
 "speaker": "baya",
 "text": "+овощи."
 },
+"одеваетесь": {
+"base": "одев+аетесь",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "<speak><prosody rate=\"slow\">одев+аетесь</prosody></speak>"
+},
 "одеваться": {
 "base": "одев+ацца",
 "model": "v5_6_ru",
 "speaker": "baya",
 "text": "одев+ацца."
+},
+"окне": {
+"base": "окн+е",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "окн+е."
 },
 "он": {
 "base": "он",
@@ -593,6 +797,12 @@
 "speaker": "baya",
 "text": "отв+еты!"
 },
+"отвечаете": {
+"base": "отвеч+аете",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "отвеч+аете."
+},
 "отдыхает": {
 "base": "отдых+ает",
 "model": "v5_6_ru",
@@ -603,7 +813,7 @@
 "base": "отдых+аете",
 "model": "v5_6_ru",
 "speaker": "baya",
-"text": "— отдых+аете"
+"text": "<speak><prosody rate=\"slow\">отдых+аете</prosody></speak>"
 },
 "отдыхаешь": {
 "base": "отдых+аешь",
@@ -646,6 +856,12 @@
 "model": "v5_6_ru",
 "speaker": "baya",
 "text": "пальт+о."
+},
+"партии": {
+"base": "п+артии",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "п+артии."
 },
 "певцы": {
 "base": "певц+ы",
@@ -713,6 +929,24 @@
 "speaker": "baya",
 "text": "повар+а."
 },
+"повторяете": {
+"base": "повтор+яете",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "повтор+яете!"
+},
+"поколение": {
+"base": "покол+ение",
+"model": "v5_6_ru",
+"speaker": "kseniya",
+"text": "покол+ение"
+},
+"поколения": {
+"base": "покол+ения",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "<speak><prosody rate=\"slow\">покол+ения</prosody></speak>"
+},
 "покупает": {
 "base": "покуп+ает",
 "model": "v5_6_ru",
@@ -743,6 +977,12 @@
 "speaker": "baya",
 "text": "порт+у!"
 },
+"поэт": {
+"base": "по+эт",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "по+эт!"
+},
 "поёте": {
 "base": "поёте",
 "model": "v5_6_ru",
@@ -760,6 +1000,12 @@
 "model": "v5_6_ru",
 "speaker": "baya",
 "text": "предпри+ятия."
+},
+"приглашаете": {
+"base": "приглаш+аете",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "приглаш+аете."
 },
 "птица": {
 "base": "пт+ица",
@@ -815,11 +1061,23 @@
 "speaker": "baya",
 "text": "раб+отаем."
 },
+"радио": {
+"base": "р+адио",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "р+адио."
+},
 "разница": {
 "base": "р+азница",
 "model": "v5_6_ru",
 "speaker": "baya",
 "text": "<speak><prosody rate=\"x-slow\">р+азница</prosody></speak>"
+},
+"рассказываете": {
+"base": "расск+азываете",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "расск+азываете."
 },
 "рассказываешь": {
 "base": "расск+азываешь",
@@ -893,6 +1151,18 @@
 "speaker": "baya",
 "text": "сигар+ета."
 },
+"синее": {
+"base": "с+инее",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "с+инее."
+},
+"синие": {
+"base": "с+иние",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "с+иние!"
+},
 "славяне": {
 "base": "слав+яне",
 "model": "v5_6_ru",
@@ -902,8 +1172,8 @@
 "слушает": {
 "base": "сл+ушает",
 "model": "v5_6_ru",
-"speaker": "kseniya",
-"text": "сл+ушает"
+"speaker": "baya",
+"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">сл+ушает</prosody></speak>"
 },
 "слушаете": {
 "base": "сл+ушаете",
@@ -935,11 +1205,35 @@
 "speaker": "baya",
 "text": "сл+ышу."
 },
+"собрании": {
+"base": "собр+ании",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "собр+ании."
+},
 "спите": {
 "base": "сп+ите",
 "model": "v5_6_ru",
 "speaker": "baya",
 "text": "сп+ите."
+},
+"спрашиваете": {
+"base": "спр+ашиваете",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "спр+ашиваете."
+},
+"старшее": {
+"base": "ст+аршее",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "<speak><prosody rate=\"slow\">ст+аршее</prosody></speak>"
+},
+"старшие": {
+"base": "ст+аршие",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "<speak><prosody rate=\"slow\">ст+аршие</prosody></speak>"
 },
 "стебель": {
 "base": "ст+ебель",
@@ -964,6 +1258,12 @@
 "model": "v5_6_ru",
 "speaker": "baya",
 "text": "стих!"
+},
+"стихотворение": {
+"base": "стихотвор+ение",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "<speak><prosody rate=\"x-slow\">стихотвор+ение</prosody></speak>"
 },
 "столе": {
 "base": "стол+е",
@@ -1000,6 +1300,12 @@
 "model": "v5_6_ru",
 "speaker": "baya",
 "text": "тар+елка."
+},
+"театр": {
+"base": "те+атр",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "те+атр."
 },
 "театры": {
 "base": "те+атры",
@@ -1055,17 +1361,35 @@
 "speaker": "baya",
 "text": "угл+ы!"
 },
+"ужинаете": {
+"base": "+ужинаете",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "+ужинаете."
+},
 "узнают": {
 "base": "узна+ют",
 "model": "v5_6_ru",
 "speaker": "baya",
 "text": "узна+ют."
 },
+"улыбаетесь": {
+"base": "улыб+аетесь",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "улыб+аетесь."
+},
 "ухо": {
 "base": "+ухо",
 "model": "v5_6_ru",
 "speaker": "baya",
 "text": "+ухо."
+},
+"учитель": {
+"base": "уч+итель",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "уч+итель!"
 },
 "учиться": {
 "base": "уч+ицца",
@@ -1096,6 +1420,12 @@
 "model": "v5_6_ru",
 "speaker": "baya",
 "text": "фиол+етовое."
+},
+"фото": {
+"base": "ф+ото",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "ф+ото."
 },
 "хлеб": {
 "base": "хлеб",
@@ -1240,6 +1570,12 @@
 "model": "v5_6_ru",
 "speaker": "baya",
 "text": "чёрное."
+},
+"школы": {
+"base": "шк+олы",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "шк+олы."
 },
 "этаж": {
 "base": "эт+аж",
