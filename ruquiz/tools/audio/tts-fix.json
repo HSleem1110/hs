@@ -83,6 +83,12 @@
 "speaker": "baya",
 "text": "— больн+ице"
 },
+"в": {
+"base": "в",
+"model": "v5_6_ru",
+"speaker": "kseniya",
+"text": "<speak><prosody rate=\"x-slow\">в</prosody></speak>"
+},
 "век": {
 "base": "век",
 "model": "v5_6_ru",
@@ -185,11 +191,23 @@
 "speaker": "baya",
 "text": "вокз+але."
 },
+"всегда": {
+"base": "всегд+а",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "всегд+а."
+},
 "встаю": {
 "base": "вста+ю",
 "model": "v5_6_ru",
 "speaker": "baya",
 "text": "— вста+ю"
+},
+"встают": {
+"base": "вста+ют",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "вста+ют."
 },
 "встаём": {
 "base": "встаём",
@@ -208,6 +226,12 @@
 "model": "v5_6_ru",
 "speaker": "baya",
 "text": "встаёшь."
+},
+"встречаю": {
+"base": "встреч+аю",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "встреч+аю."
 },
 "где": {
 "base": "где",
@@ -449,6 +473,12 @@
 "speaker": "baya",
 "text": "лек+арство!"
 },
+"льду": {
+"base": "льду",
+"from": "ttsm",
+"mode": "swap",
+"model": "v5_6_ru"
+},
 "лёгкий": {
 "base": "лёхкий",
 "model": "v5_6_ru",
@@ -580,6 +610,12 @@
 "model": "v5_6_ru",
 "speaker": "baya",
 "text": "— отдых+аешь"
+},
+"отдыхать": {
+"base": "отдых+ать",
+"model": "v5_6_ru",
+"speaker": "kseniya",
+"text": "<speak><prosody rate=\"x-slow\">отдых+ать</prosody></speak>"
 },
 "отдыхаю": {
 "base": "отдых+аю",
@@ -725,6 +761,18 @@
 "speaker": "baya",
 "text": "предпри+ятия."
 },
+"птица": {
+"base": "пт+ица",
+"model": "v5_6_ru",
+"speaker": "kseniya",
+"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">пт+ица</prosody></speak>"
+},
+"птицы": {
+"base": "пт+ицы",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "<speak><prosody rate=\"x-slow\">пт+ицы</prosody></speak>"
+},
 "пьют": {
 "base": "пьют",
 "model": "v5_6_ru",
@@ -740,8 +788,8 @@
 "пьёт": {
 "base": "пьёт",
 "model": "v5_6_ru",
-"speaker": "kseniya",
-"text": "пьёт."
+"speaker": "baya",
+"text": "<speak><prosody rate=\"x-slow\">пьёт</prosody></speak>"
 },
 "пьёте": {
 "base": "пьёте",
@@ -766,6 +814,12 @@
 "model": "v5_6_ru",
 "speaker": "baya",
 "text": "раб+отаем."
+},
+"разница": {
+"base": "р+азница",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "<speak><prosody rate=\"x-slow\">р+азница</prosody></speak>"
 },
 "рассказываешь": {
 "base": "расск+азываешь",
@@ -812,8 +866,8 @@
 "семьи": {
 "base": "с+емьи",
 "model": "v5_6_ru",
-"speaker": "kseniya",
-"text": "с+емьи."
+"speaker": "baya",
+"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">с+емьи</prosody></speak>"
 },
 "семя": {
 "base": "с+емя",
@@ -826,6 +880,12 @@
 "model": "v5_6_ru",
 "speaker": "baya",
 "text": "с+ерце."
+},
+"сеул": {
+"base": "Се+ул",
+"model": "v5_6_ru",
+"speaker": "kseniya",
+"text": "<speak><prosody rate=\"x-slow\">Се+ул</prosody></speak>"
 },
 "сигарета": {
 "base": "сигар+ета",
@@ -850,6 +910,12 @@
 "model": "v5_6_ru",
 "speaker": "kseniya",
 "text": "сл+ушаете"
+},
+"слушаешь": {
+"base": "сл+ушаешь",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "<speak><prosody rate=\"x-slow\">сл+ушаешь</prosody></speak>"
 },
 "слушаю": {
 "base": "сл+ушаю",
@@ -953,6 +1019,18 @@
 "speaker": "baya",
 "text": "— тепл+ица"
 },
+"ткани": {
+"base": "тк+ани",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "тк+ани!"
+},
+"ткань": {
+"base": "ткань",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "ткань."
+},
 "третий": {
 "base": "тр+етий",
 "model": "v5_6_ru",
@@ -1043,11 +1121,23 @@
 "speaker": "baya",
 "text": "холод+ильник!"
 },
+"царь": {
+"base": "царь",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "<speak><prosody rate=\"slow\">царь</prosody></speak>"
+},
 "цветок": {
 "base": "цвет+ок",
 "model": "v5_6_ru",
 "speaker": "baya",
 "text": "цвет+ок!"
+},
+"цветы": {
+"base": "цвет+ы",
+"model": "v5_6_ru",
+"speaker": "kseniya",
+"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">цвет+ы</prosody></speak>"
 },
 "ценность": {
 "base": "ц+енность",

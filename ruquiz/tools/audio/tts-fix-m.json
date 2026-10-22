@@ -1,0 +1,1604 @@
+{
+"адреса": {
+"base": "адрес+а",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "адрес+а."
+},
+"анна": {
+"base": "+Анна",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "+Анна!"
+},
+"анне": {
+"base": "+Анне",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "+Анне."
+},
+"антон": {
+"base": "Ант+он",
+"model": "v5_6_ru",
+"speaker": "aidar",
+"text": "Ант+он"
+},
+"аудитория": {
+"base": "аудит+ория",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "аудит+ория!"
+},
+"бежим": {
+"base": "беж+им",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "беж+им."
+},
+"белый": {
+"base": "б+елый",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "б+елый."
+},
+"берём": {
+"base": "берём",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "— берём"
+},
+"блузка": {
+"base": "бл+узка",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "бл+узка!"
+},
+"век": {
+"base": "век",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "век."
+},
+"века": {
+"base": "век+а",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "век+а."
+},
+"велосипед": {
+"base": "велосип+ед",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "велосип+ед!"
+},
+"велосипеды": {
+"base": "велосип+еды",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "велосип+еды."
+},
+"вещества": {
+"base": "веществ+а",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "веществ+а!"
+},
+"вид": {
+"base": "вид",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "— вид"
+},
+"видеть": {
+"base": "в+идеть",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "в+идеть."
+},
+"видит": {
+"base": "в+идит",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "в+идит."
+},
+"виды": {
+"base": "в+иды",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "в+иды."
+},
+"видят": {
+"base": "в+идят",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "в+идят."
+},
+"вилки": {
+"base": "в+илки",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "в+илки."
+},
+"виноград": {
+"base": "виногр+ад",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "виногр+ад."
+},
+"вместе": {
+"base": "вм+есте",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "вм+есте!"
+},
+"водитель": {
+"base": "вод+итель",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "— вод+итель"
+},
+"вожди": {
+"base": "вожд+и",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "<speak><break time=\"250ms\"/>вожд+и</speak>"
+},
+"вождь": {
+"base": "вождь",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "вождь."
+},
+"возвращаешься": {
+"base": "возвращ+аешься",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "<speak><prosody rate=\"x-slow\">возвращ+аешься</prosody></speak>"
+},
+"волга": {
+"base": "В+олга",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "В+олга."
+},
+"волге": {
+"base": "В+олге",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "В+олге."
+},
+"волк": {
+"base": "волк",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "волк."
+},
+"вопрос": {
+"base": "вопр+ос",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "вопр+ос!"
+},
+"вопросы": {
+"base": "вопр+осы",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "вопр+осы!"
+},
+"вставать": {
+"base": "встав+ать",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">встав+ать</prosody></speak>"
+},
+"встаю": {
+"base": "вста+ю",
+"from": "tts",
+"mode": "swap",
+"model": "v5_6_ru"
+},
+"встаёте": {
+"base": "встаёте",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "Встаёте"
+},
+"встаёшь": {
+"base": "встаёшь",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "встаёшь."
+},
+"встречает": {
+"base": "встреч+ает",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "— встреч+ает"
+},
+"встречаешь": {
+"base": "встреч+аешь",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "— встреч+аешь"
+},
+"встречаю": {
+"base": "встреч+аю",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "— встреч+аю"
+},
+"встречают": {
+"base": "встреч+ают",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "— встреч+ают"
+},
+"вы": {
+"base": "вы",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "вы."
+},
+"вывод": {
+"base": "в+ывод",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">в+ывод</prosody></speak>"
+},
+"ген": {
+"base": "ген",
+"model": "v5_6_ru",
+"speaker": "aidar",
+"text": "ген"
+},
+"гены": {
+"base": "г+ены",
+"model": "v5_6_ru",
+"speaker": "aidar",
+"text": "г+ены."
+},
+"германии": {
+"base": "Герм+ании",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "— Герм+ании"
+},
+"германия": {
+"base": "Герм+ания",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "Герм+ания!"
+},
+"герои": {
+"base": "гер+ои",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "гер+ои."
+},
+"герой": {
+"base": "гер+ой",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "гер+ой."
+},
+"гипотеза": {
+"base": "гип+отэза",
+"model": "v5_6_ru",
+"speaker": "aidar",
+"text": "гип+отэза."
+},
+"гипотезы": {
+"base": "гип+отезы",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "<speak><prosody rate=\"x-slow\">гип+отезы</prosody></speak>"
+},
+"глаз": {
+"base": "глаз",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "глаз."
+},
+"говорю": {
+"base": "говор+ю",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "говор+ю."
+},
+"годы": {
+"base": "г+оды",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "г+оды!"
+},
+"головы": {
+"base": "г+оловы",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "г+оловы."
+},
+"готовит": {
+"base": "гот+овит",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "<speak><prosody rate=\"slow\">гот+овит</prosody></speak>"
+},
+"готовить": {
+"base": "гот+овить",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "гот+овить."
+},
+"готовлю": {
+"base": "гот+овлю",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "<speak><prosody rate=\"slow\">гот+овлю</prosody></speak>"
+},
+"гриб": {
+"base": "гриб",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "гриб."
+},
+"гуляю": {
+"base": "гул+яю",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "гул+яю."
+},
+"гуляют": {
+"base": "гул+яют",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">гул+яют</prosody></speak>"
+},
+"да": {
+"base": "да",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "да."
+},
+"давать": {
+"base": "дав+ать",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "Дав+ать"
+},
+"дача": {
+"base": "д+ача",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "д+ача!"
+},
+"даче": {
+"base": "д+аче",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "<speak><prosody rate=\"slow\">д+аче</prosody></speak>"
+},
+"дают": {
+"base": "да+ют",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "— да+ют"
+},
+"даёте": {
+"base": "даёте",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "Даёте"
+},
+"делать": {
+"base": "д+елать",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "д+елать."
+},
+"дни": {
+"base": "дни",
+"from": "tts",
+"mode": "swap",
+"model": "v5_6_ru"
+},
+"до́ма": {
+"base": "д+ома",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "д+ома."
+},
+"друзья": {
+"base": "друзь+я",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "друзь+я."
+},
+"едет": {
+"base": "+едет",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">+едет</prosody></speak>"
+},
+"ем": {
+"base": "ем",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "— ем"
+},
+"ехать": {
+"base": "+ехать",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "<speak><break time=\"250ms\"/>+ехать</speak>"
+},
+"ждёте": {
+"base": "ждёте",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "ждёте!"
+},
+"жизнь": {
+"base": "жизнь",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "— жизнь"
+},
+"знамя": {
+"base": "зн+амя",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "зн+амя."
+},
+"иван": {
+"base": "Ив+ан",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "Ив+ан."
+},
+"идёшь": {
+"base": "идёшь",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "идёшь."
+},
+"или": {
+"base": "+или",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "+или."
+},
+"имени": {
+"base": "+имени",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "+имени."
+},
+"интересное": {
+"base": "интер+есное",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "интер+есное."
+},
+"исследователь": {
+"base": "иссл+едователь",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "<speak><prosody rate=\"slow\">иссл+едователь</prosody></speak>"
+},
+"ищет": {
+"base": "+ищет",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "+ищет."
+},
+"ищешь": {
+"base": "+ищешь",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "+ищешь."
+},
+"ищут": {
+"base": "+ищут",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "+ищут!"
+},
+"какая": {
+"base": "как+ая",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "как+ая."
+},
+"кипр": {
+"base": "Кипр",
+"model": "v5_6_ru",
+"speaker": "aidar",
+"text": "<speak><prosody rate=\"slow\">Кипр</prosody></speak>"
+},
+"кипре": {
+"base": "К+ипре",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "К+ипре."
+},
+"китай": {
+"base": "Кит+ай",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "Кит+ай."
+},
+"клетка": {
+"base": "кл+етка",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "кл+етка!"
+},
+"клетки": {
+"base": "кл+етки",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "кл+етки."
+},
+"ключи": {
+"base": "ключ+и",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">ключ+и</prosody></speak>"
+},
+"книге": {
+"base": "кн+иге",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "кн+иге."
+},
+"книги": {
+"base": "кн+иги",
+"model": "v5_6_ru",
+"speaker": "aidar",
+"text": "<speak><prosody rate=\"slow\">кн+иги</prosody></speak>"
+},
+"князья": {
+"base": "князь+я",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "князь+я."
+},
+"кончаем": {
+"base": "конч+аем",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "конч+аем."
+},
+"кончаются": {
+"base": "конч+аюцца",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">конч+аюцца</prosody></speak>"
+},
+"корень": {
+"base": "к+орень",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "к+орень."
+},
+"коричневая": {
+"base": "кор+ичневая",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">кор+ичневая</prosody></speak>"
+},
+"коричневый": {
+"base": "кор+ичневый",
+"model": "v5_6_ru",
+"speaker": "aidar",
+"text": "кор+ичневый"
+},
+"кошка": {
+"base": "к+ошка",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "к+ошка."
+},
+"кровать": {
+"base": "кров+ать",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "кров+ать."
+},
+"кто": {
+"base": "кто",
+"model": "v5_6_ru",
+"speaker": "aidar",
+"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">кто</prosody></speak>"
+},
+"ложка": {
+"base": "л+ожка",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "л+ожка."
+},
+"ложки": {
+"base": "л+ожки",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "л+ожки!"
+},
+"льду": {
+"base": "льду",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "<speak><prosody rate=\"x-slow\">льду</prosody></speak>"
+},
+"любим": {
+"base": "л+юбим",
+"model": "v5_6_ru",
+"speaker": "aidar",
+"text": "<speak><prosody rate=\"x-slow\">л+юбим</prosody></speak>"
+},
+"любит": {
+"base": "л+юбит",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "л+юбит."
+},
+"медвежонок": {
+"base": "медвеж+онок",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "медвеж+онок."
+},
+"мир": {
+"base": "мир",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "мир."
+},
+"младшее": {
+"base": "мл+адшее",
+"model": "v5_6_ru",
+"speaker": "aidar",
+"text": "<speak><prosody rate=\"slow\">мл+адшее</prosody></speak>"
+},
+"младшие": {
+"base": "мл+адшие",
+"model": "v5_6_ru",
+"speaker": "aidar",
+"text": "мл+адшие"
+},
+"младший": {
+"base": "мл+адший",
+"model": "v5_6_ru",
+"speaker": "aidar",
+"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">мл+адший</prosody></speak>"
+},
+"много": {
+"base": "мн+ого",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "мн+ого."
+},
+"могут": {
+"base": "м+огут",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "м+огут."
+},
+"моешь": {
+"base": "м+оешь",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "м+оешь!"
+},
+"можешь": {
+"base": "м+ожешь",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "м+ожешь."
+},
+"мясо": {
+"base": "м+ясо",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "<speak><prosody rate=\"slow\">м+ясо</prosody></speak>"
+},
+"начальник": {
+"base": "нач+альник",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "<speak><prosody rate=\"slow\">нач+альник</prosody></speak>"
+},
+"нине": {
+"base": "Н+ине",
+"model": "v5_6_ru",
+"speaker": "aidar",
+"text": "<speak><prosody rate=\"slow\">Н+ине</prosody></speak>"
+},
+"нём": {
+"base": "нём",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "нём."
+},
+"обедаешь": {
+"base": "об+едаешь",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "об+едаешь."
+},
+"овощ": {
+"base": "+овощ",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "+овощ."
+},
+"окна": {
+"base": "+окна",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "+окна."
+},
+"она": {
+"base": "она",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "она."
+},
+"она́": {
+"base": "он+а",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "он+а."
+},
+"оно": {
+"base": "он+о",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "он+о."
+},
+"опера": {
+"base": "+опера",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "+опера!"
+},
+"оперы": {
+"base": "+оперы",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "+оперы."
+},
+"оранжевая": {
+"base": "ор+анжевая",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "ор+анжевая!"
+},
+"осень": {
+"base": "+осень",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "+осень."
+},
+"ответ": {
+"base": "отв+ет",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "отв+ет."
+},
+"ответы": {
+"base": "отв+еты",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "отв+еты."
+},
+"открывают": {
+"base": "открыв+ают",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "открыв+ают."
+},
+"офис": {
+"base": "+офис",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">+офис</prosody></speak>"
+},
+"очень": {
+"base": "+очень",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "+очень."
+},
+"папы": {
+"base": "п+апы",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "п+апы!"
+},
+"певец": {
+"base": "пев+ец",
+"model": "v5_6_ru",
+"speaker": "aidar",
+"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">пев+ец</prosody></speak>"
+},
+"певцы": {
+"base": "певц+ы",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "<speak><prosody rate=\"x-slow\">певц+ы</prosody></speak>"
+},
+"первый": {
+"base": "п+ервый",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "<speak><prosody rate=\"slow\">п+ервый</prosody></speak>"
+},
+"перья": {
+"base": "п+ерья",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">п+ерья</prosody></speak>"
+},
+"пишем": {
+"base": "п+ишем",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "п+ишем."
+},
+"пишешь": {
+"base": "п+ишешь",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">п+ишешь</prosody></speak>"
+},
+"пишу": {
+"base": "пиш+у",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "пиш+у."
+},
+"платки": {
+"base": "платк+и",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "платк+и."
+},
+"платок": {
+"base": "плат+ок",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "плат+ок!"
+},
+"плачешь": {
+"base": "пл+ачешь",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "Пл+ачешь"
+},
+"плащ": {
+"base": "плащ",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "<speak><break time=\"250ms\"/>плащ</speak>"
+},
+"плод": {
+"base": "плод",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "плод."
+},
+"плоды": {
+"base": "плод+ы",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "плод+ы!"
+},
+"плохие": {
+"base": "плох+ие",
+"model": "v5_6_ru",
+"speaker": "aidar",
+"text": "плох+ие"
+},
+"помидоры": {
+"base": "помид+оры",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "помид+оры."
+},
+"понимает": {
+"base": "поним+ает",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "поним+ает!"
+},
+"порт": {
+"base": "порт",
+"model": "v5_6_ru",
+"speaker": "aidar",
+"text": "порт"
+},
+"портфель": {
+"base": "портф+ель",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "портф+ель!"
+},
+"поэт": {
+"base": "по+эт",
+"model": "v5_6_ru",
+"speaker": "aidar",
+"text": "по+эт"
+},
+"пою": {
+"base": "по+ю",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "по+ю."
+},
+"поёт": {
+"base": "поёт",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "поёт!"
+},
+"предприятие": {
+"base": "предпри+ятие",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "<speak><prosody rate=\"x-slow\">предпри+ятие</prosody></speak>"
+},
+"профессор": {
+"base": "проф+ессор",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "проф+ессор!"
+},
+"птица": {
+"base": "пт+ица",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">пт+ица</prosody></speak>"
+},
+"птицы": {
+"base": "пт+ицы",
+"model": "v5_6_ru",
+"speaker": "aidar",
+"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">пт+ицы</prosody></speak>"
+},
+"путешествуешь": {
+"base": "путеш+ествуешь",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "путеш+ествуешь."
+},
+"пью": {
+"base": "пью",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "пью!"
+},
+"пьём": {
+"base": "пьём",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "пьём!"
+},
+"пьёт": {
+"base": "пьёт",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">пьёт</prosody></speak>"
+},
+"пьёте": {
+"base": "пьёте",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "пьёте!"
+},
+"пьёшь": {
+"base": "пьёшь",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "— пьёшь"
+},
+"пятый": {
+"base": "п+ятый",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "п+ятый."
+},
+"разница": {
+"base": "р+азница",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "р+азница."
+},
+"рассказываем": {
+"base": "расск+азываем",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "<speak><prosody rate=\"slow\">расск+азываем</prosody></speak>"
+},
+"рассказывают": {
+"base": "расск+азывают",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "расск+азывают."
+},
+"растение": {
+"base": "раст+ение",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "раст+ение."
+},
+"результаты": {
+"base": "результ+аты",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "<speak><prosody rate=\"slow\">результ+аты</prosody></speak>"
+},
+"ресторане": {
+"base": "рестор+ане",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "рестор+ане."
+},
+"рестораны": {
+"base": "рестор+аны",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "рестор+аны."
+},
+"реформа": {
+"base": "реф+орма",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "Реф+орма"
+},
+"рисовать": {
+"base": "рисов+ать",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "— рисов+ать"
+},
+"рисуете": {
+"base": "рис+уете",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "<speak><prosody rate=\"slow\">рис+уете</prosody></speak>"
+},
+"рты": {
+"base": "рты",
+"model": "v5_6_ru",
+"speaker": "aidar",
+"text": "рты"
+},
+"рубашка": {
+"base": "руб+ашка",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "руб+ашка."
+},
+"рыцарь": {
+"base": "р+ыцарь",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "р+ыцарь."
+},
+"санатории": {
+"base": "санат+ории",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "санат+ории."
+},
+"синий": {
+"base": "с+иний",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "с+иний."
+},
+"слушает": {
+"base": "сл+ушает",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "сл+ушает."
+},
+"слушаю": {
+"base": "сл+ушаю",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "<speak><prosody rate=\"x-slow\">сл+ушаю</prosody></speak>"
+},
+"слушают": {
+"base": "сл+ушают",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "<speak><prosody rate=\"slow\">сл+ушают</prosody></speak>"
+},
+"спрашивать": {
+"base": "спр+ашивать",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "спр+ашивать."
+},
+"стол": {
+"base": "стол",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "<speak><prosody rate=\"x-slow\">стол</prosody></speak>"
+},
+"столе": {
+"base": "стол+е",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "стол+е!"
+},
+"стул": {
+"base": "стул",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "стул."
+},
+"стулья": {
+"base": "ст+улья",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "ст+улья."
+},
+"суздале": {
+"base": "С+уздале",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "С+уздале."
+},
+"сын": {
+"base": "сын",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "сын."
+},
+"танцуют": {
+"base": "танц+уют",
+"model": "v5_6_ru",
+"speaker": "aidar",
+"text": "<speak><prosody rate=\"slow\">танц+уют</prosody></speak>"
+},
+"тарелка": {
+"base": "тар+елка",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "<speak><prosody rate=\"x-slow\">тар+елка</prosody></speak>"
+},
+"тарелки": {
+"base": "тар+елки",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "тар+елки!"
+},
+"твой": {
+"base": "твой",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "<speak><prosody rate=\"x-slow\">твой</prosody></speak>"
+},
+"театр": {
+"base": "те+атр",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "те+атр!"
+},
+"театре": {
+"base": "те+атре",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">те+атре</prosody></speak>"
+},
+"театры": {
+"base": "те+атры",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "те+атры!"
+},
+"телефон": {
+"base": "телеф+он",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "телеф+он."
+},
+"телёнок": {
+"base": "телёнок",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "телёнок!"
+},
+"ткани": {
+"base": "тк+ани",
+"model": "v5_6_ru",
+"speaker": "aidar",
+"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">тк+ани</prosody></speak>"
+},
+"ткань": {
+"base": "ткань",
+"model": "v5_6_ru",
+"speaker": "aidar",
+"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">ткань</prosody></speak>"
+},
+"третий": {
+"base": "тр+етий",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "тр+етий."
+},
+"трудный": {
+"base": "тр+удный",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "тр+удный!"
+},
+"туристы": {
+"base": "тур+исты",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "тур+исты."
+},
+"убирать": {
+"base": "убир+ать",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "убир+ать!"
+},
+"углу": {
+"base": "угл+у",
+"model": "v5_6_ru",
+"speaker": "aidar",
+"text": "угл+у."
+},
+"угол": {
+"base": "+угол",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "— +угол"
+},
+"ужинаю": {
+"base": "+ужинаю",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "— +ужинаю"
+},
+"ужинают": {
+"base": "+ужинают",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "<speak><prosody rate=\"slow\">+ужинают</prosody></speak>"
+},
+"узнаю": {
+"base": "узна+ю",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">узна+ю</prosody></speak>"
+},
+"улыбаешься": {
+"base": "улыб+аешься",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "улыб+аешься."
+},
+"улыбаться": {
+"base": "улыб+ацца",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "<speak><prosody rate=\"slow\">улыб+ацца</prosody></speak>"
+},
+"улыбаюсь": {
+"base": "улыб+аюсь",
+"model": "v5_6_ru",
+"speaker": "aidar",
+"text": "улыб+аюсь."
+},
+"улыбаются": {
+"base": "улыб+аюцца",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "<speak><prosody rate=\"x-slow\">улыб+аюцца</prosody></speak>"
+},
+"урал": {
+"base": "Ур+ал",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "— Ур+ал"
+},
+"урожаи": {
+"base": "урож+аи",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "урож+аи."
+},
+"условия": {
+"base": "усл+овия",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "усл+овия!"
+},
+"ухо": {
+"base": "+ухо",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "+ухо!"
+},
+"учатся": {
+"base": "+учацца",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "+учацца!"
+},
+"учебник": {
+"base": "уч+ебник",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "уч+ебник."
+},
+"учит": {
+"base": "+учит",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "+учит."
+},
+"учите": {
+"base": "+учите",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "+учите."
+},
+"учителе": {
+"base": "уч+ителе",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "уч+ителе."
+},
+"учитель": {
+"base": "уч+итель",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "уч+итель!"
+},
+"учителя": {
+"base": "учител+я",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "учител+я!"
+},
+"учить": {
+"base": "уч+ить",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "<speak><prosody rate=\"slow\">уч+ить</prosody></speak>"
+},
+"учишь": {
+"base": "+учишь",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "+учишь."
+},
+"учу": {
+"base": "уч+у",
+"model": "v5_6_ru",
+"speaker": "aidar",
+"text": "<speak><prosody rate=\"x-slow\">уч+у</prosody></speak>"
+},
+"учусь": {
+"base": "уч+усь",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "уч+усь."
+},
+"уши": {
+"base": "+уши",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">+уши</prosody></speak>"
+},
+"фильмы": {
+"base": "ф+ильмы",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "ф+ильмы."
+},
+"фиолетовая": {
+"base": "фиол+етовая",
+"model": "v5_6_ru",
+"speaker": "aidar",
+"text": "фиол+етовая"
+},
+"фиолетовое": {
+"base": "фиол+етовое",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "<speak><prosody rate=\"slow\">фиол+етовое</prosody></speak>"
+},
+"фиолетовые": {
+"base": "фиол+етовые",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "фиол+етовые!"
+},
+"фирме": {
+"base": "ф+ирме",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "ф+ирме!"
+},
+"фирмы": {
+"base": "ф+ирмы",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "ф+ирмы."
+},
+"фрукты": {
+"base": "фр+укты",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "фр+укты."
+},
+"ходим": {
+"base": "х+одим",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "<speak><prosody rate=\"x-slow\">х+одим</prosody></speak>"
+},
+"ходите": {
+"base": "х+одите",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "<speak><prosody rate=\"x-slow\">х+одите</prosody></speak>"
+},
+"ходить": {
+"base": "ход+ить",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "ход+ить!"
+},
+"ходишь": {
+"base": "х+одишь",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "<speak><prosody rate=\"slow\">х+одишь</prosody></speak>"
+},
+"ходят": {
+"base": "х+одят",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">х+одят</prosody></speak>"
+},
+"хожу": {
+"base": "хож+у",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "<speak><prosody rate=\"x-slow\">хож+у</prosody></speak>"
+},
+"хозяева": {
+"base": "хоз+яева",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "хоз+яева."
+},
+"холодильнике": {
+"base": "холод+ильнике",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "холод+ильнике."
+},
+"холодильники": {
+"base": "холод+ильники",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">холод+ильники</prosody></speak>"
+},
+"хорошо": {
+"base": "хорош+о",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "хорош+о."
+},
+"хочет": {
+"base": "х+очет",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "х+очет."
+},
+"цари": {
+"base": "цар+и",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "— цар+и"
+},
+"цветок": {
+"base": "цвет+ок",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">цвет+ок</prosody></speak>"
+},
+"цветы": {
+"base": "цвет+ы",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "<speak><prosody rate=\"x-slow\">цвет+ы</prosody></speak>"
+},
+"что": {
+"base": "што",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "што."
+},
+"чувство": {
+"base": "ч+уство",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "ч+уство."
+},
+"чужое": {
+"base": "чуж+ое",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "чуж+ое."
+},
+"чужой": {
+"base": "чуж+ой",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "чуж+ой!"
+},
+"чьи": {
+"base": "чьи",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "чьи."
+},
+"чёрный": {
+"base": "чёрный",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "чёрный."
+},
+"школе": {
+"base": "шк+оле",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "шк+оле."
+},
+"экскурсии": {
+"base": "экск+урсии",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "<speak><prosody rate=\"slow\">экск+урсии</prosody></speak>"
+},
+"экскурсия": {
+"base": "экск+урсия",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "<speak><prosody rate=\"slow\">экск+урсия</prosody></speak>"
+},
+"эпохи": {
+"base": "эп+охи",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "<speak><break time=\"250ms\"/>эп+охи</speak>"
+},
+"юге": {
+"base": "+юге",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "+юге."
+},
+"я": {
+"base": "я",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "я!"
+},
+"явления": {
+"base": "явл+ения",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "явл+ения."
+}
+}
