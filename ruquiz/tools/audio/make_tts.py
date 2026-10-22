@@ -43,7 +43,8 @@ def synth(text, spk):
     h = hashlib.md5(sig(text, spk).encode()).hexdigest()
     mp3 = CACHE + 'tts/' + h + '.mp3'
     if not os.path.exists(mp3):
-        a = model().apply_tts(text=text, speaker=spk, sample_rate=RATE, put_accent=True, put_yo=True)
+        kw = {'ssml_text': text} if text.startswith('<speak>') else {'text': text}   # <speak>…</speak>: 쉼 · 속도 조절(SSML)
+        a = model().apply_tts(**kw, speaker=spk, sample_rate=RATE, put_accent=True, put_yo=True)
         pcm = (a.numpy() * 32767).clip(-32768, 32767).astype(np.int16)
         wav = CACHE + 'tts/' + h + '.wav'
         with wave.open(wav, 'wb') as w:

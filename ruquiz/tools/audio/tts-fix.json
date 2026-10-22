@@ -1,0 +1,1160 @@
+{
+"анне": {
+"base": "+Анне",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "— +Анне"
+},
+"балеты": {
+"base": "бал+еты",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "бал+еты."
+},
+"бегут": {
+"base": "бег+ут",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "бег+ут."
+},
+"бежать": {
+"base": "беж+ать",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "беж+ать."
+},
+"бежим": {
+"base": "беж+им",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "беж+им."
+},
+"бежит": {
+"base": "беж+ит",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "беж+ит."
+},
+"бежишь": {
+"base": "беж+ишь",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "беж+ишь!"
+},
+"белая": {
+"base": "б+елая",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "б+елая."
+},
+"белое": {
+"base": "б+елое",
+"model": "v5_6_ru",
+"speaker": "kseniya",
+"text": "б+елое"
+},
+"белок": {
+"base": "бел+ок",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "бел+ок!"
+},
+"берега": {
+"base": "берег+а",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "берег+а."
+},
+"берём": {
+"base": "берём",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "берём."
+},
+"библиотеке": {
+"base": "библиот+еке",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "библиот+еке!"
+},
+"больнице": {
+"base": "больн+ице",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "— больн+ице"
+},
+"век": {
+"base": "век",
+"model": "v5_6_ru",
+"speaker": "kseniya",
+"text": "век"
+},
+"века": {
+"base": "век+а",
+"model": "v5_6_ru",
+"speaker": "kseniya",
+"text": "век+а"
+},
+"велосипед": {
+"base": "велосип+ед",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "— велосип+ед"
+},
+"велосипеды": {
+"base": "велосип+еды",
+"model": "v5_6_ru",
+"speaker": "kseniya",
+"text": "велосип+еды"
+},
+"весна": {
+"base": "весн+а",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "весн+а!"
+},
+"вечера": {
+"base": "вечер+а",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "вечер+а."
+},
+"вид": {
+"base": "вид",
+"model": "v5_6_ru",
+"speaker": "kseniya",
+"text": "вид."
+},
+"видеть": {
+"base": "в+идеть",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "в+идеть!"
+},
+"видит": {
+"base": "в+идит",
+"model": "v5_6_ru",
+"speaker": "kseniya",
+"text": "в+идит"
+},
+"видите": {
+"base": "в+идите",
+"model": "v5_6_ru",
+"speaker": "kseniya",
+"text": "в+идите"
+},
+"видишь": {
+"base": "в+идишь",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "в+идишь."
+},
+"видят": {
+"base": "в+идят",
+"model": "v5_6_ru",
+"speaker": "kseniya",
+"text": "в+идят"
+},
+"вижу": {
+"base": "в+ижу",
+"model": "v5_6_ru",
+"speaker": "kseniya",
+"text": "в+ижу"
+},
+"виноград": {
+"base": "виногр+ад",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "виногр+ад."
+},
+"вместе": {
+"base": "вм+есте",
+"model": "v5_6_ru",
+"speaker": "kseniya",
+"text": "вм+есте"
+},
+"вождь": {
+"base": "вождь",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "вождь."
+},
+"вокзале": {
+"base": "вокз+але",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "вокз+але."
+},
+"встаю": {
+"base": "вста+ю",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "— вста+ю"
+},
+"встаём": {
+"base": "встаём",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "— встаём"
+},
+"встаёт": {
+"base": "встаёт",
+"model": "v5_6_ru",
+"speaker": "kseniya",
+"text": "встаёт."
+},
+"встаёшь": {
+"base": "встаёшь",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "встаёшь."
+},
+"где": {
+"base": "где",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "где."
+},
+"годы": {
+"base": "г+оды",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "г+оды."
+},
+"голубое": {
+"base": "голуб+ое",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "голуб+ое!"
+},
+"горожане": {
+"base": "горож+ане",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "горож+ане."
+},
+"готовят": {
+"base": "гот+овят",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "— гот+овят"
+},
+"доме": {
+"base": "д+оме",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "— д+оме"
+},
+"едем": {
+"base": "+едем",
+"model": "v5_6_ru",
+"speaker": "kseniya",
+"text": "+едем"
+},
+"едет": {
+"base": "+едет",
+"model": "v5_6_ru",
+"speaker": "kseniya",
+"text": "+едет"
+},
+"едим": {
+"base": "ед+им",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "ед+им."
+},
+"еду": {
+"base": "+еду",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "+еду!"
+},
+"едут": {
+"base": "+едут",
+"model": "v5_6_ru",
+"speaker": "kseniya",
+"text": "+едут"
+},
+"едят": {
+"base": "ед+ят",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "ед+ят."
+},
+"ем": {
+"base": "ем",
+"model": "v5_6_ru",
+"speaker": "kseniya",
+"text": "ем"
+},
+"ест": {
+"base": "ест",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "ест."
+},
+"есть": {
+"base": "есть",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "есть."
+},
+"ешь": {
+"base": "ешь",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "ешь."
+},
+"жду": {
+"base": "жду",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "— жду"
+},
+"ждёшь": {
+"base": "ждёшь",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "ждёшь."
+},
+"живут": {
+"base": "жив+ут",
+"model": "v5_6_ru",
+"speaker": "kseniya",
+"text": "жив+ут"
+},
+"жизнь": {
+"base": "жизнь",
+"model": "v5_6_ru",
+"speaker": "kseniya",
+"text": "жизнь"
+},
+"журналы": {
+"base": "журн+алы",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "журн+алы."
+},
+"занимаемся": {
+"base": "заним+аемся",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "заним+аемся."
+},
+"занимаешься": {
+"base": "заним+аешься",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "— заним+аешься"
+},
+"здание": {
+"base": "зд+ание",
+"model": "v5_6_ru",
+"speaker": "kseniya",
+"text": "зд+ание"
+},
+"здесь": {
+"base": "здесь",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "здесь."
+},
+"зеркало": {
+"base": "з+еркало",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "з+еркало."
+},
+"знает": {
+"base": "зн+ает",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "зн+ает."
+},
+"знамёна": {
+"base": "знамёна",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "знамёна."
+},
+"ищешь": {
+"base": "+ищешь",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "— +ищешь"
+},
+"ключи": {
+"base": "ключ+и",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "ключ+и."
+},
+"книге": {
+"base": "кн+иге",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "кн+иге."
+},
+"князья": {
+"base": "князь+я",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "князь+я."
+},
+"кончаться": {
+"base": "конч+ацца",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "конч+ацца."
+},
+"коричневая": {
+"base": "кор+ичневая",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "кор+ичневая."
+},
+"коричневые": {
+"base": "кор+ичневые",
+"model": "v5_6_ru",
+"speaker": "kseniya",
+"text": "кор+ичневые"
+},
+"кошка": {
+"base": "к+ошка",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "к+ошка."
+},
+"кризисы": {
+"base": "кр+изисы",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "кр+изисы!"
+},
+"крым": {
+"base": "Крым",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "Крым."
+},
+"лежит": {
+"base": "леж+ит",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "леж+ит."
+},
+"лекарство": {
+"base": "лек+арство",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "лек+арство!"
+},
+"лёгкий": {
+"base": "лёхкий",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "лёхкий!"
+},
+"магазины": {
+"base": "магаз+ины",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "магаз+ины!"
+},
+"медведь": {
+"base": "медв+едь",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "медв+едь!"
+},
+"медвежонок": {
+"base": "медвеж+онок",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "медвеж+онок."
+},
+"младшая": {
+"base": "мл+адшая",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "мл+адшая!"
+},
+"младшее": {
+"base": "мл+адшее",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "мл+адшее!"
+},
+"младшие": {
+"base": "мл+адшие",
+"model": "v5_6_ru",
+"speaker": "kseniya",
+"text": "мл+адшие"
+},
+"мужья": {
+"base": "мужь+я",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "— мужь+я"
+},
+"налог": {
+"base": "нал+ог",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "нал+ог."
+},
+"не": {
+"base": "не",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "не."
+},
+"недели": {
+"base": "нед+ели",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "нед+ели!"
+},
+"нельзя": {
+"base": "нельз+я",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "нельз+я."
+},
+"объявление": {
+"base": "объявл+ение",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "объявл+ение."
+},
+"овощ": {
+"base": "+овощ",
+"model": "v5_6_ru",
+"speaker": "kseniya",
+"text": "+овощ"
+},
+"овощи": {
+"base": "+овощи",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "+овощи."
+},
+"одеваться": {
+"base": "одев+ацца",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "одев+ацца."
+},
+"он": {
+"base": "он",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "он."
+},
+"ответ": {
+"base": "отв+ет",
+"model": "v5_6_ru",
+"speaker": "kseniya",
+"text": "отв+ет"
+},
+"ответы": {
+"base": "отв+еты",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "отв+еты!"
+},
+"отдыхает": {
+"base": "отдых+ает",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "— отдых+ает"
+},
+"отдыхаете": {
+"base": "отдых+аете",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "— отдых+аете"
+},
+"отдыхаешь": {
+"base": "отдых+аешь",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "— отдых+аешь"
+},
+"отдыхаю": {
+"base": "отдых+аю",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "— отдых+аю"
+},
+"отдыхают": {
+"base": "отдых+ают",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "— отдых+ают"
+},
+"офис": {
+"base": "+офис",
+"model": "v5_6_ru",
+"speaker": "kseniya",
+"text": "+офис"
+},
+"офисе": {
+"base": "+офисе",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "+офисе."
+},
+"пальто": {
+"base": "пальт+о",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "пальт+о."
+},
+"певцы": {
+"base": "певц+ы",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "— певц+ы"
+},
+"первый": {
+"base": "п+ервый",
+"model": "v5_6_ru",
+"speaker": "kseniya",
+"text": "п+ервый"
+},
+"перо": {
+"base": "пер+о",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "пер+о!"
+},
+"писатели": {
+"base": "пис+атели",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "— пис+атели"
+},
+"пишешь": {
+"base": "п+ишешь",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "п+ишешь."
+},
+"пишу": {
+"base": "пиш+у",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "— пиш+у"
+},
+"пишут": {
+"base": "п+ишут",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "п+ишут."
+},
+"плащ": {
+"base": "плащ",
+"model": "v5_6_ru",
+"speaker": "kseniya",
+"text": "плащ"
+},
+"племя": {
+"base": "пл+емя",
+"model": "v5_6_ru",
+"speaker": "kseniya",
+"text": "пл+емя"
+},
+"плоды": {
+"base": "плод+ы",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "плод+ы!"
+},
+"повара": {
+"base": "повар+а",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "повар+а."
+},
+"покупает": {
+"base": "покуп+ает",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "— покуп+ает"
+},
+"покупаешь": {
+"base": "покуп+аешь",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "покуп+аешь!"
+},
+"покупать": {
+"base": "покуп+ать",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "покуп+ать."
+},
+"понедельник": {
+"base": "понед+ельник",
+"model": "v5_6_ru",
+"speaker": "kseniya",
+"text": "понед+ельник"
+},
+"порту": {
+"base": "порт+у",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "порт+у!"
+},
+"поёте": {
+"base": "поёте",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "поёте."
+},
+"предприятие": {
+"base": "предпри+ятие",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "предпри+ятие."
+},
+"предприятия": {
+"base": "предпри+ятия",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "предпри+ятия."
+},
+"пьют": {
+"base": "пьют",
+"model": "v5_6_ru",
+"speaker": "kseniya",
+"text": "пьют"
+},
+"пьём": {
+"base": "пьём",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "пьём."
+},
+"пьёт": {
+"base": "пьёт",
+"model": "v5_6_ru",
+"speaker": "kseniya",
+"text": "пьёт."
+},
+"пьёте": {
+"base": "пьёте",
+"model": "v5_6_ru",
+"speaker": "kseniya",
+"text": "пьёте."
+},
+"пьёшь": {
+"base": "пьёшь",
+"model": "v5_6_ru",
+"speaker": "kseniya",
+"text": "пьёшь"
+},
+"работа": {
+"base": "раб+ота",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "раб+ота!"
+},
+"работаем": {
+"base": "раб+отаем",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "раб+отаем."
+},
+"рассказываешь": {
+"base": "расск+азываешь",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "расск+азываешь."
+},
+"рассказывать": {
+"base": "расск+азывать",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "расск+азывать!"
+},
+"растение": {
+"base": "раст+ение",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "раст+ение!"
+},
+"растения": {
+"base": "раст+ения",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "раст+ения!"
+},
+"ребёнок": {
+"base": "ребёнок",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "ребёнок."
+},
+"рты": {
+"base": "рты",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "рты!"
+},
+"семь": {
+"base": "семь",
+"model": "v5_6_ru",
+"speaker": "kseniya",
+"text": "семь"
+},
+"семьи": {
+"base": "с+емьи",
+"model": "v5_6_ru",
+"speaker": "kseniya",
+"text": "с+емьи."
+},
+"семя": {
+"base": "с+емя",
+"model": "v5_6_ru",
+"speaker": "kseniya",
+"text": "с+емя"
+},
+"сердце": {
+"base": "с+ерце",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "с+ерце."
+},
+"сигарета": {
+"base": "сигар+ета",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "сигар+ета."
+},
+"славяне": {
+"base": "слав+яне",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "слав+яне."
+},
+"слушает": {
+"base": "сл+ушает",
+"model": "v5_6_ru",
+"speaker": "kseniya",
+"text": "сл+ушает"
+},
+"слушаете": {
+"base": "сл+ушаете",
+"model": "v5_6_ru",
+"speaker": "kseniya",
+"text": "сл+ушаете"
+},
+"слушаю": {
+"base": "сл+ушаю",
+"model": "v5_6_ru",
+"speaker": "kseniya",
+"text": "сл+ушаю."
+},
+"слушают": {
+"base": "сл+ушают",
+"model": "v5_6_ru",
+"speaker": "kseniya",
+"text": "сл+ушают."
+},
+"слышу": {
+"base": "сл+ышу",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "сл+ышу."
+},
+"спите": {
+"base": "сп+ите",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "сп+ите."
+},
+"стебель": {
+"base": "ст+ебель",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "— ст+ебель"
+},
+"стена": {
+"base": "стен+а",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "— стен+а"
+},
+"стены": {
+"base": "ст+ены",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "ст+ены."
+},
+"стих": {
+"base": "стих",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "стих!"
+},
+"столе": {
+"base": "стол+е",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "стол+е."
+},
+"строю": {
+"base": "стр+ою",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "— стр+ою"
+},
+"студенте": {
+"base": "студ+енте",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "студ+енте."
+},
+"танцуете": {
+"base": "танц+уете",
+"model": "v5_6_ru",
+"speaker": "kseniya",
+"text": "танц+уете."
+},
+"танцуют": {
+"base": "танц+уют",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "танц+уют!"
+},
+"тарелка": {
+"base": "тар+елка",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "тар+елка."
+},
+"театры": {
+"base": "те+атры",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "— те+атры"
+},
+"телёнок": {
+"base": "телёнок",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "— телёнок"
+},
+"теплица": {
+"base": "тепл+ица",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "— тепл+ица"
+},
+"третий": {
+"base": "тр+етий",
+"model": "v5_6_ru",
+"speaker": "kseniya",
+"text": "тр+етий"
+},
+"трудный": {
+"base": "тр+удный",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "тр+удный."
+},
+"углу": {
+"base": "угл+у",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "угл+у."
+},
+"углы": {
+"base": "угл+ы",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "угл+ы!"
+},
+"узнают": {
+"base": "узна+ют",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "узна+ют."
+},
+"ухо": {
+"base": "+ухо",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "+ухо."
+},
+"учиться": {
+"base": "уч+ицца",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "уч+ицца."
+},
+"ферма": {
+"base": "ф+ерма",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "ф+ерма!"
+},
+"ферме": {
+"base": "ф+ерме",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "ф+ерме."
+},
+"фильм": {
+"base": "фильм",
+"model": "v5_6_ru",
+"speaker": "kseniya",
+"text": "фильм."
+},
+"фиолетовое": {
+"base": "фиол+етовое",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "фиол+етовое."
+},
+"хлеб": {
+"base": "хлеб",
+"model": "v5_6_ru",
+"speaker": "kseniya",
+"text": "хлеб"
+},
+"ходим": {
+"base": "х+одим",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "х+одим."
+},
+"ходить": {
+"base": "ход+ить",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "— ход+ить"
+},
+"холодильник": {
+"base": "холод+ильник",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "холод+ильник!"
+},
+"цветок": {
+"base": "цвет+ок",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "цвет+ок!"
+},
+"ценность": {
+"base": "ц+енность",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "ц+енность!"
+},
+"центре": {
+"base": "ц+ентре",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "ц+ентре."
+},
+"цыплята": {
+"base": "цыпл+ята",
+"model": "v5_6_ru",
+"speaker": "kseniya",
+"text": "цыпл+ята"
+},
+"цыплёнок": {
+"base": "цыплёнок",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "цыплёнок!"
+},
+"час": {
+"base": "час",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "час."
+},
+"человек": {
+"base": "челов+ек",
+"model": "v5_6_ru",
+"speaker": "kseniya",
+"text": "челов+ек"
+},
+"читаем": {
+"base": "чит+аем",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "чит+аем!"
+},
+"читаешь": {
+"base": "чит+аешь",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "чит+аешь."
+},
+"читаю": {
+"base": "чит+аю",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "чит+аю."
+},
+"чудо": {
+"base": "ч+удо",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "ч+удо."
+},
+"чужое": {
+"base": "чуж+ое",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "чуж+ое."
+},
+"чужой": {
+"base": "чуж+ой",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "чуж+ой."
+},
+"чьи": {
+"base": "чьи",
+"model": "v5_6_ru",
+"speaker": "kseniya",
+"text": "чьи"
+},
+"чья": {
+"base": "чья",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "чья!"
+},
+"чьё": {
+"base": "чьё",
+"model": "v5_6_ru",
+"speaker": "kseniya",
+"text": "чьё"
+},
+"чёрная": {
+"base": "чёрная",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "чёрная."
+},
+"чёрное": {
+"base": "чёрное",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "чёрное."
+},
+"этаж": {
+"base": "эт+аж",
+"model": "v5_6_ru",
+"speaker": "baya",
+"text": "эт+аж."
+}
+}

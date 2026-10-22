@@ -51,6 +51,7 @@ def skel(ipa, exp=None):
     s = [CLS[c] for c in AFF.sub('Ꮳ', raw) if c in CLS and CLS[c] != 'J']
     return [c for i, c in enumerate(s) if i == 0 or c != s[i - 1]]
 def same(x, y): return x == y or y in EITHER.get(x, '') or x in EITHER.get(y, '')
+CLUSTER0 = {'PD', 'DK', 'KD', 'PK', 'KP', 'DP', 'FS', 'FD', 'FC', 'SD', 'SK', 'SP'}   # 단어 첫머리 자음 묶음 (앞 자음이 약하게 들려요)
 def dist(a, b, cost=lambda x, y: 0 if same(x, y) else 1, gap=lambda x: 1):
     d = [0]
     for y in b: d.append(d[-1] + gap(y))
@@ -62,6 +63,7 @@ def verdict_a(exp, got):
     e, g = skel(exp), skel(got, exp)
     if not e: return True, 0
     first = bool(g) and not same(e[0], g[0])          # 첫 자음이 다르면 (газета → [b]) 바로 틀림
+    if first and len(e) > 1 and same(e[1], g[0]) and (e[0] + e[1] in CLUSTER0): first = False   # 이 인식기는 첫머리 пт · тк · кт · вс 의 앞 자음을 못 들어요
     d = dist(e, g)
     return not (first or d >= max(2, round(len(e) * 0.5))), d
 
@@ -209,13 +211,17 @@ if '--report' not in args:
     strict = lambda r: r.get('av') and r.get('bv')
     for p, vk in VOICE_OF.items():
         V = make_tts.VOICES[vk]; fixes = load(T + V['fix'], {}); meta = load(T + V['meta'], {})
-        bad = [k for k in packs[p] if k in forms and qa.get(f'{p}|{k}', {}).get('v') in ('bad', 'ok') and not strict(qa[f'{p}|{k}'])]
+        bad = [k for k in packs[p] if k in forms and qa.get(f'{p}|{k}', {}).get('v') in ('bad', 'ok', 'unfixed') and not strict(qa[f'{p}|{k}'])]
+        bad += [k for k, fx in fixes.items() if fx.get('mode') in ('swap', 'drop') and k in forms and k not in bad]   # 다른 목소리로 대신했거나 뺀 단어도 다시 해 봐요
         print(f'[{p} {V["speaker"]}] 다시 만들어 볼 합성 음성', len(bad), flush=True)
         for n, k in enumerate(bad, 1):
-            was_ok = qa[f'{p}|{k}']['v'] == 'ok'
+            was_ok = qa.get(f'{p}|{k}', {}).get('v') == 'ok' and k in packs[p] and not fixes.get(k, {}).get('mode')
             base = respell(forms[k]); cap = base[:1].upper() + base[1:]
             texts = [base, cap, base + '.', base + '!', cap + '.', '— ' + base]
-            cands = [(t, V['speaker']) for t in texts] + [(t, s) for s in BACKUP[vk] for t in (base, base + '.', cap)]
+            # SSML: 앞에 짧은 쉼 · 천천히 (첫머리 ц · пт · тк 같은 소리가 또렷해져요)
+            ssml = [f'<speak><prosody rate="slow">{base}</prosody></speak>', f'<speak><break time="250ms"/><prosody rate="slow">{base}</prosody></speak>',
+                    f'<speak><break time="250ms"/>{base}</speak>', f'<speak><prosody rate="x-slow">{base}</prosody></speak>']
+            cands = [(t, V['speaker']) for t in texts + ssml] + [(t, s) for s in BACKUP[vk] for t in [base, base + '.', cap] + ssml]
             best, major = None, None
             for text, spk in cands:
                 try: mp3 = make_tts.synth(text, spk)
@@ -233,6 +239,8 @@ if '--report' not in args:
                 print(f'  고침 {k}: A[{r["a"]}] B[{r["b"]}] ← {text} · {spk}', flush=True)
             elif was_ok:
                 print(f'  그대로 {k}: C[{qa[f"{p}|{k}"].get("c", "")}]가 맞다고 해서 원래 녹음 유지', flush=True)
+            elif fixes.get(k, {}).get('mode'):
+                print(f'  그대로 {k}: 다시 해도 통과하지 않아 {fixes[k]["mode"]} 유지', flush=True)
             else:
                 qa[f'{p}|{k}']['v'] = 'unfixed'
                 print(f'  못 고침 {k}: A[{qa[f"{p}|{k}"]["a"]}] B[{qa[f"{p}|{k}"]["b"]}]', flush=True)
