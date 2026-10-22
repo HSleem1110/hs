@@ -2611,15 +2611,12 @@
 "ad": 1,
 "av": true,
 "b": "и гразь",
-"bd": 1.5,
-"bv": false,
-"c": "Играть.",
-"cd": 0,
-"cv": true,
+"bd": 1,
+"bv": true,
 "exp": "[ɪˈɡratʲ]",
 "h": "ea7a1722ea1e",
 "ok": true,
-"score": 2.5,
+"score": 2,
 "v": "ok"
 },
 "native|игрушка": {
@@ -9234,9 +9231,7 @@
 "h": "31d5977fd3ef",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "апельс+ин.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|апельсины": {
 "a": "a p i s i n e",
@@ -9301,9 +9296,7 @@
 "h": "8e19e197a813",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "арм+яне.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|армянин": {
 "a": "ʌ r mʲ e nʲ i n",
@@ -9381,24 +9374,19 @@
 "h": "46462b9dba83",
 "ok": true,
 "score": 0,
-"speaker": "aidar",
-"text": "аэроп+орт",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|аэропорту": {
 "a": "a r ʌ p ʌ r t u",
 "ad": 0,
 "av": true,
 "b": "а эропорту",
-"bd": 0.5,
-"bv": false,
-"c": "Аэропорту?",
-"cd": 0,
-"cv": true,
+"bd": 0,
+"bv": true,
 "exp": "[ɐɪrɐˈportʊ]",
 "h": "e06331ce612f",
 "ok": true,
-"score": 0.5,
+"score": 0,
 "v": "ok"
 },
 "ttsm|бабушка": {
@@ -9984,9 +9972,7 @@
 "h": "9fc24b7fb8fe",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "бол+езнь!",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|болеть": {
 "a": "b ʌ ɭʲ i tʲ",
@@ -10379,9 +10365,7 @@
 "h": "4ef98cd58110",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "— веществ+о",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|вид": {
 "a": "b i t",
@@ -10641,9 +10625,7 @@
 "h": "b540b514fd07",
 "ok": true,
 "score": 0,
-"speaker": "aidar",
-"text": "возвращ+аетесь",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|возвращается": {
 "a": "v ʌ z v r ʌ ɕ e ts ʌ",
@@ -11125,9 +11107,7 @@
 "h": "39f5efeb1ac6",
 "ok": true,
 "score": 1,
-"speaker": "aidar",
-"text": "встреч+аете",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|встречаешь": {
 "a": "s t rʲ i tʃʲ e ʒ",
@@ -11660,9 +11640,7 @@
 "h": "a8309df30a9a",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "голуб+ая!",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|голубое": {
 "a": "ɡ o l u b o e",
@@ -11688,9 +11666,7 @@
 "h": "47c6747126d3",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "голуб+ой.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|голубые": {
 "a": "ɡ ʌ l u b o j e",
@@ -11781,9 +11757,7 @@
 "h": "1feee7b898e6",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "<speak><prosody rate=\"slow\">горож+анин</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|горы": {
 "a": "ɡ u r ʌ",
@@ -11809,9 +11783,7 @@
 "h": "4ca488197efe",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "гор+ячая!",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|горячее": {
 "a": "ɡ ʌ rʲ ɑ tʃʲ i",
@@ -11824,9 +11796,7 @@
 "h": "56e63a4de2e4",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "гор+ячее!",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|горячие": {
 "a": "ɡ ʌ rʲ e tʃʲ i",
@@ -12736,9 +12706,7 @@
 "h": "f05e2463cba2",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "дер+евья.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|десятый": {
 "a": "d i s ɛ p i",
@@ -12986,9 +12954,7 @@
 "h": "944aa492b315",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "дом+ашняя.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|доме": {
 "a": "d o mʲ e",
@@ -13248,9 +13214,7 @@
 "h": "defce9561846",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "<speak><prosody rate=\"x-slow\">д+умаете</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|думаешь": {
 "a": "d u m a ʃ",
@@ -13576,7 +13540,7 @@
 "h": "5564f49ef92f",
 "ok": true,
 "score": 0,
-"v": "swapped"
+"v": "ok"
 },
 "ttsm|ещё": {
 "a": "e ʃ ɔ",
@@ -13888,9 +13852,7 @@
 "h": "4e93f208fd72",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "жёлтая.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|жёлтое": {
 "a": "ʒ o ʁ t[ e",
@@ -13916,9 +13878,7 @@
 "h": "3faaeafe0771",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "жёлтые!",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|жёлтый": {
 "a": "ʒ o t[ i",
@@ -14022,9 +13982,7 @@
 "h": "f2d02bd27127",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "з+автракаем!",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|завтракает": {
 "a": "z ɑ f t r y k y t",
@@ -14050,9 +14008,7 @@
 "h": "82a929892ec4",
 "ok": true,
 "score": 1.0,
-"speaker": "eugene",
-"text": "<speak><prosody rate=\"x-slow\">з+автракаете</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|завтракаешь": {
 "a": "z ɑ f t rʲ i k ɪ ʃ",
@@ -14091,9 +14047,7 @@
 "h": "fe4d9a9befa5",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "— з+автракаю",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|завтракают": {
 "a": "z ɑ f t r k y t",
@@ -14132,9 +14086,7 @@
 "h": "67e5e8d6bdfa",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "— зад+ания",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|задача": {
 "a": "z ʌ d ɑ tʃʲ ɪ",
@@ -14316,9 +14268,7 @@
 "h": "658445aa59b4",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "заним+аетесь.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|занимается": {
 "a": "z ʌ nʲ i m ɑ e ts ʌ",
@@ -14501,9 +14451,7 @@
 "h": "2772726ed19c",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "<speak><prosody rate=\"slow\">з+аец</prosody></speak>",
-"v": "swapped"
+"v": "ok"
 },
 "ttsm|звать": {
 "a": "z v ɑ tʲ",
@@ -14646,9 +14594,7 @@
 "h": "dc2d5e62ebd5",
 "ok": true,
 "score": 0,
-"speaker": "aidar",
-"text": "зд+ание.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|здания": {
 "a": "s d ɑ nʲ ja",
@@ -14661,9 +14607,7 @@
 "h": "87718d4eccf5",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "— зд+ания",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|здесь": {
 "a": "z dʲ e s",
@@ -14741,9 +14685,7 @@
 "h": "dd398acc3e47",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "— зелёные",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|зелёный": {
 "a": "z i ɭʲ j o n y",
@@ -15159,9 +15101,7 @@
 "h": "487ea7dfce0f",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "игр+аете.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|играешь": {
 "a": "i ɡ ɹ ɛ ʃ",
@@ -15265,9 +15205,7 @@
 "h": "d00fa8314bcb",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "ид+еи.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|идея": {
 "a": "i dʲ e",
@@ -15280,9 +15218,7 @@
 "h": "27f7e2545dc7",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "ид+ея.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|идти": {
 "a": "e t i",
@@ -15425,9 +15361,7 @@
 "h": "de6e798f6fa6",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "<speak><prosody rate=\"x-slow\">изуч+аете</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|изучаешь": {
 "a": "i z u tʃ e ʒ",
@@ -15831,7 +15765,7 @@
 "h": "e8100adcf331",
 "ok": true,
 "score": 0,
-"v": "swapped"
+"v": "ok"
 },
 "ttsm|ищет": {
 "a": "i ʃ i t",
@@ -16143,9 +16077,7 @@
 "h": "205f87de4bdc",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "кин+о.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|кинотеатр": {
 "a": "kʲ i n ʌ tʲ i ɑ t r ʌ",
@@ -16158,9 +16090,7 @@
 "h": "632b2240d522",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "<speak><prosody rate=\"slow\">киноте+атр</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|кинотеатре": {
 "a": "kʲ i n ʌ tʲ ɑ t rʲ i",
@@ -16628,9 +16558,7 @@
 "h": "5e9afb472bb6",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "<speak><prosody rate=\"slow\">конч+аете</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|кончается": {
 "a": "k ʌ n tʃʲ e ts ʌ",
@@ -16786,9 +16714,7 @@
 "h": "e3056162ab1e",
 "ok": true,
 "score": 0.5,
-"speaker": "aidar",
-"text": "кор+ичневая",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|коричневое": {
 "a": "k ʌ r i tʃ n i v o j a",
@@ -16801,9 +16727,7 @@
 "h": "55b3cc836734",
 "ok": true,
 "score": 0.5,
-"speaker": "aidar",
-"text": "кор+ичневое",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|коричневые": {
 "a": "k ʌ rʲ i tʃ nʲ i v o j",
@@ -16817,7 +16741,7 @@
 "h": "8706c3a1eee6",
 "ok": true,
 "score": 0,
-"v": "swapped"
+"v": "ok"
 },
 "ttsm|коричневый": {
 "a": "ɡ a r i tʃ n i v o",
@@ -17571,9 +17495,7 @@
 "h": "0c581483163f",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "л+екции.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|лекция": {
 "a": "ɭʲ e k ts y",
@@ -17586,9 +17508,7 @@
 "h": "ebf6e28868d9",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "л+екция.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|лес": {
 "a": "ɭʲ e s",
@@ -17835,9 +17755,7 @@
 "h": "e75baccd47c3",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "л+ишняя.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|ложка": {
 "a": "ɭ o ʃ k ʌ",
@@ -17902,9 +17820,7 @@
 "h": "b8d01ebd413f",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "<speak><prosody rate=\"slow\">ль д+у</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|любим": {
 "a": "l uː b i m",
@@ -18619,9 +18535,7 @@
 "h": "11fd68c80580",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "мн+ение.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|мнения": {
 "a": "m ʌ nʲ e nʲ i ʌ",
@@ -18634,9 +18548,7 @@
 "h": "2473933c78b3",
 "ok": true,
 "score": 0,
-"speaker": "aidar",
-"text": "мн+ения.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|много": {
 "a": "m ɯ n oː ɡ a",
@@ -18701,9 +18613,7 @@
 "h": "79b02a2dea45",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "м+оет.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|моете": {
 "a": "m u tʲ i",
@@ -18716,9 +18626,7 @@
 "h": "258d4a7c638e",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "м+оете!",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|моешь": {
 "a": "m o ʃ",
@@ -19030,9 +18938,7 @@
 "h": "457556b51b3e",
 "ok": true,
 "score": 0,
-"speaker": "aidar",
-"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">м+оют</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|муж": {
 "a": "m u ʃ",
@@ -19097,9 +19003,7 @@
 "h": "57e1691ac93f",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "муз+ее.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|музеи": {
 "a": "m u ʑ e",
@@ -19112,9 +19016,7 @@
 "h": "f85c3de1794b",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "муз+еи.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|музей": {
 "a": "m o z e",
@@ -19361,9 +19263,7 @@
 "h": "a8d4b796f024",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "<speak><prosody rate=\"slow\">нал+оги</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|народ": {
 "a": "n ɛ r o d",
@@ -19870,9 +19770,7 @@
 "h": "e9bc27105343",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "н+овая!",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|новое": {
 "a": "n oː b e",
@@ -19885,9 +19783,7 @@
 "h": "98cd68b3bd4e",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "н+овое.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|новости": {
 "a": "n o v ʌ sʲ tʲ i",
@@ -20186,9 +20082,7 @@
 "h": "254fd227ced7",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "<speak><prosody rate=\"slow\">об+едаете</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|обедаешь": {
 "a": "ɐ ʋ e d e ʃ",
@@ -20305,9 +20199,7 @@
 "h": "36149ddc2aa8",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "общеж+итие.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|общежитии": {
 "a": "ʌ p sʲ i ʒ y tʲ i",
@@ -20320,9 +20212,7 @@
 "h": "9fcab1a7641f",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "общеж+итии.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|общежития": {
 "a": "ʌ p ɕ i ʒ y tʲ e",
@@ -20338,9 +20228,7 @@
 "h": "0f6cba6d5727",
 "ok": true,
 "score": 0.5,
-"speaker": "aidar",
-"text": "общеж+ития",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|общества": {
 "a": "o p ɕ i s t v a",
@@ -20470,9 +20358,7 @@
 "h": "5561f3df7a21",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "огурц+ы.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|одеваемся": {
 "a": "a dʲ i v a j e m sʲ e",
@@ -20498,9 +20384,7 @@
 "h": "6700d9556f2a",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "<speak><prosody rate=\"x-slow\">одев+аетесь</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|одевается": {
 "a": "ʌ dʲ i v ɑ e ts ʌ",
@@ -20812,9 +20696,7 @@
 "h": "897c44f94344",
 "ok": true,
 "score": 0,
-"speaker": "aidar",
-"text": "ор+анжевое.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|оранжевые": {
 "a": "a r a n dʒ ə w ɵ",
@@ -20827,9 +20709,7 @@
 "h": "7941768335b2",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "ор+анжевые!",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|оранжевый": {
 "a": "a r a n dʒ",
@@ -21037,9 +20917,7 @@
 "h": "9b4baf253af1",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "<speak><prosody rate=\"slow\">отвеч+аете</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|отвечаешь": {
 "a": "a t v i tʃʲ e ʒ",
@@ -21351,9 +21229,7 @@
 "h": "4bf0e63bfc65",
 "ok": true,
 "score": 0,
-"speaker": "aidar",
-"text": "+отпуск",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|отцы": {
 "a": "a ts i",
@@ -22341,9 +22217,7 @@
 "h": "16e1d1e35773",
 "ok": true,
 "score": 0,
-"speaker": "aidar",
-"text": "повтор+яете",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|повторяешь": {
 "a": "p o f t e rʲ e ʃ",
@@ -22811,9 +22685,7 @@
 "h": "7e814992dde0",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "<speak><break time=\"250ms\"/>п+омнить</speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|помнишь": {
 "a": "p o m nʲ e ʃ",
@@ -24061,9 +23933,7 @@
 "h": "860d515dfd5d",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "раб+отаете.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|работаешь": {
 "a": "r ɐ b u t i s",
@@ -24154,9 +24024,7 @@
 "h": "4e300cfd8589",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "р+адио.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|разница": {
 "a": "r ɑ ʑ nʲ i ts ʌ",
@@ -24221,9 +24089,7 @@
 "h": "4f779ce5b65e",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "расск+азываете.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|рассказываешь": {
 "a": "r a s k ɑ z v i ʃ",
@@ -24691,9 +24557,7 @@
 "h": "cd2e230305ce",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "р+озовые.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|розовый": {
 "a": "r oː z w iː",
@@ -24706,9 +24570,7 @@
 "h": "02cd2e9354d5",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "— р+озовый",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|роман": {
 "a": "r ʌ m ɑ n",
@@ -24994,9 +24856,7 @@
 "h": "e7a8aeef25d4",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "сад.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|саду": {
 "a": "s a d uː",
@@ -25321,9 +25181,7 @@
 "h": "f74829797f4a",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "с+ерая.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|сердца": {
 "a": "s i r s a",
@@ -25362,9 +25220,7 @@
 "h": "44edaba64958",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "с+ерое.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|серые": {
 "a": "s i r",
@@ -25429,9 +25285,7 @@
 "h": "ad191cf321cd",
 "ok": true,
 "score": 0,
-"speaker": "aidar",
-"text": "<speak><prosody rate=\"x-slow\">Се+ул</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|сеуле": {
 "a": "s i u ɭʲ i",
@@ -25444,9 +25298,7 @@
 "h": "77a10f22e77c",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">Се+уле</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|сибири": {
 "a": "s i b i ɾ ɪ",
@@ -25602,9 +25454,7 @@
 "h": "af37576c8eb1",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">с+инее</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|синие": {
 "a": "s i ɲ e",
@@ -25617,9 +25467,7 @@
 "h": "e5f45172c501",
 "ok": true,
 "score": 0,
-"speaker": "aidar",
-"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">с+иние</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|синий": {
 "a": "s i n i",
@@ -25645,9 +25493,7 @@
 "h": "96e875e24f60",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "с+иняя.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|система": {
 "a": "s i s t i m a",
@@ -25816,9 +25662,7 @@
 "h": "0e5a2fffad7e",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">сл+ушаем</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|слушает": {
 "a": "s ɭ u ʃ t",
@@ -25844,9 +25688,7 @@
 "h": "9994dc5fdc47",
 "ok": true,
 "score": 1,
-"speaker": "aidar",
-"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">сл+ушаете</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|слушаешь": {
 "a": "s ɭ u ʃ e ʃ",
@@ -25872,9 +25714,7 @@
 "h": "da32a39a752d",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "сл+ушать!",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|слушаю": {
 "a": "s l u ʃ ʉ",
@@ -25926,9 +25766,7 @@
 "h": "08a930776d75",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "<speak><prosody rate=\"x-slow\">сл+ышать</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|слышим": {
 "a": "s ɭ ɪ ʃ ɪ m",
@@ -26032,9 +25870,7 @@
 "h": "30d6fd2add95",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "смотр+еть.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|смотрим": {
 "a": "s m o t rʲ ɪ m",
@@ -26294,9 +26130,7 @@
 "h": "4fa863815b71",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "сов+етуете!",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|советуешь": {
 "a": "s a ɡ i t u ʃ",
@@ -26608,9 +26442,7 @@
 "h": "897f0a6a5957",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "<speak><prosody rate=\"slow\">спр+ашиваете</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|спрашиваешь": {
 "a": "s p r a ʃ v i ʃ",
@@ -26792,9 +26624,7 @@
 "h": "a2116f287f8b",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "ст+арая!",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|старое": {
 "a": "t a r a",
@@ -26820,9 +26650,7 @@
 "h": "edae185cebbd",
 "ok": true,
 "score": 0,
-"speaker": "aidar",
-"text": "ст+аршая",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|старшее": {
 "a": "t ɑ r ʃ y",
@@ -26952,9 +26780,7 @@
 "h": "46d7caa0107e",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "стен+а.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|стене": {
 "a": "s t ʌ nʲ e",
@@ -27227,9 +27053,7 @@
 "h": "a17edab64a93",
 "ok": true,
 "score": 0,
-"speaker": "aidar",
-"text": "стран+а.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|страны": {
 "a": "s t r ɑ n y",
@@ -28113,9 +27937,7 @@
 "h": "d86f5f24fc6e",
 "ok": true,
 "score": 0,
-"speaker": "aidar",
-"text": "<speak><prosody rate=\"slow\">трамв+аи</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|трамвай": {
 "a": "t r ʌ n v aɪ",
@@ -28388,9 +28210,7 @@
 "h": "5f12c66dafa4",
 "ok": true,
 "score": 0,
-"speaker": "aidar",
-"text": "+ужинаете",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|ужинаешь": {
 "a": "u ʒ ʌ n e ʃ",
@@ -28403,9 +28223,7 @@
 "h": "ce7770903401",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "+ужинаешь.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|ужинать": {
 "a": "u ʒ y m ʌ tʲ ɪ",
@@ -28600,9 +28418,7 @@
 "h": "51717b21bb1f",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "<speak><prosody rate=\"x-slow\">улыб+аетесь</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|улыбается": {
 "a": "u ɭ y b ɑ e ts ʌ",
@@ -28791,16 +28607,13 @@
 "ad": 0,
 "av": true,
 "b": "урожай",
-"bd": 0.5,
-"bv": false,
-"c": "Урожай!",
-"cd": 0.5,
-"cv": false,
+"bd": 0,
+"bv": true,
 "exp": "[ʊrɐˈʐaɪ]",
 "h": "b54c85d95bfa",
-"ok": false,
-"score": 1.0,
-"v": "unfixed"
+"ok": true,
+"score": 0,
+"v": "ok"
 },
 "ttsm|урожай": {
 "a": "u r ɑ s a k",
@@ -29411,9 +29224,7 @@
 "h": "f2f854c9b98e",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "фиол+етовый.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|фирма": {
 "a": "f i r m a",
@@ -29517,9 +29328,7 @@
 "h": "10855b723bad",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "фотограф+ируете.",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|фотографируешь": {
 "a": "f o t e k r ɛ x i l u ʃ",
@@ -30039,9 +29848,7 @@
 "h": "2f2223fd55b3",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">царь</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "ttsm|цветок": {
 "a": "s vʲ i t o k",
@@ -31201,18 +31008,19 @@
 "v": "ok"
 },
 "tts|анне": {
-"a": "a ɲ i",
+"a": "ɑ n",
 "ad": 0,
 "av": true,
-"b": "анне",
+"b": "а не",
 "bd": 0,
 "bv": true,
 "exp": "[ˈanʲːe]",
-"from": "ttsm",
-"h": "eec92756e6ac",
+"h": "ca36fbd744b5",
 "ok": true,
 "score": 0,
-"v": "swapped"
+"speaker": "baya",
+"text": "— +Анне",
+"v": "fixed"
 },
 "tts|антон": {
 "a": "h a n t o n",
@@ -31251,9 +31059,7 @@
 "h": "c117d9b13124",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "<speak><break time=\"250ms\"/>апельс+ин</speak>",
-"v": "fixed"
+"v": "ok"
 },
 "tts|апельсины": {
 "a": "a p i ɹ s e n",
@@ -31266,9 +31072,7 @@
 "h": "ffa0e2fcb9bd",
 "ok": true,
 "score": 1,
-"speaker": "baya",
-"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">апельс+ины</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "tts|аптека": {
 "a": "a p tʃ e k a",
@@ -31359,9 +31163,7 @@
 "h": "65d351122690",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "аспирант+уре!",
-"v": "fixed"
+"v": "ok"
 },
 "tts|аудитории": {
 "a": "aʊ dʒ i t o ɹ i",
@@ -31407,18 +31209,13 @@
 "ad": 0,
 "av": true,
 "b": "а иропорту",
-"bd": 0.5,
-"bv": false,
-"c": "Аэропорту.",
-"cd": 0,
-"cv": true,
+"bd": 0,
+"bv": true,
 "exp": "[ɐɪrɐˈportʊ]",
 "h": "f6f1a8ae276e",
 "ok": true,
-"score": 0.5,
-"speaker": "baya",
-"text": "аэропорт+у!",
-"v": "fixed"
+"score": 0,
+"v": "ok"
 },
 "tts|бабушка": {
 "a": "b ɑ b u ʃ k a",
@@ -32604,9 +32401,7 @@
 "h": "8e13ddfab273",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "вод+итель.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|вожди": {
 "a": "v a ʃ t iː",
@@ -32658,9 +32453,7 @@
 "h": "e6e308d4f1d4",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "возвращ+аетесь.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|возвращается": {
 "a": "v ʌ z v ɹ ʌ ʃ e ʌ",
@@ -32751,9 +32544,7 @@
 "h": "257e5ce1946a",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "возм+ожность.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|вокзал": {
 "a": "v a k s a l",
@@ -33143,9 +32934,7 @@
 "h": "09682c48b49c",
 "ok": true,
 "score": 1,
-"speaker": "baya",
-"text": "<speak><prosody rate=\"x-slow\">встреч+аете</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "tts|встречаешь": {
 "a": "s t rʲ i k e ʃ",
@@ -35251,9 +35040,7 @@
 "h": "cbeadd342ae4",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "д+умаете!",
-"v": "fixed"
+"v": "ok"
 },
 "tts|думаешь": {
 "a": "d[ o m ɑ j ʃ",
@@ -35527,7 +35314,7 @@
 "h": "f10898c2de5a",
 "ok": true,
 "score": 0,
-"v": "swapped"
+"v": "ok"
 },
 "tts|ест": {
 "a": "j e s t",
@@ -36021,9 +35808,7 @@
 "h": "06ccdb3ab752",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "з+автракаем.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|завтракает": {
 "a": "z a f t r a k a j e d",
@@ -36036,9 +35821,7 @@
 "h": "0551dac7163d",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "з+автракает.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|завтракаете": {
 "a": "z ɑ f t r ʌ k ʌ i tʲ i",
@@ -36051,9 +35834,7 @@
 "h": "06ab766edcb3",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "<speak><prosody rate=\"x-slow\">з+автракаете</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "tts|завтракаешь": {
 "a": "z a f t ɹ ɐ k a ʃ",
@@ -36170,9 +35951,7 @@
 "h": "4bd7b27b6145",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "— з+айцы",
-"v": "fixed"
+"v": "ok"
 },
 "tts|закон": {
 "a": "z k u n",
@@ -36407,7 +36186,7 @@
 "h": "35b6cb932cd2",
 "ok": true,
 "score": 0,
-"v": "swapped"
+"v": "ok"
 },
 "tts|занятый": {
 "a": "z aː ɲ i t i",
@@ -36498,9 +36277,7 @@
 "h": "2772726ed19c",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "<speak><prosody rate=\"slow\">з+аец</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "tts|звать": {
 "a": "z v a t",
@@ -36656,9 +36433,7 @@
 "h": "22685d15c0a0",
 "ok": true,
 "score": 0,
-"speaker": "kseniya",
-"text": "зд+ания",
-"v": "fixed"
+"v": "ok"
 },
 "tts|здесь": {
 "a": "s t i s",
@@ -37412,9 +37187,7 @@
 "h": "6dd8391fd0fe",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "изуч+аете!",
-"v": "fixed"
+"v": "ok"
 },
 "tts|изучаешь": {
 "a": "i z u tʃ ɑ ʃ",
@@ -37492,9 +37265,7 @@
 "h": "576b9e6ff2c3",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "Имен+а",
-"v": "fixed"
+"v": "ok"
 },
 "tts|имени": {
 "a": "i mʲ i nʲ i",
@@ -37507,9 +37278,7 @@
 "h": "6dc1cf88b037",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "+имени.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|имя": {
 "a": "h iː m a",
@@ -37834,9 +37603,7 @@
 "h": "515a9a713a67",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "+ищет.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|ищете": {
 "a": "iː ʃ i t ɪ",
@@ -38187,9 +37954,7 @@
 "h": "a90b6282222e",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "Кипр.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|кипре": {
 "a": "k iː p ɹ i",
@@ -38215,9 +37980,7 @@
 "h": "4e8b5a685d55",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "Кит+ае!",
-"v": "fixed"
+"v": "ok"
 },
 "tts|китай": {
 "a": "k i t a",
@@ -39777,9 +39540,7 @@
 "h": "3b9b0b5b8c61",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "л+ишнее.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|лишние": {
 "a": "ɭʲ i ʃ nʲ i",
@@ -39818,9 +39579,7 @@
 "h": "0d4f3728951d",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "<speak><prosody rate=\"slow\">л+ишняя</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "tts|ложка": {
 "a": "l o S k ɑ",
@@ -39886,9 +39645,7 @@
 "h": "b8d01ebd413f",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "<speak><prosody rate=\"slow\">ль д+у</prosody></speak>",
-"v": "swapped"
+"v": "ok"
 },
 "tts|любим": {
 "a": "l uː d ʉ m",
@@ -40603,9 +40360,7 @@
 "h": "ff86deaef1aa",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "мн+ение.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|мнения": {
 "a": "m i ɲ eː n i a",
@@ -40696,9 +40451,7 @@
 "h": "d1299de5ac55",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "м+оете.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|моешь": {
 "a": "m ɑ ʃ",
@@ -41088,9 +40841,7 @@
 "h": "6d1c8dece9ee",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "муз+еи.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|музей": {
 "a": "m u dʒ i",
@@ -41168,9 +40919,7 @@
 "h": "9db787a31c0b",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "мут+ации.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|мутация": {
 "a": "m u t a t s e",
@@ -42158,9 +41907,7 @@
 "h": "b04d79fce57d",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "об+едаете!",
-"v": "fixed"
+"v": "ok"
 },
 "tts|обедаешь": {
 "a": "a b e d e ʃ",
@@ -42296,9 +42043,7 @@
 "h": "9fcab1a7641f",
 "ok": true,
 "score": 0,
-"speaker": "eugene",
-"text": "общеж+итии.",
-"v": "swapped"
+"v": "ok"
 },
 "tts|общежития": {
 "a": "ʌ p ɕ i ʒ y tʲ i",
@@ -42314,9 +42059,7 @@
 "h": "8dda052ba6ee",
 "ok": true,
 "score": 0.5,
-"speaker": "kseniya",
-"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">общеж+ития</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "tts|общества": {
 "a": "o p ʃ i s t v a",
@@ -42472,9 +42215,7 @@
 "h": "282e7d6a6f13",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "<speak><prosody rate=\"slow\">одев+аетесь</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "tts|одевается": {
 "a": "a dZ i v ɑ j e t s e",
@@ -42604,9 +42345,7 @@
 "h": "fde2b7600bee",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "окн+е.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|окно": {
 "a": "a q n uː",
@@ -43009,9 +42748,7 @@
 "h": "4cc05f607f4f",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "отвеч+аете.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|отвечаешь": {
 "a": "a t v i tʃ a j ʃ",
@@ -43102,9 +42839,7 @@
 "h": "304edc3b22c3",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "<speak><prosody rate=\"slow\">отдых+аете</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "tts|отдыхаешь": {
 "a": "ɑ d d[ ɯ x ɑ j ʃ",
@@ -43585,9 +43320,7 @@
 "h": "9cd1ee6d3ef5",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "п+артии.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|партия": {
 "a": "p a r t i",
@@ -44315,9 +44048,7 @@
 "h": "2b8a88bf503c",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "повтор+яете!",
-"v": "fixed"
+"v": "ok"
 },
 "tts|повторяешь": {
 "a": "p ɔ f t e rʲ a ʃ",
@@ -44525,9 +44256,7 @@
 "h": "570c779707c5",
 "ok": true,
 "score": 0,
-"speaker": "kseniya",
-"text": "покол+ение",
-"v": "fixed"
+"v": "ok"
 },
 "tts|поколения": {
 "a": "p ʌ k ʌ ɭʲ e nʲ e",
@@ -44540,9 +44269,7 @@
 "h": "d02b0881b9bd",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "<speak><prosody rate=\"slow\">покол+ения</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "tts|покупаем": {
 "a": "f o k u p a j m",
@@ -45205,9 +44932,7 @@
 "h": "cce25325df68",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "по+эт!",
-"v": "fixed"
+"v": "ok"
 },
 "tts|поэты": {
 "a": "p a j a t i",
@@ -45519,9 +45244,7 @@
 "h": "7a176e94f745",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "приглаш+аете.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|приглашаешь": {
 "a": "p rʲ i ɡ ɭ ɐ ʃ a ʃ",
@@ -46135,9 +45858,7 @@
 "h": "701e0cd2b71d",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "р+адио.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|разница": {
 "a": "r ɑ sʲ nʲ e ts e r",
@@ -46202,9 +45923,7 @@
 "h": "3008f092f3b4",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "расск+азываете.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|рассказываешь": {
 "a": "r ɐ s k a z ɨ v e ʃ",
@@ -46543,7 +46262,7 @@
 "h": "2fa67b293980",
 "ok": true,
 "score": 0,
-"v": "swapped"
+"v": "ok"
 },
 "tts|рисуешь": {
 "a": "ɹ i s u ʃ",
@@ -47573,9 +47292,7 @@
 "h": "30603330871b",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "с+инее.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|синие": {
 "a": "s i nʲ",
@@ -47588,9 +47305,7 @@
 "h": "370b001d2bed",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "с+иние!",
-"v": "fixed"
+"v": "ok"
 },
 "tts|синий": {
 "a": "s i n i",
@@ -47798,9 +47513,7 @@
 "h": "f8d91706a410",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">сл+ушает</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "tts|слушаете": {
 "a": "ts u5 u5 s. uei5 j tɕ i5",
@@ -47814,9 +47527,7 @@
 "h": "9994dc5fdc47",
 "ok": true,
 "score": 1,
-"speaker": "aidar",
-"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">сл+ушаете</prosody></speak>",
-"v": "swapped"
+"v": "ok"
 },
 "tts|слушаешь": {
 "a": "s uː ʃ ɹ e ʃ",
@@ -48167,9 +47878,7 @@
 "h": "f76f83e2ca5d",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "собр+ании.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|событие": {
 "a": "s ʌ b u tʲ i",
@@ -48572,9 +48281,7 @@
 "h": "2b614990cd67",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "спр+ашиваете.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|спрашиваешь": {
 "a": "s p ɹ a ʃ ɨ v i ʃ",
@@ -48795,9 +48502,7 @@
 "h": "664ecf2f0cac",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "<speak><prosody rate=\"slow\">ст+аршее</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "tts|старшие": {
 "a": "s t a r ʃ i",
@@ -48810,9 +48515,7 @@
 "h": "dca15f586bae",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "<speak><prosody rate=\"slow\">ст+аршие</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "tts|старший": {
 "a": "s t a ʃ i",
@@ -48981,9 +48684,7 @@
 "h": "00e02bf52cae",
 "ok": true,
 "score": 1,
-"speaker": "baya",
-"text": "<speak><prosody rate=\"x-slow\">стихотвор+ение</prosody></speak>",
-"v": "fixed"
+"v": "ok"
 },
 "tts|стихотворении": {
 "a": "s tʲ i x ʌ t v ʌ rʲ e i",
@@ -49776,9 +49477,7 @@
 "h": "ca8b3676a236",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "те+атр.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|театре": {
 "a": "dʒ a k ɹ e",
@@ -50067,20 +49766,19 @@
 "v": "ok"
 },
 "tts|трамваи": {
-"a": "t r ʌ m v ɑ",
+"a": "t r ʌ m v aɪ",
 "ad": 0,
 "av": true,
-"b": "трамваи",
+"b": "трамвай",
 "bd": 0,
 "bv": true,
 "exp": "[trɐmˈvaɪ]",
-"from": "ttsm",
-"h": "d86f5f24fc6e",
+"h": "5149200824fb",
 "ok": true,
 "score": 0,
-"speaker": "aidar",
-"text": "<speak><prosody rate=\"slow\">трамв+аи</prosody></speak>",
-"v": "swapped"
+"speaker": "baya",
+"text": "трамв+аи",
+"v": "fixed"
 },
 "tts|трамвай": {
 "a": "t r ʌ m v aɪ",
@@ -50353,9 +50051,7 @@
 "h": "48e3a5428bf6",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "+ужинаете.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|ужинаешь": {
 "a": "u ʒ ɯ n e ʃ",
@@ -50563,9 +50259,7 @@
 "h": "855a49813f47",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "улыб+аетесь.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|улыбается": {
 "a": "u l ɯ b ɑ j e s e",
@@ -50754,16 +50448,13 @@
 "ad": 0,
 "av": true,
 "b": "урожай",
-"bd": 0.5,
-"bv": false,
-"c": "Урожай!",
-"cd": 0.5,
-"cv": false,
+"bd": 0,
+"bv": true,
 "exp": "[ʊrɐˈʐaɪ]",
 "h": "3718b860c1f0",
-"ok": false,
-"score": 1.0,
-"v": "unfixed"
+"ok": true,
+"score": 0,
+"v": "ok"
 },
 "tts|урожай": {
 "a": "u ɹ a ʃ aɪ",
@@ -51010,9 +50701,7 @@
 "h": "d29e4251c4bb",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "уч+итель!",
-"v": "fixed"
+"v": "ok"
 },
 "tts|учителя": {
 "a": "w u tʃ i t i l aː",
@@ -51428,9 +51117,7 @@
 "h": "51dd4683be7e",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "ф+ото.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|фотографировать": {
 "a": "f ʌ t a ɡ r a x iː r v a d",
@@ -52503,7 +52190,7 @@
 "h": "7db095666aac",
 "ok": true,
 "score": 0,
-"v": "swapped"
+"v": "ok"
 },
 "tts|чёрная": {
 "a": "tʃʲ o r n ɑ",
@@ -52659,9 +52346,7 @@
 "h": "8ad6e680a83f",
 "ok": true,
 "score": 0,
-"speaker": "baya",
-"text": "шк+олы.",
-"v": "fixed"
+"v": "ok"
 },
 "tts|щенки": {
 "a": "ʃ i n k i",
