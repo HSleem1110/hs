@@ -160,6 +160,12 @@
 "speaker": "eugene",
 "text": "виногр+ад."
 },
+"вкусно": {
+"base": "вк+усно",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "вк+усно."
+},
 "вместе": {
 "base": "вм+есте",
 "model": "v5_6_ru",
@@ -225,6 +231,12 @@
 "model": "v5_6_ru",
 "speaker": "eugene",
 "text": "вопр+осы!"
+},
+"впереди": {
+"base": "вперед+и",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "вперед+и."
 },
 "вставать": {
 "base": "встав+ать",
@@ -988,6 +1000,12 @@
 "speaker": "eugene",
 "text": "<speak><prosody rate=\"slow\">м+ясо</prosody></speak>"
 },
+"налево": {
+"base": "нал+ево",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "нал+ево."
+},
 "налоги": {
 "base": "нал+оги",
 "model": "v5_6_ru",
@@ -1017,6 +1035,12 @@
 "model": "v5_6_ru",
 "speaker": "eugene",
 "text": "н+овое."
+},
+"ночью": {
+"base": "н+очью",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "н+очью."
 },
 "нём": {
 "base": "нём",
@@ -1131,6 +1155,12 @@
 "model": "v5_6_ru",
 "speaker": "eugene",
 "text": "+осень."
+},
+"осенью": {
+"base": "+осенью",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "+осенью!"
 },
 "ответ": {
 "base": "отв+ет",
@@ -1732,6 +1762,12 @@
 "speaker": "eugene",
 "text": "телёнок!"
 },
+"теперь": {
+"base": "теп+ерь",
+"model": "v5_6_ru",
+"speaker": "aidar",
+"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">теп+ерь</prosody></speak>"
+},
 "ткани": {
 "base": "тк+ани",
 "model": "v5_6_ru",
@@ -1761,6 +1797,12 @@
 "model": "v5_6_ru",
 "speaker": "eugene",
 "text": "тр+удный!"
+},
+"туда": {
+"base": "туд+а",
+"model": "v5_6_ru",
+"speaker": "eugene",
+"text": "туд+а."
 },
 "туристы": {
 "base": "тур+исты",

@@ -650,6 +650,19 @@
 "score": 0,
 "v": "ok"
 },
+"native|весной": {
+"a": "v i s n oɪ",
+"ad": 0,
+"av": true,
+"b": "весной",
+"bd": 0,
+"bv": true,
+"exp": "vʲisnˈoj",
+"h": "39b3094ccfe4",
+"ok": true,
+"score": 0,
+"v": "ok"
+},
 "native|весёлый": {
 "a": "m i s o l i",
 "ad": 1,
@@ -933,6 +946,38 @@
 "h": "8915c68197e5",
 "ok": true,
 "score": 0,
+"v": "ok"
+},
+"native|впереди": {
+"a": "s p i ɹ i dʒ i",
+"ad": 1,
+"av": false,
+"b": "впереди",
+"bd": 0,
+"bv": true,
+"c": "Впереди!",
+"cd": 0,
+"cv": true,
+"exp": "fpʲirʲidʲˈɪ",
+"h": "b75908b7f6a4",
+"ok": true,
+"score": 1,
+"v": "ok"
+},
+"native|вперёд": {
+"a": "s p i r j o t",
+"ad": 1,
+"av": false,
+"b": "вперед",
+"bd": 0,
+"bv": true,
+"c": "Вперёд!",
+"cd": 0,
+"cv": true,
+"exp": "fpʲirʲˈɵt",
+"h": "dc78d370e371",
+"ok": true,
+"score": 1,
 "v": "ok"
 },
 "native|врач": {
@@ -1762,6 +1807,19 @@
 "score": 0,
 "v": "ok"
 },
+"native|днём": {
+"a": "d ɪ ɲ o m",
+"ad": 0,
+"av": true,
+"b": "д нем",
+"bd": 0,
+"bv": true,
+"exp": "dnʲˈɵm",
+"h": "b7ae19516e38",
+"ok": true,
+"score": 0,
+"v": "ok"
+},
 "native|добрый": {
 "a": "d oː b ɹ i k",
 "ad": 1,
@@ -1786,6 +1844,19 @@
 "h": "5cb7c97744c8",
 "ok": true,
 "score": 1,
+"v": "ok"
+},
+"native|долго": {
+"a": "d[ o l ɡ ʌ",
+"ad": 0,
+"av": true,
+"b": "долго",
+"bd": 0,
+"bv": true,
+"exp": "dˈoɭɡʌ",
+"h": "3bf162d861e1",
+"ok": true,
+"score": 0,
 "v": "ok"
 },
 "native|дом": {
@@ -1828,6 +1899,19 @@
 "h": "42e140d91d0e",
 "ok": true,
 "score": 0,
+"v": "ok"
+},
+"native|домой": {
+"a": "d a m uː ç",
+"ad": 1,
+"av": true,
+"b": "домой",
+"bd": 0,
+"bv": true,
+"exp": "dʌmˈoj",
+"h": "c1df56b75fa5",
+"ok": true,
+"score": 1,
 "v": "ok"
 },
 "native|дорога": {
@@ -2511,6 +2595,19 @@
 "bv": true,
 "exp": "[zʲɪˈma]",
 "h": "d5783cf63c17",
+"ok": true,
+"score": 0,
+"v": "ok"
+},
+"native|зимой": {
+"a": "z i m oɪ",
+"ad": 0,
+"av": true,
+"b": "зимой",
+"bd": 0,
+"bv": true,
+"exp": "ʑimˈoj",
+"h": "2c47b53653b3",
 "ok": true,
 "score": 0,
 "v": "ok"
@@ -4335,6 +4432,19 @@
 "score": 0,
 "v": "ok"
 },
+"native|налево": {
+"a": "n ʌ ɭʲ e v ʌ",
+"ad": 0,
+"av": true,
+"b": "налево",
+"bd": 0,
+"bv": true,
+"exp": "naɭʲˈevʌ",
+"h": "92df9fdbd2a4",
+"ok": true,
+"score": 0,
+"v": "ok"
+},
 "native|налог": {
 "a": "n ɑ l o k",
 "ad": 0,
@@ -4344,6 +4454,19 @@
 "bv": true,
 "exp": "[nɐˈɫok]",
 "h": "7a01cfb311e7",
+"ok": true,
+"score": 0,
+"v": "ok"
+},
+"native|направо": {
+"a": "n a p r aː v a",
+"ad": 0,
+"av": true,
+"b": "направо",
+"bd": 0,
+"bv": true,
+"exp": "naprˈɑvʌ",
+"h": "a03012855ad2",
 "ok": true,
 "score": 0,
 "v": "ok"
@@ -4504,6 +4627,19 @@
 "score": 0,
 "v": "ok"
 },
+"native|недалеко": {
+"a": "nʲ i d y ɭʲ i k o",
+"ad": 0,
+"av": true,
+"b": "недалеко",
+"bd": 0,
+"bv": true,
+"exp": "nʲidʌɭʲikˈo",
+"h": "90c140248a1d",
+"ok": true,
+"score": 0,
+"v": "ok"
+},
 "native|неделя": {
 "a": "nʲ i dʲ e ɭʲ ʌ",
 "ad": 0,
@@ -4557,6 +4693,19 @@
 "h": "d0a6fb111551",
 "ok": true,
 "score": 1,
+"v": "ok"
+},
+"native|нехорошо": {
+"a": "nʲ i k ʌ r ɑ ʃ o",
+"ad": 0,
+"av": true,
+"b": "нехорошо",
+"bd": 0,
+"bv": true,
+"exp": "nʲixʌrʌʃˈo",
+"h": "a250b4b6310f",
+"ok": true,
+"score": 0,
 "v": "ok"
 },
 "native|никогда": {
@@ -4688,6 +4837,19 @@
 "bv": true,
 "exp": "[not͡ɕ]",
 "h": "04bbbd2ebf9e",
+"ok": true,
+"score": 0,
+"v": "ok"
+},
+"native|ночью": {
+"a": "n o tʃ i",
+"ad": 0,
+"av": true,
+"b": "ночью",
+"bd": 0,
+"bv": true,
+"exp": "nˈotʃʲjju",
+"h": "5bc1c7e5dd44",
 "ok": true,
 "score": 0,
 "v": "ok"
@@ -5100,6 +5262,19 @@
 "ok": false,
 "score": 3.5,
 "v": "removed"
+},
+"native|осенью": {
+"a": "o ɕ i n i",
+"ad": 0,
+"av": true,
+"b": "осинью",
+"bd": 0,
+"bv": true,
+"exp": "ˈosʲinjju",
+"h": "7f87d0cf50a6",
+"ok": true,
+"score": 0,
+"v": "ok"
 },
 "native|остров": {
 "a": "o s tʲ i rʲ ʌ",
@@ -6242,6 +6417,19 @@
 "score": 1,
 "v": "removed"
 },
+"native|прямо": {
+"a": "p rʲ i a m a",
+"ad": 0,
+"av": true,
+"b": "прямо",
+"bd": 0,
+"bv": true,
+"exp": "prʲˈɑmʌ",
+"h": "ed6a98c6021a",
+"ok": true,
+"score": 0,
+"v": "ok"
+},
 "native|птица": {
 "a": "p t iː ts a",
 "ad": 0,
@@ -6358,6 +6546,19 @@
 "bv": true,
 "exp": "[ˈrazʲnʲɪt͡sə]",
 "h": "89056b61f256",
+"ok": true,
+"score": 0,
+"v": "ok"
+},
+"native|раньше": {
+"a": "ɑ r ɑ ɲ ʃ e",
+"ad": 0,
+"av": true,
+"b": "раньше",
+"bd": 0,
+"bv": true,
+"exp": "rˈɑnʃy",
+"h": "93ca4833a671",
 "ok": true,
 "score": 0,
 "v": "ok"
@@ -6976,6 +7177,19 @@
 "score": 0,
 "v": "ok"
 },
+"native|слева": {
+"a": "s l e v a",
+"ad": 0,
+"av": true,
+"b": "слева",
+"bd": 0,
+"bv": true,
+"exp": "sɭʲˈeva",
+"h": "ddd6910d9760",
+"ok": true,
+"score": 0,
+"v": "ok"
+},
 "native|следующий": {
 "a": "s l i d uː j y ʃ i ç",
 "ad": 1,
@@ -7095,6 +7309,19 @@
 "bv": true,
 "exp": "[smɐˈtrʲetʲ]",
 "h": "826c519e1c94",
+"ok": true,
+"score": 0,
+"v": "ok"
+},
+"native|сначала": {
+"a": "s n e tʃ ɑ l a",
+"ad": 0,
+"av": true,
+"b": "сначала",
+"bd": 0,
+"bv": true,
+"exp": "snatʃʲˈɑɭa",
+"h": "bada945a244a",
 "ok": true,
 "score": 0,
 "v": "ok"
@@ -7277,6 +7504,19 @@
 "bv": true,
 "exp": "[spɐˈsobnəsʲtʲ]",
 "h": "c97920efad53",
+"ok": true,
+"score": 0,
+"v": "ok"
+},
+"native|справа": {
+"a": "s p r aː v a",
+"ad": 0,
+"av": true,
+"b": "справа",
+"bd": 0,
+"bv": true,
+"exp": "sprˈɑva",
+"h": "c4a98745580f",
 "ok": true,
 "score": 0,
 "v": "ok"
@@ -7628,6 +7868,19 @@
 "score": 0,
 "v": "ok"
 },
+"native|сюда": {
+"a": "s y d a ʁ",
+"ad": 1,
+"av": true,
+"b": "сюда",
+"bd": 0,
+"bv": true,
+"exp": "sʲu\"dˈɑ",
+"h": "1c4c87c86b64",
+"ok": true,
+"score": 1,
+"v": "ok"
+},
 "native|там": {
 "a": "t a m",
 "ad": 0,
@@ -7749,6 +8002,19 @@
 "h": "5e350863a213",
 "ok": true,
 "score": 2,
+"v": "ok"
+},
+"native|теперь": {
+"a": "d i b i r",
+"ad": 0,
+"av": true,
+"b": "теперь",
+"bd": 0,
+"bv": true,
+"exp": "tʲipʲˈerɪ^",
+"h": "7524799abc4b",
+"ok": true,
+"score": 0,
 "v": "ok"
 },
 "native|тетрадь": {
@@ -7882,6 +8148,19 @@
 "h": "fd1b7520cd67",
 "ok": true,
 "score": 1,
+"v": "ok"
+},
+"native|туда": {
+"a": "t u d a",
+"ad": 0,
+"av": true,
+"b": "туда",
+"bd": 0,
+"bv": true,
+"exp": "tudˈɑ",
+"h": "8557806256fb",
+"ok": true,
+"score": 0,
 "v": "ok"
 },
 "native|турист": {
@@ -8125,6 +8404,19 @@
 "h": "52c76863a66d",
 "ok": true,
 "score": 1,
+"v": "ok"
+},
+"native|утром": {
+"a": "u t r ʌ m",
+"ad": 0,
+"av": true,
+"b": "утром",
+"bd": 0,
+"bv": true,
+"exp": "ˈutrʌm",
+"h": "fe6d79e9239d",
+"ok": true,
+"score": 0,
 "v": "ok"
 },
 "native|ухо": {
@@ -10302,6 +10594,19 @@
 "score": 0,
 "v": "ok"
 },
+"ttsm|весной": {
+"a": "vʲ i s n o",
+"ad": 0,
+"av": true,
+"b": "весной",
+"bd": 0,
+"bv": true,
+"exp": "vʲisnˈoj",
+"h": "d64608c6e3c7",
+"ok": true,
+"score": 0,
+"v": "ok"
+},
 "ttsm|весёлый": {
 "a": "v i s o l i",
 "ad": 0,
@@ -10337,6 +10642,19 @@
 "bv": true,
 "exp": "[vʲɪt͡ɕɪˈra]",
 "h": "0244d1452d3f",
+"ok": true,
+"score": 0,
+"v": "ok"
+},
+"ttsm|вечером": {
+"a": "vʲ e tʃʲ i r ʌ m",
+"ad": 0,
+"av": true,
+"b": "вечером",
+"bd": 0,
+"bv": true,
+"exp": "vʲˈetʃʲirʌm",
+"h": "5afb8eb0e7e1",
 "ok": true,
 "score": 0,
 "v": "ok"
@@ -10522,6 +10840,21 @@
 "ok": true,
 "score": 0,
 "v": "ok"
+},
+"ttsm|вкусно": {
+"a": "f k u s n ʌ",
+"ad": 0,
+"av": true,
+"b": "вкусно",
+"bd": 0,
+"bv": true,
+"exp": "fkˈusnʌ",
+"h": "a98c457042f8",
+"ok": true,
+"score": 0,
+"speaker": "eugene",
+"text": "вк+усно.",
+"v": "fixed"
 },
 "ttsm|вместе": {
 "a": "v mʲ e sʲ tʲ i",
@@ -10911,6 +11244,34 @@
 "h": "c3c8866fc6e6",
 "ok": true,
 "score": 0,
+"v": "ok"
+},
+"ttsm|впереди": {
+"a": "p e rʲ i dʲ i",
+"ad": 1,
+"av": true,
+"b": "впереди",
+"bd": 0,
+"bv": true,
+"exp": "fpʲirʲidʲˈɪ",
+"h": "81548d4e3375",
+"ok": true,
+"score": 1,
+"speaker": "eugene",
+"text": "вперед+и.",
+"v": "fixed"
+},
+"ttsm|вперёд": {
+"a": "p i r j o d",
+"ad": 1,
+"av": true,
+"b": "вперед",
+"bd": 0,
+"bv": true,
+"exp": "fpʲirʲˈɵt",
+"h": "08d4a62da69a",
+"ok": true,
+"score": 1,
 "v": "ok"
 },
 "ttsm|врач": {
@@ -12826,6 +13187,19 @@
 "score": 0,
 "v": "ok"
 },
+"ttsm|днём": {
+"a": "dʲ e m",
+"ad": 1,
+"av": true,
+"b": "днем",
+"bd": 0,
+"bv": true,
+"exp": "dnʲˈɵm",
+"h": "71d4ac672051",
+"ok": true,
+"score": 1,
+"v": "ok"
+},
 "ttsm|до́ма": {
 "a": "d o m ʌ",
 "ad": 0,
@@ -12876,6 +13250,19 @@
 "h": "7614ca58a8c9",
 "ok": true,
 "score": 1,
+"v": "ok"
+},
+"ttsm|долго": {
+"a": "d o l ɡ ʌ",
+"ad": 0,
+"av": true,
+"b": "долго",
+"bd": 0,
+"bv": true,
+"exp": "dˈoɭɡʌ",
+"h": "46e18b661d77",
+"ok": true,
+"score": 0,
 "v": "ok"
 },
 "ttsm|дом": {
@@ -12965,6 +13352,19 @@
 "bv": true,
 "exp": "[ˈdomʲe]",
 "h": "48c5c922ba7d",
+"ok": true,
+"score": 0,
+"v": "ok"
+},
+"ttsm|домой": {
+"a": "d a m uː",
+"ad": 0,
+"av": true,
+"b": "до мой",
+"bd": 0,
+"bv": true,
+"exp": "dʌmˈoj",
+"h": "7d15957f0d52",
 "ok": true,
 "score": 0,
 "v": "ok"
@@ -14735,6 +15135,19 @@
 "bv": true,
 "exp": "[zʲɪˈma]",
 "h": "410e46f408e8",
+"ok": true,
+"score": 0,
+"v": "ok"
+},
+"ttsm|зимой": {
+"a": "s i m oɪ",
+"ad": 0,
+"av": true,
+"b": "зимой",
+"bd": 0,
+"bv": true,
+"exp": "ʑimˈoj",
+"h": "f79d5d859f94",
 "ok": true,
 "score": 0,
 "v": "ok"
@@ -16951,6 +17364,19 @@
 "score": 0,
 "v": "ok"
 },
+"ttsm|красиво": {
+"a": "k r ʌ sʲ i v ʌ",
+"ad": 0,
+"av": true,
+"b": "красиво",
+"bd": 0,
+"bv": true,
+"exp": "krasʲˈivʌ",
+"h": "1c3bf239feae",
+"ok": true,
+"score": 0,
+"v": "ok"
+},
 "ttsm|красивое": {
 "a": "k r ʌ sʲ i v ʌ",
 "ad": 0,
@@ -17584,6 +18010,19 @@
 "bv": true,
 "exp": "[ˈlʲetə]",
 "h": "81c97ac883cd",
+"ok": true,
+"score": 0,
+"v": "ok"
+},
+"ttsm|летом": {
+"a": "ɭʲ e t ʌ m",
+"ad": 0,
+"av": true,
+"b": "летом",
+"bd": 0,
+"bv": true,
+"exp": "ɭʲˈetʌm",
+"h": "1354e686a2c5",
 "ok": true,
 "score": 0,
 "v": "ok"
@@ -19239,6 +19678,21 @@
 "score": 0,
 "v": "ok"
 },
+"ttsm|налево": {
+"a": "n ʌ ɭ e v ʌ",
+"ad": 0,
+"av": true,
+"b": "налево",
+"bd": 0,
+"bv": true,
+"exp": "naɭʲˈevʌ",
+"h": "00fe79695a1a",
+"ok": true,
+"score": 0,
+"speaker": "eugene",
+"text": "нал+ево.",
+"v": "fixed"
+},
 "ttsm|налог": {
 "a": "n ɑ l u k",
 "ad": 0,
@@ -19261,6 +19715,19 @@
 "bv": true,
 "exp": "[nɐˈɫoɡʲɪ]",
 "h": "a8d4b796f024",
+"ok": true,
+"score": 0,
+"v": "ok"
+},
+"ttsm|направо": {
+"a": "n a p r a v a",
+"ad": 0,
+"av": true,
+"b": "направо",
+"bd": 0,
+"bv": true,
+"exp": "naprˈɑvʌ",
+"h": "6fe731f56510",
 "ok": true,
 "score": 0,
 "v": "ok"
@@ -19512,6 +19979,19 @@
 "score": 0,
 "v": "ok"
 },
+"ttsm|невкусно": {
+"a": "nʲ i ɪ f k u s n ʌ",
+"ad": 0,
+"av": true,
+"b": "не вкусно",
+"bd": 0,
+"bv": true,
+"exp": "nʲifkˈusnʌ",
+"h": "e66119b7bba4",
+"ok": true,
+"score": 0,
+"v": "ok"
+},
 "ttsm|недавно": {
 "a": "nʲ i d ɑ ɭ n ʌ",
 "ad": 1,
@@ -19523,6 +20003,19 @@
 "h": "77a06a270d93",
 "ok": true,
 "score": 1,
+"v": "ok"
+},
+"ttsm|недалеко": {
+"a": "nʲ e d i ɭʲ i k u",
+"ad": 0,
+"av": true,
+"b": "недалеко",
+"bd": 0,
+"bv": true,
+"exp": "nʲidʌɭʲikˈo",
+"h": "eadb0abea7c2",
+"ok": true,
+"score": 0,
 "v": "ok"
 },
 "ttsm|недели": {
@@ -19547,6 +20040,19 @@
 "bv": true,
 "exp": "[nʲɪˈdʲelʲə]",
 "h": "6865ce68b954",
+"ok": true,
+"score": 0,
+"v": "ok"
+},
+"ttsm|недолго": {
+"a": "nʲ i d o ɭ ɡ ʌ",
+"ad": 0,
+"av": true,
+"b": "недолго",
+"bd": 0,
+"bv": true,
+"exp": "nʲidˈoɭɡʌ",
+"h": "5310515aef8d",
 "ok": true,
 "score": 0,
 "v": "ok"
@@ -19629,6 +20135,19 @@
 "score": 0,
 "v": "ok"
 },
+"ttsm|некрасиво": {
+"a": "nʲ i k r ʌ sʲ i v ʌ",
+"ad": 0,
+"av": true,
+"b": "некрасиво",
+"bd": 0,
+"bv": true,
+"exp": "nʲikrasʲˈivʌ",
+"h": "06ff9c770ed5",
+"ok": true,
+"score": 0,
+"v": "ok"
+},
 "ttsm|некрасивое": {
 "a": "nʲ i k r ʌ sʲ i e",
 "ad": 1,
@@ -19681,6 +20200,45 @@
 "score": 0,
 "v": "ok"
 },
+"ttsm|немало": {
+"a": "nʲ i m ɑ ɭ ʌ",
+"ad": 0,
+"av": true,
+"b": "немало",
+"bd": 0,
+"bv": true,
+"exp": "nʲimˈɑɭʌ",
+"h": "455cfe8dc6fa",
+"ok": true,
+"score": 0,
+"v": "ok"
+},
+"ttsm|немного": {
+"a": "nʲ i m n o ɡ ʌ",
+"ad": 1,
+"av": true,
+"b": "немного",
+"bd": 0,
+"bv": true,
+"exp": "nʲimnˈovʌ",
+"h": "a5e2765f3122",
+"ok": true,
+"score": 1,
+"v": "ok"
+},
+"ttsm|неплохо": {
+"a": "nʲ i p ɭ o x ʌ",
+"ad": 0,
+"av": true,
+"b": "неплохо",
+"bd": 0,
+"bv": true,
+"exp": "nʲipɭˈoxʌ",
+"h": "0cb3f20db657",
+"ok": true,
+"score": 0,
+"v": "ok"
+},
 "ttsm|нет": {
 "a": "nʲ e t",
 "ad": 0,
@@ -19690,6 +20248,19 @@
 "bv": true,
 "exp": "[nʲet]",
 "h": "04ba4be414e7",
+"ok": true,
+"score": 0,
+"v": "ok"
+},
+"ttsm|нехорошо": {
+"a": "ɲ i x r a ʃ o",
+"ad": 0,
+"av": true,
+"b": "нехорошо",
+"bd": 0,
+"bv": true,
+"exp": "nʲixʌrʌʃˈo",
+"h": "6f167922733f",
 "ok": true,
 "score": 0,
 "v": "ok"
@@ -19979,6 +20550,21 @@
 "ok": true,
 "score": 0,
 "v": "ok"
+},
+"ttsm|ночью": {
+"a": "n o tʃʲ i",
+"ad": 0,
+"av": true,
+"b": "ночью",
+"bd": 0,
+"bv": true,
+"exp": "nˈotʃʲjju",
+"h": "68bfb8fa26cd",
+"ok": true,
+"score": 0,
+"speaker": "eugene",
+"text": "н+очью.",
+"v": "fixed"
 },
 "ttsm|нравиться": {
 "a": "n r ɑ ɭʲ i ts ʌ",
@@ -20814,6 +21400,21 @@
 "ok": true,
 "score": 0,
 "v": "ok"
+},
+"ttsm|осенью": {
+"a": "o s i nʲ o",
+"ad": 0,
+"av": true,
+"b": "посенью",
+"bd": 1,
+"bv": true,
+"exp": "ˈosʲinjju",
+"h": "4da30bd89444",
+"ok": true,
+"score": 1,
+"speaker": "eugene",
+"text": "+осенью!",
+"v": "fixed"
 },
 "ttsm|остров": {
 "a": "o s t r o f",
@@ -23610,6 +24211,19 @@
 "score": 1,
 "v": "ok"
 },
+"ttsm|прямо": {
+"a": "p rʲ e m a",
+"ad": 0,
+"av": true,
+"b": "прямо",
+"bd": 0,
+"bv": true,
+"exp": "prʲˈɑmʌ",
+"h": "661d60b52b63",
+"ok": true,
+"score": 0,
+"v": "ok"
+},
 "ttsm|птица": {
 "a": "t i ts ʌ",
 "ad": 1,
@@ -24050,6 +24664,19 @@
 "h": "1be625b6c669",
 "ok": true,
 "score": 1,
+"v": "ok"
+},
+"ttsm|раньше": {
+"a": "r a n ʃ ɯ",
+"ad": 0,
+"av": true,
+"b": "раньше",
+"bd": 0,
+"bv": true,
+"exp": "rˈɑnʃy",
+"h": "9dd5776e2e44",
+"ok": true,
+"score": 0,
 "v": "ok"
 },
 "ttsm|рассказываем": {
@@ -25560,6 +26187,19 @@
 "score": 0,
 "v": "ok"
 },
+"ttsm|слева": {
+"a": "s ɭʲ e v ʌ",
+"ad": 0,
+"av": true,
+"b": "слева",
+"bd": 0,
+"bv": true,
+"exp": "sɭʲˈeva",
+"h": "47dea07dbdf2",
+"ok": true,
+"score": 0,
+"v": "ok"
+},
 "ttsm|следующий": {
 "a": "s ɭʲ e d y ʃ i",
 "ad": 0,
@@ -25948,6 +26588,19 @@
 "h": "80ea47f2ac27",
 "ok": true,
 "score": 1,
+"v": "ok"
+},
+"ttsm|сначала": {
+"a": "s n a tʃʲ e ɭ ʌ",
+"ad": 0,
+"av": true,
+"b": "сначала",
+"bd": 0,
+"bv": true,
+"exp": "snatʃʲˈɑɭa",
+"h": "34895ba334c5",
+"ok": true,
+"score": 0,
 "v": "ok"
 },
 "ttsm|снег": {
@@ -26403,6 +27056,19 @@
 "h": "365afd432254",
 "ok": true,
 "score": 1,
+"v": "ok"
+},
+"ttsm|справа": {
+"a": "s p r a v a",
+"ad": 0,
+"av": true,
+"b": "справо",
+"bd": 0,
+"bv": true,
+"exp": "sprˈɑva",
+"h": "e86de5385fe2",
+"ok": true,
+"score": 0,
 "v": "ok"
 },
 "ttsm|спрашиваем": {
@@ -27471,6 +28137,19 @@
 "score": 0,
 "v": "ok"
 },
+"ttsm|сюда": {
+"a": "s y b a",
+"ad": 1,
+"av": true,
+"b": "сюда",
+"bd": 0,
+"bv": true,
+"exp": "sʲu\"dˈɑ",
+"h": "1c23354cb94c",
+"ok": true,
+"score": 1,
+"v": "ok"
+},
 "ttsm|сёстры": {
 "a": "sʲ i o s t r i",
 "ad": 0,
@@ -27770,6 +28449,21 @@
 "score": 0,
 "v": "ok"
 },
+"ttsm|теперь": {
+"a": "t i p e r",
+"ad": 0,
+"av": true,
+"b": "теперь",
+"bd": 0,
+"bv": true,
+"exp": "tʲipʲˈerɪ^",
+"h": "361dd59cc159",
+"ok": true,
+"score": 0,
+"speaker": "aidar",
+"text": "<speak><break time=\"250ms\"/><prosody rate=\"slow\">теп+ерь</prosody></speak>",
+"v": "fixed"
+},
 "ttsm|теплица": {
 "a": "tʲ i p ɭʲ i ts y",
 "ad": 0,
@@ -28016,6 +28710,21 @@
 "ok": true,
 "score": 0,
 "v": "ok"
+},
+"ttsm|туда": {
+"a": "t u d a",
+"ad": 0,
+"av": true,
+"b": "туда",
+"bd": 0,
+"bv": true,
+"exp": "tudˈɑ",
+"h": "9ed29ef88c90",
+"ok": true,
+"score": 0,
+"speaker": "eugene",
+"text": "туд+а.",
+"v": "fixed"
 },
 "ttsm|турист": {
 "a": "t u r i s t",
@@ -28702,6 +29411,19 @@
 "bv": true,
 "exp": "[ˈutrə]",
 "h": "8ce82215dae3",
+"ok": true,
+"score": 0,
+"v": "ok"
+},
+"ttsm|утром": {
+"a": "u t ɹ ʌ m",
+"ad": 0,
+"av": true,
+"b": "утром",
+"bd": 0,
+"bv": true,
+"exp": "ˈutrʌm",
+"h": "b60966628bb7",
 "ok": true,
 "score": 0,
 "v": "ok"
@@ -32130,6 +32852,19 @@
 "score": 0,
 "v": "ok"
 },
+"tts|весной": {
+"a": "v i s n oɪ",
+"ad": 0,
+"av": true,
+"b": "весной",
+"bd": 0,
+"bv": true,
+"exp": "vʲisnˈoj",
+"h": "91ada81ff1c4",
+"ok": true,
+"score": 0,
+"v": "ok"
+},
 "tts|весёлый": {
 "a": "v i s o l i",
 "ad": 0,
@@ -32165,6 +32900,19 @@
 "bv": true,
 "exp": "[vʲɪt͡ɕɪˈra]",
 "h": "e8971f6bac19",
+"ok": true,
+"score": 0,
+"v": "ok"
+},
+"tts|вечером": {
+"a": "vʲ e tʃ i r ʌ m",
+"ad": 0,
+"av": true,
+"b": "вечером",
+"bd": 0,
+"bv": true,
+"exp": "vʲˈetʃʲirʌm",
+"h": "d9a17e11a308",
 "ok": true,
 "score": 0,
 "v": "ok"
@@ -32347,6 +33095,19 @@
 "bv": true,
 "exp": "[vʲɪnɐˈɡrat]",
 "h": "0755d842f942",
+"ok": true,
+"score": 0,
+"v": "ok"
+},
+"tts|вкусно": {
+"a": "f k u s n a",
+"ad": 0,
+"av": true,
+"b": "вкусно",
+"bd": 0,
+"bv": true,
+"exp": "fkˈusnʌ",
+"h": "6d4e1bfc76f5",
 "ok": true,
 "score": 0,
 "v": "ok"
@@ -32739,6 +33500,34 @@
 "h": "9850a7baa581",
 "ok": true,
 "score": 0,
+"v": "ok"
+},
+"tts|впереди": {
+"a": "p i r ɹ i d i",
+"ad": 1,
+"av": true,
+"b": "впереди",
+"bd": 0,
+"bv": true,
+"exp": "fpʲirʲidʲˈɪ",
+"h": "b15a81d985fe",
+"ok": true,
+"score": 1,
+"speaker": "baya",
+"text": "вперед+и.",
+"v": "fixed"
+},
+"tts|вперёд": {
+"a": "p iː r j ɔ d",
+"ad": 1,
+"av": true,
+"b": "вперед",
+"bd": 0,
+"bv": true,
+"exp": "fpʲirʲˈɵt",
+"h": "248b43a98d65",
+"ok": true,
+"score": 1,
 "v": "ok"
 },
 "tts|врач": {
@@ -34652,6 +35441,21 @@
 "score": 0,
 "v": "ok"
 },
+"tts|днём": {
+"a": "d nʲ o m",
+"ad": 0,
+"av": true,
+"b": "днем",
+"bd": 0,
+"bv": true,
+"exp": "dnʲˈɵm",
+"h": "95f3af4fa33a",
+"ok": true,
+"score": 0,
+"speaker": "baya",
+"text": "днём!",
+"v": "fixed"
+},
 "tts|до́ма": {
 "a": "d u m a",
 "ad": 0,
@@ -34702,6 +35506,19 @@
 "h": "446f832d85f0",
 "ok": true,
 "score": 1,
+"v": "ok"
+},
+"tts|долго": {
+"a": "d[ o l k ɑ",
+"ad": 0,
+"av": true,
+"b": "долго",
+"bd": 0,
+"bv": true,
+"exp": "dˈoɭɡʌ",
+"h": "a814aa2078ca",
+"ok": true,
+"score": 0,
 "v": "ok"
 },
 "tts|дом": {
@@ -34791,6 +35608,19 @@
 "bv": true,
 "exp": "[ˈdomʲe]",
 "h": "1cd975cbc45b",
+"ok": true,
+"score": 0,
+"v": "ok"
+},
+"tts|домой": {
+"a": "d a m uː",
+"ad": 0,
+"av": true,
+"b": "домой",
+"bd": 0,
+"bv": true,
+"exp": "dʌmˈoj",
+"h": "c02a75164e57",
 "ok": true,
 "score": 0,
 "v": "ok"
@@ -36561,6 +37391,19 @@
 "bv": true,
 "exp": "[zʲɪˈma]",
 "h": "4e410e75e0d1",
+"ok": true,
+"score": 0,
+"v": "ok"
+},
+"tts|зимой": {
+"a": "s i m oɪ",
+"ad": 0,
+"av": true,
+"b": "зимой",
+"bd": 0,
+"bv": true,
+"exp": "ʑimˈoj",
+"h": "1fc0d0462ec1",
 "ok": true,
 "score": 0,
 "v": "ok"
@@ -38775,6 +39618,19 @@
 "score": 0,
 "v": "ok"
 },
+"tts|красиво": {
+"a": "k r ʌ ɕ i v a",
+"ad": 0,
+"av": true,
+"b": "красиво",
+"bd": 0,
+"bv": true,
+"exp": "krasʲˈivʌ",
+"h": "19793aebc1b4",
+"ok": true,
+"score": 0,
+"v": "ok"
+},
 "tts|красивое": {
 "a": "k r a ɕ iː v a a",
 "ad": 0,
@@ -39408,6 +40264,19 @@
 "bv": true,
 "exp": "[ˈlʲetə]",
 "h": "9657a1873e06",
+"ok": true,
+"score": 0,
+"v": "ok"
+},
+"tts|летом": {
+"a": "l e t m",
+"ad": 0,
+"av": true,
+"b": "летом",
+"bd": 0,
+"bv": true,
+"exp": "ɭʲˈetʌm",
+"h": "59558bc1128f",
 "ok": true,
 "score": 0,
 "v": "ok"
@@ -41064,6 +41933,19 @@
 "score": 0,
 "v": "ok"
 },
+"tts|налево": {
+"a": "n a l o b a",
+"ad": 0,
+"av": true,
+"b": "налево",
+"bd": 0,
+"bv": true,
+"exp": "naɭʲˈevʌ",
+"h": "1847446fe3c9",
+"ok": true,
+"score": 0,
+"v": "ok"
+},
 "tts|налог": {
 "a": "n ɑ l o k",
 "ad": 0,
@@ -41088,6 +41970,19 @@
 "h": "c7a6035b56de",
 "ok": true,
 "score": 1,
+"v": "ok"
+},
+"tts|направо": {
+"a": "n a p r a v a",
+"ad": 0,
+"av": true,
+"b": "направо",
+"bd": 0,
+"bv": true,
+"exp": "naprˈɑvʌ",
+"h": "49d1c4966c4f",
+"ok": true,
+"score": 0,
 "v": "ok"
 },
 "tts|народ": {
@@ -41337,6 +42232,19 @@
 "score": 0,
 "v": "ok"
 },
+"tts|невкусно": {
+"a": "nʲ e f k u s n ʌ",
+"ad": 0,
+"av": true,
+"b": "не вкусно",
+"bd": 0,
+"bv": true,
+"exp": "nʲifkˈusnʌ",
+"h": "30a21830ffce",
+"ok": true,
+"score": 0,
+"v": "ok"
+},
 "tts|недавно": {
 "a": "ɲ i d r a v n a",
 "ad": 1,
@@ -41348,6 +42256,19 @@
 "h": "40f3c04e83a8",
 "ok": true,
 "score": 1,
+"v": "ok"
+},
+"tts|недалеко": {
+"a": "n e d e ɭʲ i k o",
+"ad": 0,
+"av": true,
+"b": "недалеко",
+"bd": 0,
+"bv": true,
+"exp": "nʲidʌɭʲikˈo",
+"h": "bb79afc4553a",
+"ok": true,
+"score": 0,
 "v": "ok"
 },
 "tts|недели": {
@@ -41372,6 +42293,19 @@
 "bv": true,
 "exp": "[nʲɪˈdʲelʲə]",
 "h": "c6dab8a86f77",
+"ok": true,
+"score": 0,
+"v": "ok"
+},
+"tts|недолго": {
+"a": "nʲ e d o l ɡ ʌ",
+"ad": 0,
+"av": true,
+"b": "недолго",
+"bd": 0,
+"bv": true,
+"exp": "nʲidˈoɭɡʌ",
+"h": "e83b3e1fdb6d",
 "ok": true,
 "score": 0,
 "v": "ok"
@@ -41454,6 +42388,19 @@
 "score": 0,
 "v": "ok"
 },
+"tts|некрасиво": {
+"a": "ɲ i k r e ɕ iː v a",
+"ad": 0,
+"av": true,
+"b": "некрасиво",
+"bd": 0,
+"bv": true,
+"exp": "nʲikrasʲˈivʌ",
+"h": "de25ab7769e8",
+"ok": true,
+"score": 0,
+"v": "ok"
+},
 "tts|некрасивое": {
 "a": "nʲ e k r a ɕ iː v ʌ",
 "ad": 0,
@@ -41506,6 +42453,45 @@
 "score": 0,
 "v": "ok"
 },
+"tts|немало": {
+"a": "n i m aː l",
+"ad": 0,
+"av": true,
+"b": "немало",
+"bd": 0,
+"bv": true,
+"exp": "nʲimˈɑɭʌ",
+"h": "b7f65bd27ca4",
+"ok": true,
+"score": 0,
+"v": "ok"
+},
+"tts|немного": {
+"a": "nʲ e m n o ɡ ʌ",
+"ad": 1,
+"av": true,
+"b": "немного",
+"bd": 0,
+"bv": true,
+"exp": "nʲimnˈovʌ",
+"h": "c87359593086",
+"ok": true,
+"score": 1,
+"v": "ok"
+},
+"tts|неплохо": {
+"a": "ɲ e p l o x a",
+"ad": 0,
+"av": true,
+"b": "неплохо",
+"bd": 0,
+"bv": true,
+"exp": "nʲipɭˈoxʌ",
+"h": "54b4639cc52b",
+"ok": true,
+"score": 0,
+"v": "ok"
+},
 "tts|нет": {
 "a": "n t",
 "ad": 0,
@@ -41515,6 +42501,19 @@
 "bv": true,
 "exp": "[nʲet]",
 "h": "c45e06916071",
+"ok": true,
+"score": 0,
+"v": "ok"
+},
+"tts|нехорошо": {
+"a": "n i x ɑ r ʃ o",
+"ad": 0,
+"av": true,
+"b": "нехорошо",
+"bd": 0,
+"bv": true,
+"exp": "nʲixʌrʌʃˈo",
+"h": "f6fcd2de23f6",
 "ok": true,
 "score": 0,
 "v": "ok"
@@ -41801,6 +42800,19 @@
 "bv": true,
 "exp": "[not͡ɕ]",
 "h": "f5c1a76cd488",
+"ok": true,
+"score": 0,
+"v": "ok"
+},
+"tts|ночью": {
+"a": "n o tʃ u",
+"ad": 0,
+"av": true,
+"b": "ночью",
+"bd": 0,
+"bv": true,
+"exp": "nˈotʃʲjju",
+"h": "941706f8abaf",
 "ok": true,
 "score": 0,
 "v": "ok"
@@ -42642,6 +43654,19 @@
 "bv": true,
 "exp": "[ˈosʲɪnʲ]",
 "h": "313e0e63dca2",
+"ok": true,
+"score": 0,
+"v": "ok"
+},
+"tts|осенью": {
+"a": "u sʲ i nʲ u",
+"ad": 0,
+"av": true,
+"b": "о сеню",
+"bd": 0,
+"bv": true,
+"exp": "ˈosʲinjju",
+"h": "9d960c748ba3",
 "ok": true,
 "score": 0,
 "v": "ok"
@@ -45441,6 +46466,21 @@
 "score": 0,
 "v": "ok"
 },
+"tts|прямо": {
+"a": "p rʲ a m ʌ",
+"ad": 0,
+"av": true,
+"b": "прямо",
+"bd": 0,
+"bv": true,
+"exp": "prʲˈɑmʌ",
+"h": "ca591228abc4",
+"ok": true,
+"score": 0,
+"speaker": "baya",
+"text": "пр+ямо.",
+"v": "fixed"
+},
 "tts|птица": {
 "a": "tʃ i s e",
 "ad": 1,
@@ -45882,6 +46922,19 @@
 "bv": true,
 "exp": "[ˈranə]",
 "h": "9e9e6d62db54",
+"ok": true,
+"score": 0,
+"v": "ok"
+},
+"tts|раньше": {
+"a": "r a n ʃ e",
+"ad": 0,
+"av": true,
+"b": "раньше",
+"bd": 0,
+"bv": true,
+"exp": "rˈɑnʃy",
+"h": "50f85e10804e",
 "ok": true,
 "score": 0,
 "v": "ok"
@@ -47398,6 +48451,19 @@
 "score": 0,
 "v": "ok"
 },
+"tts|слева": {
+"a": "s l a v a",
+"ad": 0,
+"av": true,
+"b": "слева",
+"bd": 0,
+"bv": true,
+"exp": "sɭʲˈeva",
+"h": "52a2cf9482e0",
+"ok": true,
+"score": 0,
+"v": "ok"
+},
 "tts|следующий": {
 "a": "s l i d uː ʃ iː",
 "ad": 0,
@@ -47785,6 +48851,19 @@
 "bv": true,
 "exp": "[ˈsmotrʲət]",
 "h": "98f55315ee4d",
+"ok": true,
+"score": 0,
+"v": "ok"
+},
+"tts|сначала": {
+"a": "s n ʌ tʃʲ e ɭ a",
+"ad": 0,
+"av": true,
+"b": "сначала",
+"bd": 0,
+"bv": true,
+"exp": "snatʃʲˈɑɭa",
+"h": "6cf1293a6210",
 "ok": true,
 "score": 0,
 "v": "ok"
@@ -48242,6 +49321,19 @@
 "h": "f59ae837928d",
 "ok": true,
 "score": 0,
+"v": "ok"
+},
+"tts|справа": {
+"a": "s t r a v a",
+"ad": 1,
+"av": true,
+"b": "справо",
+"bd": 0,
+"bv": true,
+"exp": "sprˈɑva",
+"h": "8cd927eb8776",
+"ok": true,
+"score": 1,
 "v": "ok"
 },
 "tts|спрашиваем": {
@@ -49310,6 +50402,19 @@
 "score": 0,
 "v": "ok"
 },
+"tts|сюда": {
+"a": "ʃ d a",
+"ad": 0,
+"av": true,
+"b": "сюда",
+"bd": 0,
+"bv": true,
+"exp": "sʲu\"dˈɑ",
+"h": "15561435e7a5",
+"ok": true,
+"score": 0,
+"v": "ok"
+},
 "tts|сёстры": {
 "a": "sʲ i o s t rʲ i",
 "ad": 0,
@@ -49609,6 +50714,21 @@
 "score": 1,
 "v": "ok"
 },
+"tts|теперь": {
+"a": "t i p i ɹ",
+"ad": 0,
+"av": true,
+"b": "теперь",
+"bd": 0,
+"bv": true,
+"exp": "tʲipʲˈerɪ^",
+"h": "c0dde67aac3a",
+"ok": true,
+"score": 0,
+"speaker": "baya",
+"text": "— теп+ерь",
+"v": "fixed"
+},
 "tts|теплица": {
 "a": "t i p ɭʲ i t s ʌ",
 "ad": 0,
@@ -49854,6 +50974,19 @@
 "bv": true,
 "exp": "[ˈtrudnɨj]",
 "h": "aa34e7aaebf9",
+"ok": true,
+"score": 0,
+"v": "ok"
+},
+"tts|туда": {
+"a": "t d a",
+"ad": 0,
+"av": true,
+"b": "туда",
+"bd": 0,
+"bv": true,
+"exp": "tudˈɑ",
+"h": "897ec711339b",
 "ok": true,
 "score": 0,
 "v": "ok"
@@ -50543,6 +51676,19 @@
 "bv": true,
 "exp": "[ˈutrə]",
 "h": "6bd383eb45a5",
+"ok": true,
+"score": 0,
+"v": "ok"
+},
+"tts|утром": {
+"a": "uː t ɹ ʌ m",
+"ad": 0,
+"av": true,
+"b": "утром",
+"bd": 0,
+"bv": true,
+"exp": "ˈutrʌm",
+"h": "77d04573bb3e",
 "ok": true,
 "score": 0,
 "v": "ok"

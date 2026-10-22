@@ -14,6 +14,7 @@ let pw; try{ pw = require('playwright'); }catch(e){ pw = require(path.join(cp.ex
     V3.verbs.forEach(v => { add(v.inf); (v.forms || []).forEach(add); });
     MODD.adjs.forEach(a => { add(a.w); (a.forms || []).forEach(add); });
     V3.places.forEach(p => { add(p.nom); add(p.form); });
+    if(typeof ADV !== "undefined") ADV.forEach(a => add(a.w));
     const have = Object.keys(LL_AUDIO);
     return { words: M, have };
   });
