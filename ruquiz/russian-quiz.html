@@ -1168,6 +1168,7 @@ const llKey = t => String(t).replace(/\u0301/g,"").toLowerCase();
 const findIn = (P, t) => { const s = String(t).normalize("NFC").toLowerCase(); return P[s] ? s : (P[llKey(t)] ? llKey(t) : null); };
 let VOICE = "native";   /* "native": 원어민 녹음 먼저 · "tts": 음성 합성 먼저 (없으면 서로 대신해요) */
 let TTS_G = "f";        /* 음성 합성 목소리: "f" 여성 baya · "m" 남성 eugene */
+let AUTO = false;       /* 켜면 단어 문제가 처음 나올 때 누르지 않아도 발음을 한 번 들려줘요 */
 function pickAudio(t){
   const P = TTS_G==="m" && Object.keys(TTS_AUDIO_M).length ? TTS_AUDIO_M : TTS_AUDIO;
   const n = findIn(LL_AUDIO, t), s = findIn(P, t);
@@ -2849,9 +2850,10 @@ function prefsLoad(){
     if(MOD[p.last]) LAST = p.last;
     if(p.voice==="tts" || p.voice==="native") VOICE = p.voice;
     if(p.ttsg==="f" || p.ttsg==="m") TTS_G = p.ttsg;
+    if(typeof p.auto==="boolean") AUTO = p.auto;
   }catch(e){}
 }
-function prefsSave(){ try{ localStorage.setItem(PKEY, JSON.stringify({ st:ST, tab:TAB, last:LAST, voice:VOICE, ttsg:TTS_G })); }catch(e){} }
+function prefsSave(){ try{ localStorage.setItem(PKEY, JSON.stringify({ st:ST, tab:TAB, last:LAST, voice:VOICE, ttsg:TTS_G, auto:AUTO })); }catch(e){} }
 
 const LMEMO = new Map();
 function levelsMeta(k, s = ST[k]){
@@ -3033,6 +3035,10 @@ function infoView(){
         <button data-act="ttsg" data-v="f" aria-pressed="${TTS_G==="f"}">여성</button>
         <button data-act="ttsg" data-v="m" aria-pressed="${TTS_G==="m"}">남성</button>
         <button class="play" data-act="ttsprev" data-v="газе́та" aria-label="고른 합성 목소리로 газе́та 들어 보기" title="들어 보기">${IC.speaker}</button></div></div>
+      <div class="field"><h3 class="fh">문제가 나오면 단어 자동으로 읽기</h3><div class="seg" role="group">
+        <button data-act="autoplay" data-v="off" aria-pressed="${!AUTO}">끄기</button>
+        <button data-act="autoplay" data-v="on" aria-pressed="${AUTO}">켜기</button></div>
+        <p class="help">켜 두면 단어가 크게 나오는 문제에서 누르지 않아도 처음 한 번 발음을 들려줘요. 다시 들으려면 스피커 버튼을 눌러요.</p></div>
       <ul class="legend">
         <li><span class="speak native sm">${IC.speaker}</span><span><b>원어민 녹음</b> · 위키미디어 공용(Lingua Libre · 위키낱말사전) ${Object.keys(LL_AUDIO).length}개</span></li>
         <li><span class="speak synth sm">${IC.speaker}</span><span><b>음성 합성</b> · Silero 러시아어 신경망 음성(여성 · 남성), 앱의 강세 표기와 발음 예외대로 읽어요 · ${Object.keys(TTS_AUDIO).length}개</span></li>
@@ -3234,6 +3240,7 @@ function renderQ(){
     ${done ? `<div class="dock"><div class="wrap"><button class="btn primary next" data-act="next">${last ? "결과 보기" : "다음 문제"}</button></div></div>` : ""}
     ${QUIT ? quitSheet() : ""}`;
   if(QUIT){ const b = app.querySelector(".sheet .btn"); if(b) b.focus({preventScroll:true}); return; }
+  if(AUTO && !q.autoSaid && !isDone(q)){ q.autoSaid = true; const sb = app.querySelector(".card .word .speak"); if(sb) speak(sb.dataset.v); }   /* 단어 문제는 처음 한 번 읽어 줘요 */
   const inp = document.getElementById("tin");
   if(inp){ inp.focus({preventScroll:true}); inp.setSelectionRange(inp.value.length, inp.value.length); }
   else if(done){
@@ -3347,6 +3354,7 @@ app.addEventListener("click", e => {
   else if(a==="rqsave"){ updSaveFile(); }
   else if(a==="voice"){ VOICE = v; prefsSave(); render(); }
   else if(a==="ttsg"){ TTS_G = v; prefsSave(); render(); }
+  else if(a==="autoplay"){ AUTO = v==="on"; prefsSave(); render(); }
   else if(a==="ttsprev"){ const v0 = VOICE; VOICE = "tts"; speak(v); VOICE = v0; }
 });
 window.addEventListener("rq-change", () => { if(!G) render(); });
@@ -3378,7 +3386,7 @@ loadPacks().catch(() => {}).then(() => { renderSetup(); recConnect(); startUpdat
 </script>
 <script>
 (async function(){
-  var EMBED = "2026.10.22.6";
+  var EMBED = "2026.10.23.1";
   function cmp(a, b){ a = String(a).split(".").map(Number); b = String(b).split(".").map(Number);
     for(var i=0; i<Math.max(a.length,b.length); i++){ var d = (a[i]||0) - (b[i]||0); if(d) return d; } return 0; }
   function get(k){ return new Promise(function(res){ try{ var q = indexedDB.open("ruquiz-app", 1);
